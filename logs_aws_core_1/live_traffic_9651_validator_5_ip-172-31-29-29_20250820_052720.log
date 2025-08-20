@@ -1,0 +1,1006 @@
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+05:27:22.417057 ens5  In  IP 23.23.81.139.9651 > 172.31.29.29.54662: Flags [P.], seq 957157287:957157398, ack 674145286, win 442, options [nop,nop,TS val 757288080 ecr 1176657331], length 111
+05:27:22.417085 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [P.], seq 2298427343:2298427480, ack 4013245869, win 2786, options [nop,nop,TS val 2516809398 ecr 1600446559], length 137
+05:27:22.417086 ens5  Out IP 172.31.29.29.54662 > 23.23.81.139.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 1176657338 ecr 757288073], length 0
+05:27:22.417144 ens5  In  IP 107.21.238.130.9651 > 172.31.29.29.52988: Flags [P.], seq 15349757:15349868, ack 4169046149, win 660, options [nop,nop,TS val 192308138 ecr 707390833], length 111
+05:27:22.417149 ens5  Out IP 172.31.29.29.54662 > 23.23.81.139.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 1176657338 ecr 757288073], length 137
+05:27:22.417190 ens5  Out IP 172.31.29.29.52988 > 107.21.238.130.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 707390840 ecr 192308138], length 137
+05:27:22.417437 ens5  Out IP 172.31.29.29.9651 > 34.202.51.225.55254: Flags [P.], seq 2999215910:2999216021, ack 574888078, win 442, options [nop,nop,TS val 1061132929 ecr 892857935], length 111
+05:27:22.417439 ens5  Out IP 172.31.29.29.9651 > 54.226.62.214.55486: Flags [P.], seq 1647330507:1647330618, ack 7911246, win 442, options [nop,nop,TS val 499423301 ecr 1943625263], length 111
+05:27:22.417441 ens5  Out IP 172.31.29.29.9651 > 18.233.204.144.40796: Flags [P.], seq 1265058525:1265058636, ack 624521231, win 442, options [nop,nop,TS val 1391673767 ecr 3045677837], length 111
+05:27:22.417451 ens5  Out IP 172.31.29.29.9651 > 34.197.104.250.42168: Flags [P.], seq 480975315:480975426, ack 3604411443, win 442, options [nop,nop,TS val 3294444313 ecr 41224535], length 111
+05:27:22.417454 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [P.], seq 2860357088:2860357199, ack 394965191, win 442, options [nop,nop,TS val 2511453771 ecr 1968103358], length 111
+05:27:22.417456 ens5  Out IP 172.31.29.29.47744 > 34.206.101.137.9651: Flags [P.], seq 256669719:256669830, ack 745850022, win 443, options [nop,nop,TS val 4994534 ecr 1922448616], length 111
+05:27:22.417529 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [.], ack 932311985, win 2560, options [nop,nop,TS val 814949210 ecr 1292739643], length 0
+05:27:22.417549 ens5  In  IP 34.202.51.225.55254 > 172.31.29.29.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 892857938 ecr 1061132925], length 0
+05:27:22.417589 ens5  In  IP 34.203.168.140.53994 > 172.31.29.29.9651: Flags [.], ack 162982120, win 2315, options [nop,nop,TS val 1552758852 ecr 44398091], length 0
+05:27:22.417590 ens5  In  IP 34.203.168.140.53994 > 172.31.29.29.9651: Flags [P.], seq 0:137, ack 1, win 2315, options [nop,nop,TS val 1552758852 ecr 44398091], length 137
+05:27:22.417623 ens5  In  IP 34.202.51.225.55254 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 892857938 ecr 1061132925], length 137
+05:27:22.417624 ens5  In  IP 50.19.116.199.9651 > 172.31.29.29.48890: Flags [P.], seq 2043081362:2043081473, ack 3987305063, win 442, options [nop,nop,TS val 1474778765 ecr 1773884300], length 111
+05:27:22.417624 ens5  In  IP 18.233.204.144.40796 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 3045677865 ecr 1391673767], length 137
+05:27:22.417653 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [P.], seq 0:137, ack 1, win 2560, options [nop,nop,TS val 814949210 ecr 1292739643], length 137
+05:27:22.417720 ens5  In  IP 52.45.71.227.9651 > 172.31.29.29.56906: Flags [P.], seq 2616097589:2616097726, ack 789306379, win 4410, options [nop,nop,TS val 3085030898 ecr 676040741], length 137
+05:27:22.417740 ens5  In  IP 98.82.240.103.51246 > 172.31.29.29.9651: Flags [P.], seq 3872362893:3872363004, ack 2198874722, win 2429, options [nop,nop,TS val 2776989464 ecr 1326378815], length 111
+05:27:22.417754 ens5  In  IP 34.197.104.250.42168 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 41224543 ecr 3294444313], length 137
+05:27:22.417779 ens5  In  IP 34.202.198.117.34782 > 172.31.29.29.9651: Flags [P.], seq 2012104629:2012104766, ack 586354470, win 443, options [nop,nop,TS val 55566496 ecr 3203003757], length 137
+05:27:22.417779 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 3288035322:3288035433, ack 4174342044, win 3455, options [nop,nop,TS val 27789961 ecr 1373135906], length 111
+05:27:22.417786 ens5  Out IP 172.31.29.29.48890 > 50.19.116.199.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 1773884314 ecr 1474778765], length 137
+05:27:22.417895 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 1373135913 ecr 27789961], length 137
+05:27:22.417900 ens5  Out IP 172.31.29.29.9651 > 98.82.240.103.51246: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 1326378818 ecr 2776989464], length 137
+05:27:22.417908 ens5  In  IP 98.80.46.175.42342 > 172.31.29.29.9651: Flags [P.], seq 125969380:125969517, ack 3375126362, win 443, options [nop,nop,TS val 3131183083 ecr 1578183555], length 137
+05:27:22.418040 ens5  In  IP 3.93.84.116.9651 > 172.31.29.29.48920: Flags [P.], seq 2634249520:2634249631, ack 3268089653, win 442, options [nop,nop,TS val 845189642 ecr 2584566935], length 111
+05:27:22.418042 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 1968103395 ecr 2511453760], length 0
+05:27:22.418042 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 1968103395 ecr 2511453760], length 137
+05:27:22.418090 ens5  In  IP 34.206.101.137.9651 > 172.31.29.29.47744: Flags [P.], seq 1:138, ack 111, win 2943, options [nop,nop,TS val 1922448624 ecr 4994534], length 137
+05:27:22.418146 ens5  Out IP 172.31.29.29.48920 > 3.93.84.116.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 2584566948 ecr 845189642], length 137
+05:27:22.418378 ens5  In  IP 98.82.251.216.9651 > 172.31.29.29.55056: Flags [P.], seq 3840185693:3840185804, ack 2719070842, win 442, options [nop,nop,TS val 1988532669 ecr 164022699], length 111
+05:27:22.418394 ens5  Out IP 172.31.29.29.55056 > 98.82.251.216.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 164022704 ecr 1988532669], length 0
+05:27:22.418444 ens5  In  IP 34.202.198.117.34782 > 172.31.29.29.9651: Flags [P.], seq 137:248, ack 1, win 443, options [nop,nop,TS val 55566496 ecr 3203003757], length 111
+05:27:22.418458 ens5  Out IP 172.31.29.29.9651 > 34.202.198.117.34782: Flags [.], ack 248, win 442, options [nop,nop,TS val 3203003758 ecr 55566496], length 0
+05:27:22.418474 ens5  Out IP 172.31.29.29.55056 > 98.82.251.216.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 164022705 ecr 1988532669], length 137
+05:27:22.418506 ens5  Out IP 172.31.29.29.9651 > 34.202.198.117.34782: Flags [P.], seq 1:138, ack 248, win 442, options [nop,nop,TS val 3203003758 ecr 55566496], length 137
+05:27:22.418525 ens5  In  IP 54.226.62.214.55486 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 2919, options [nop,nop,TS val 1943625271 ecr 499423301], length 137
+05:27:22.418577 ens5  In  IP 34.206.248.174.9651 > 172.31.29.29.36052: Flags [P.], seq 3646154776:3646154887, ack 2258524696, win 3694, options [nop,nop,TS val 3513449078 ecr 3441861675], length 111
+05:27:22.418593 ens5  Out IP 172.31.29.29.36052 > 34.206.248.174.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 3441861690 ecr 3513449063], length 0
+05:27:22.418650 ens5  Out IP 172.31.29.29.36052 > 34.206.248.174.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 3441861690 ecr 3513449063], length 137
+05:27:22.419437 ens5  In  IP 52.3.189.202.52346 > 172.31.29.29.9651: Flags [P.], seq 1902702357:1902702468, ack 4057215434, win 2848, options [nop,nop,TS val 2231945048 ecr 368978498], length 111
+05:27:22.419457 ens5  Out IP 172.31.29.29.9651 > 52.3.189.202.52346: Flags [.], ack 111, win 442, options [nop,nop,TS val 368978530 ecr 2231945039], length 0
+05:27:22.419487 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [.], ack 3520792627, win 1632, options [nop,nop,TS val 3877953089 ecr 4270885041], length 0
+05:27:22.419521 ens5  Out IP 172.31.29.29.9651 > 52.3.189.202.52346: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 368978530 ecr 2231945039], length 137
+05:27:22.419674 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [.], ack 334, win 2786, options [nop,nop,TS val 2516809402 ecr 1600446565], length 0
+05:27:22.420282 ens5  In  IP 44.214.160.107.9651 > 172.31.29.29.48338: Flags [P.], seq 2665897616:2665897727, ack 105190257, win 442, options [nop,nop,TS val 4179017119 ecr 2168956310], length 111
+05:27:22.420290 ens5  Out IP 172.31.29.29.48338 > 44.214.160.107.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 2168956341 ecr 4179017089], length 0
+05:27:22.420351 ens5  Out IP 172.31.29.29.48338 > 44.214.160.107.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 2168956341 ecr 4179017089], length 137
+05:27:22.420537 ens5  In  IP 23.22.195.89.35376 > 172.31.29.29.9651: Flags [P.], seq 752120626:752120737, ack 681105281, win 443, options [nop,nop,TS val 1464506683 ecr 3561901354], length 111
+05:27:22.420541 ens5  In  IP 52.3.189.202.52346 > 172.31.29.29.9651: Flags [P.], seq 111:222, ack 138, win 2848, options [nop,nop,TS val 2231945050 ecr 368978530], length 111
+05:27:22.420553 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [P.], seq 0:367, ack 1, win 1632, options [nop,nop,TS val 3877953090 ecr 4270885041], length 367
+05:27:22.420571 ens5  Out IP 172.31.29.29.9651 > 23.22.195.89.35376: Flags [.], ack 111, win 442, options [nop,nop,TS val 3561901370 ecr 1464506673], length 0
+05:27:22.420574 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [P.], seq 4210143721:4210143832, ack 852339654, win 2940, options [nop,nop,TS val 3373775768 ecr 1962823501], length 111
+05:27:22.420616 ens5  In  IP 3.227.69.165.53606 > 172.31.29.29.9651: Flags [P.], seq 1422486528:1422486639, ack 16436590, win 3520, options [nop,nop,TS val 649561039 ecr 635146380], length 111
+05:27:22.420672 ens5  Out IP 172.31.29.29.9651 > 52.3.189.202.52346: Flags [P.], seq 138:275, ack 222, win 442, options [nop,nop,TS val 368978531 ecr 2231945050], length 137
+05:27:22.420684 ens5  Out IP 172.31.29.29.9651 > 23.22.195.89.35376: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 3561901370 ecr 1464506673], length 137
+05:27:22.420724 ens5  Out IP 172.31.29.29.9651 > 3.227.69.165.53606: Flags [P.], seq 1:138, ack 111, win 4631, options [nop,nop,TS val 635146394 ecr 649561039], length 137
+05:27:22.420737 ens5  Out IP 172.31.29.29.9651 > 54.174.93.130.53264: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 1962823532 ecr 3373775768], length 137
+05:27:22.421083 ens5  In  IP 54.236.131.114.9651 > 172.31.29.29.44990: Flags [P.], seq 408885292:408885403, ack 3913886046, win 2940, options [nop,nop,TS val 2020063828 ecr 144501846], length 111
+05:27:22.421104 ens5  Out IP 172.31.29.29.44990 > 54.236.131.114.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 144501857 ecr 2020063817], length 0
+05:27:22.421153 ens5  Out IP 172.31.29.29.44990 > 54.236.131.114.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 144501857 ecr 2020063817], length 137
+05:27:22.423238 ens5  In  IP 107.21.238.130.9651 > 172.31.29.29.52988: Flags [P.], seq 111:222, ack 138, win 660, options [nop,nop,TS val 192308144 ecr 707390840], length 111
+05:27:22.423307 ens5  Out IP 172.31.29.29.52988 > 107.21.238.130.9651: Flags [P.], seq 138:275, ack 222, win 443, options [nop,nop,TS val 707390846 ecr 192308144], length 137
+05:27:22.423347 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [P.], seq 137:504, ack 334, win 2786, options [nop,nop,TS val 2516809405 ecr 1600446565], length 367
+05:27:22.423363 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 1968103401 ecr 2511453760], length 111
+05:27:22.423375 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [.], ack 249, win 442, options [nop,nop,TS val 2511453776 ecr 1968103395], length 0
+05:27:22.423552 ens5  Out IP 172.31.29.29.9651 > 18.215.213.100.53208: Flags [P.], seq 3773823602:3773823713, ack 2015870811, win 442, options [nop,nop,TS val 403912740 ecr 2697682812], length 111
+05:27:22.423568 ens5  Out IP 172.31.29.29.9651 > 107.20.201.207.58582: Flags [P.], seq 173241753:173241864, ack 2846429227, win 442, options [nop,nop,TS val 2463805820 ecr 1480040883], length 111
+05:27:22.423574 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 445:556, ack 504, win 4631, options [nop,nop,TS val 1600446579 ecr 2516809405], length 111
+05:27:22.423575 ens5  Out IP 172.31.29.29.9651 > 34.203.168.140.53994: Flags [P.], seq 1:112, ack 137, win 2521, options [nop,nop,TS val 44398116 ecr 1552758852], length 111
+05:27:22.423582 ens5  Out IP 172.31.29.29.9651 > 3.218.45.144.58526: Flags [P.], seq 1753573916:1753574027, ack 609812290, win 442, options [nop,nop,TS val 1603267922 ecr 608748994], length 111
+05:27:22.423589 ens5  Out IP 172.31.29.29.9651 > 23.21.204.131.45034: Flags [P.], seq 1023207020:1023207131, ack 345527992, win 442, options [nop,nop,TS val 2478978580 ecr 615928044], length 111
+05:27:22.423592 ens5  Out IP 172.31.29.29.9651 > 54.197.102.41.55330: Flags [P.], seq 3902242670:3902242781, ack 556186031, win 2574, options [nop,nop,TS val 3078573240 ecr 1425065347], length 111
+05:27:22.423596 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 111:222, ack 138, win 3455, options [nop,nop,TS val 27789967 ecr 1373135913], length 111
+05:27:22.423602 ens5  Out IP 172.31.29.29.9651 > 44.210.177.215.60188: Flags [P.], seq 2558946841:2558946952, ack 2317350923, win 442, options [nop,nop,TS val 3115199361 ecr 290274795], length 111
+05:27:22.423603 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 112:223, ack 367, win 443, options [nop,nop,TS val 4270885055 ecr 3877953090], length 111
+05:27:22.423617 ens5  Out IP 172.31.29.29.9651 > 54.85.9.116.50190: Flags [P.], seq 2765934956:2765935067, ack 1314887025, win 442, options [nop,nop,TS val 3446716894 ecr 894130901], length 111
+05:27:22.423617 ens5  Out IP 172.31.29.29.9651 > 34.234.4.103.51360: Flags [P.], seq 1693414895:1693415006, ack 2673719513, win 442, options [nop,nop,TS val 3468170873 ecr 1642875031], length 111
+05:27:22.423621 ens5  In  IP 18.206.17.246.55882 > 172.31.29.29.9651: Flags [P.], seq 2978681756:2978681867, ack 691153080, win 2816, options [nop,nop,TS val 2845170275 ecr 2287681174], length 111
+05:27:22.423627 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 2511453777 ecr 1968103395], length 137
+05:27:22.423630 ens5  Out IP 172.31.29.29.44990 > 54.236.131.114.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 144501860 ecr 2020063817], length 111
+05:27:22.423633 ens5  Out IP 172.31.29.29.9651 > 34.202.51.225.55254: Flags [P.], seq 111:222, ack 138, win 442, options [nop,nop,TS val 1061132935 ecr 892857938], length 111
+05:27:22.423708 ens5  In  IP 54.85.9.116.50190 > 172.31.29.29.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 894130953 ecr 3446716857], length 0
+05:27:22.423744 ens5  In  IP 54.85.9.116.50190 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 894130953 ecr 3446716857], length 137
+05:27:22.423756 ens5  Out IP 172.31.29.29.9651 > 34.234.4.103.51360: Flags [P.], seq 111:222, ack 1, win 442, options [nop,nop,TS val 3468170873 ecr 1642875031], length 111
+05:27:22.423762 ens5  In  IP 35.169.66.196.38146 > 172.31.29.29.9651: Flags [P.], seq 22306687:22306798, ack 3977169287, win 4173, options [nop,nop,TS val 2821450720 ecr 3222091325], length 111
+05:27:22.423772 ens5  Out IP 172.31.29.29.9651 > 18.206.17.246.55882: Flags [P.], seq 1:112, ack 111, win 442, options [nop,nop,TS val 2287681192 ecr 2845170275], length 111
+05:27:22.423773 ens5  Out IP 172.31.29.29.9651 > 23.21.204.131.45034: Flags [P.], seq 111:222, ack 1, win 442, options [nop,nop,TS val 2478978580 ecr 615928044], length 111
+05:27:22.423773 ens5  In  IP 34.203.168.140.53994 > 172.31.29.29.9651: Flags [P.], seq 137:274, ack 112, win 2315, options [nop,nop,TS val 1552758859 ecr 44398116], length 137
+05:27:22.423785 ens5  In  IP 54.158.175.165.47700 > 172.31.29.29.9651: Flags [P.], seq 656887261:656887372, ack 1754157340, win 688, options [nop,nop,TS val 4228222424 ecr 4069969720], length 111
+05:27:22.423790 ens5  Out IP 172.31.29.29.9651 > 98.80.46.175.42342: Flags [P.], seq 1:112, ack 137, win 442, options [nop,nop,TS val 1578183562 ecr 3131183083], length 111
+05:27:22.423791 ens5  Out IP 172.31.29.29.55056 > 98.82.251.216.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 164022710 ecr 1988532669], length 111
+05:27:22.423803 ens5  Out IP 172.31.29.29.39538 > 23.22.40.156.9651: Flags [P.], seq 2149961238:2149961349, ack 4125287107, win 443, options [nop,nop,TS val 3770987698 ecr 2219909019], length 111
+05:27:22.423808 ens5  Out IP 172.31.29.29.9651 > 34.197.148.157.39988: Flags [P.], seq 1999735459:1999735570, ack 3934864760, win 442, options [nop,nop,TS val 1621845449 ecr 2284499952], length 111
+05:27:22.423813 ens5  Out IP 172.31.29.29.9651 > 44.211.0.202.41076: Flags [P.], seq 1364072145:1364072256, ack 1430356172, win 442, options [nop,nop,TS val 90204227 ecr 655955338], length 111
+05:27:22.423816 ens5  Out IP 172.31.29.29.9651 > 18.235.252.133.56194: Flags [P.], seq 1537102329:1537102440, ack 3504321475, win 442, options [nop,nop,TS val 3559413623 ecr 191028107], length 111
+05:27:22.423821 ens5  Out IP 172.31.29.29.9651 > 34.206.59.82.51184: Flags [P.], seq 2717309883:2717309994, ack 2568667761, win 442, options [nop,nop,TS val 1309041116 ecr 2051423996], length 111
+05:27:22.423827 ens5  Out IP 172.31.29.29.9651 > 18.215.213.100.53208: Flags [P.], seq 111:222, ack 1, win 442, options [nop,nop,TS val 403912740 ecr 2697682812], length 111
+05:27:22.423827 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 223:334, ack 367, win 443, options [nop,nop,TS val 4270885055 ecr 3877953090], length 111
+05:27:22.423836 ens5  In  IP 18.215.213.100.53208 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 2697682826 ecr 403912740], length 137
+05:27:22.423845 ens5  Out IP 172.31.29.29.9651 > 23.22.195.89.35376: Flags [P.], seq 138:249, ack 111, win 442, options [nop,nop,TS val 3561901373 ecr 1464506673], length 111
+05:27:22.423847 ens5  Out IP 172.31.29.29.48920 > 3.93.84.116.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 2584566954 ecr 845189642], length 111
+05:27:22.423860 ens5  Out IP 172.31.29.29.48338 > 44.214.160.107.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 2168956345 ecr 4179017089], length 111
+05:27:22.423878 ens5  In  IP 54.197.102.41.55330 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 1425065361 ecr 3078573240], length 137
+05:27:22.423884 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 556:667, ack 504, win 4631, options [nop,nop,TS val 1600446579 ecr 2516809405], length 111
+05:27:22.423902 ens5  In  IP 34.234.4.103.51360 > 172.31.29.29.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 1642875051 ecr 3468170859], length 0
+05:27:22.423904 ens5  In  IP 54.236.131.114.9651 > 172.31.29.29.44990: Flags [.], ack 249, win 2940, options [nop,nop,TS val 2020063831 ecr 144501857], length 0
+05:27:22.423904 ens5  In  IP 23.21.204.131.45034 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 615928058 ecr 2478978580], length 137
+05:27:22.423904 ens5  In  IP 52.70.38.106.58350 > 172.31.29.29.9651: Flags [.], ack 1844117423, win 2986, options [nop,nop,TS val 3476336555 ecr 844151601], length 0
+05:27:22.423904 ens5  In  IP 3.218.45.144.58526 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 608749028 ecr 1603267922], length 137
+05:27:22.423917 ens5  Out IP 172.31.29.29.48890 > 50.19.116.199.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 1773884320 ecr 1474778765], length 111
+05:27:22.423932 ens5  In  IP 44.210.177.215.60188 > 172.31.29.29.9651: Flags [.], ack 111, win 680, options [nop,nop,TS val 290274837 ecr 3115199351], length 0
+05:27:22.423948 ens5  Out IP 172.31.29.29.9651 > 52.200.197.163.39696: Flags [P.], seq 1981464893:1981465004, ack 952912988, win 442, options [nop,nop,TS val 436507016 ecr 3335542307], length 111
+05:27:22.423966 ens5  In  IP 18.206.17.246.55882 > 172.31.29.29.9651: Flags [P.], seq 111:222, ack 112, win 2816, options [nop,nop,TS val 2845170276 ecr 2287681192], length 111
+05:27:22.423971 ens5  Out IP 172.31.29.29.44990 > 54.236.131.114.9651: Flags [P.], seq 249:360, ack 111, win 443, options [nop,nop,TS val 144501860 ecr 2020063831], length 111
+05:27:22.423986 ens5  In  IP 54.236.131.114.9651 > 172.31.29.29.44990: Flags [P.], seq 111:248, ack 249, win 2940, options [nop,nop,TS val 2020063831 ecr 144501857], length 137
+05:27:22.423986 ens5  In  IP 44.214.160.107.9651 > 172.31.29.29.48338: Flags [.], ack 249, win 442, options [nop,nop,TS val 4179017123 ecr 2168956341], length 0
+05:27:22.423989 ens5  In  IP 44.210.177.215.60188 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 680, options [nop,nop,TS val 290274837 ecr 3115199351], length 137
+05:27:22.423995 ens5  Out IP 172.31.29.29.9651 > 34.203.168.140.53994: Flags [P.], seq 112:223, ack 274, win 2521, options [nop,nop,TS val 44398116 ecr 1552758859], length 111
+05:27:22.423999 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 138:275, ack 222, win 442, options [nop,nop,TS val 1373135919 ecr 27789967], length 137
+05:27:22.424000 ens5  Out IP 172.31.29.29.9651 > 98.80.46.175.42342: Flags [P.], seq 112:223, ack 137, win 442, options [nop,nop,TS val 1578183562 ecr 3131183083], length 111
+05:27:22.424006 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 334:445, ack 367, win 443, options [nop,nop,TS val 4270885055 ecr 3877953090], length 111
+05:27:22.424014 ens5  Out IP 172.31.29.29.48920 > 3.93.84.116.9651: Flags [P.], seq 249:360, ack 111, win 443, options [nop,nop,TS val 2584566954 ecr 845189642], length 111
+05:27:22.424015 ens5  Out IP 172.31.29.29.9651 > 3.232.45.182.37336: Flags [P.], seq 1:112, ack 137, win 3528, options [nop,nop,TS val 1292739662 ecr 814949210], length 111
+05:27:22.424017 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 667:778, ack 504, win 4631, options [nop,nop,TS val 1600446579 ecr 2516809405], length 111
+05:27:22.424027 ens5  Out IP 172.31.29.29.48206 > 52.54.223.196.9651: Flags [P.], seq 1668789505:1668789616, ack 3680859072, win 443, options [nop,nop,TS val 2222008183 ecr 2379255036], length 111
+05:27:22.424048 ens5  Out IP 172.31.29.29.9651 > 3.223.220.64.47902: Flags [P.], seq 2532296104:2532296215, ack 3971577070, win 442, options [nop,nop,TS val 3325312287 ecr 3638100987], length 111
+05:27:22.424053 ens5  In  IP 44.214.160.107.9651 > 172.31.29.29.48338: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 4179017123 ecr 2168956341], length 137
+05:27:22.424053 ens5  In  IP 23.22.195.89.35376 > 172.31.29.29.9651: Flags [.], ack 249, win 443, options [nop,nop,TS val 1464506687 ecr 3561901370], length 0
+05:27:22.424053 ens5  In  IP 98.80.46.175.42342 > 172.31.29.29.9651: Flags [P.], seq 137:274, ack 112, win 443, options [nop,nop,TS val 3131183090 ecr 1578183562], length 137
+05:27:22.424060 ens5  Out IP 172.31.29.29.45950 > 52.3.14.29.9651: Flags [P.], seq 2917409234:2917409345, ack 4074217052, win 443, options [nop,nop,TS val 856880991 ecr 2257523459], length 111
+05:27:22.424074 ens5  Out IP 172.31.29.29.9651 > 52.70.38.106.58350: Flags [P.], seq 1:112, ack 0, win 442, options [nop,nop,TS val 844151642 ecr 3476336555], length 111
+05:27:22.424087 ens5  In  IP 23.21.204.131.45034 > 172.31.29.29.9651: Flags [P.], seq 138:275, ack 222, win 443, options [nop,nop,TS val 615928058 ecr 2478978580], length 137
+05:27:22.424093 ens5  Out IP 172.31.29.29.9651 > 18.206.17.246.55882: Flags [P.], seq 112:249, ack 222, win 442, options [nop,nop,TS val 2287681192 ecr 2845170276], length 137
+05:27:22.424103 ens5  Out IP 172.31.29.29.9651 > 23.21.204.131.45034: Flags [.], ack 275, win 442, options [nop,nop,TS val 2478978580 ecr 615928058], length 0
+05:27:22.424111 ens5  In  IP 34.197.148.157.39988 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 2284499966 ecr 1621845449], length 137
+05:27:22.424113 ens5  Out IP 172.31.29.29.9651 > 35.169.66.196.38146: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 3222091339 ecr 2821450720], length 137
+05:27:22.424116 ens5  Out IP 172.31.29.29.9651 > 54.158.175.165.47700: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 4069969754 ecr 4228222424], length 137
+05:27:22.424124 ens5  In  IP 3.93.84.116.9651 > 172.31.29.29.48920: Flags [.], ack 249, win 442, options [nop,nop,TS val 845189649 ecr 2584566948], length 0
+05:27:22.424131 ens5  In  IP 34.206.59.82.51184 > 172.31.29.29.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 2051424010 ecr 1309041103], length 0
+05:27:22.424131 ens5  In  IP 23.22.195.89.35376 > 172.31.29.29.9651: Flags [P.], seq 111:248, ack 249, win 443, options [nop,nop,TS val 1464506687 ecr 3561901370], length 137
+05:27:22.424143 ens5  In  IP 34.234.4.103.51360 > 172.31.29.29.9651: Flags [P.], seq 1:253, ack 222, win 443, options [nop,nop,TS val 1642875052 ecr 3468170873], length 252
+05:27:22.424143 ens5  In  IP 18.215.213.100.53208 > 172.31.29.29.9651: Flags [P.], seq 138:275, ack 222, win 443, options [nop,nop,TS val 2697682826 ecr 403912740], length 137
+05:27:22.424160 ens5  In  IP 52.200.197.163.39696 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 3335542321 ecr 436507016], length 137
+05:27:22.424160 ens5  In  IP 23.22.40.156.9651 > 172.31.29.29.39538: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 2219909071 ecr 3770987698], length 137
+05:27:22.424176 ens5  In  IP 107.20.201.207.58582 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 1480040897 ecr 2463805820], length 137
+05:27:22.424178 ens5  Out IP 172.31.29.29.9651 > 18.215.213.100.53208: Flags [.], ack 275, win 442, options [nop,nop,TS val 403912740 ecr 2697682826], length 0
+05:27:22.424185 ens5  In  IP 18.235.252.133.56194 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 3402, options [nop,nop,TS val 191028144 ecr 3559413623], length 137
+05:27:22.424186 ens5  Out IP 172.31.29.29.39538 > 23.22.40.156.9651: Flags [.], ack 138, win 443, options [nop,nop,TS val 3770987698 ecr 2219909071], length 0
+05:27:22.424185 ens5  In  IP 3.93.84.116.9651 > 172.31.29.29.48920: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 845189649 ecr 2584566948], length 137
+05:27:22.424199 ens5  In  IP 98.82.251.216.9651 > 172.31.29.29.55056: Flags [.], ack 249, win 442, options [nop,nop,TS val 1988532675 ecr 164022705], length 0
+05:27:22.424200 ens5  In  IP 44.211.0.202.41076 > 172.31.29.29.9651: Flags [.], ack 111, win 2565, options [nop,nop,TS val 655955348 ecr 90204217], length 0
+05:27:22.424214 ens5  In  IP 52.54.223.196.9651 > 172.31.29.29.48206: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 2379255050 ecr 2222008183], length 137
+05:27:22.424214 ens5  In  IP 50.19.116.199.9651 > 172.31.29.29.48890: Flags [.], ack 249, win 442, options [nop,nop,TS val 1474778772 ecr 1773884314], length 0
+05:27:22.424245 ens5  Out IP 172.31.29.29.9651 > 18.206.17.246.55882: Flags [P.], seq 249:386, ack 222, win 442, options [nop,nop,TS val 2287681192 ecr 2845170276], length 137
+05:27:22.424257 ens5  In  IP 18.206.17.246.55882 > 172.31.29.29.9651: Flags [P.], seq 222:333, ack 112, win 2816, options [nop,nop,TS val 2845170276 ecr 2287681192], length 111
+05:27:22.424258 ens5  In  IP 44.211.0.202.41076 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 2565, options [nop,nop,TS val 655955348 ecr 90204217], length 137
+05:27:22.424260 ens5  In  IP 34.203.168.140.53994 > 172.31.29.29.9651: Flags [P.], seq 274:411, ack 223, win 2315, options [nop,nop,TS val 1552758859 ecr 44398116], length 137
+05:27:22.424270 ens5  In  IP 52.3.14.29.9651 > 172.31.29.29.45950: Flags [.], ack 111, win 615, options [nop,nop,TS val 2257523511 ecr 856880956], length 0
+05:27:22.424270 ens5  In  IP 50.19.116.199.9651 > 172.31.29.29.48890: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 1474778772 ecr 1773884314], length 137
+05:27:22.424333 ens5  In  IP 52.70.38.106.58350 > 172.31.29.29.9651: Flags [.], ack 112, win 2986, options [nop,nop,TS val 3476336555 ecr 844151642], length 0
+05:27:22.424335 ens5  In  IP 54.236.131.114.9651 > 172.31.29.29.44990: Flags [P.], seq 248:385, ack 360, win 2940, options [nop,nop,TS val 2020063831 ecr 144501860], length 137
+05:27:22.424335 ens5  In  IP 98.82.251.216.9651 > 172.31.29.29.55056: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 1988532675 ecr 164022705], length 137
+05:27:22.424335 ens5  In  IP 98.80.46.175.42342 > 172.31.29.29.9651: Flags [P.], seq 274:411, ack 223, win 443, options [nop,nop,TS val 3131183090 ecr 1578183562], length 137
+05:27:22.424335 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [P.], seq 137:274, ack 112, win 2560, options [nop,nop,TS val 814949217 ecr 1292739662], length 137
+05:27:22.424355 ens5  In  IP 18.206.17.246.55882 > 172.31.29.29.9651: Flags [P.], seq 333:470, ack 249, win 2816, options [nop,nop,TS val 2845170276 ecr 2287681192], length 137
+05:27:22.424359 ens5  Out IP 172.31.29.29.9651 > 98.80.46.175.42342: Flags [.], ack 411, win 442, options [nop,nop,TS val 1578183562 ecr 3131183090], length 0
+05:27:22.424376 ens5  Out IP 172.31.29.29.9651 > 18.206.17.246.55882: Flags [.], ack 470, win 442, options [nop,nop,TS val 2287681192 ecr 2845170276], length 0
+05:27:22.424392 ens5  In  IP 3.93.84.116.9651 > 172.31.29.29.48920: Flags [P.], seq 248:385, ack 360, win 442, options [nop,nop,TS val 845189649 ecr 2584566954], length 137
+05:27:22.424395 ens5  Out IP 172.31.29.29.44990 > 54.236.131.114.9651: Flags [.], ack 385, win 443, options [nop,nop,TS val 144501860 ecr 2020063831], length 0
+05:27:22.424399 ens5  In  IP 52.3.14.29.9651 > 172.31.29.29.45950: Flags [P.], seq 1:138, ack 111, win 616, options [nop,nop,TS val 2257523511 ecr 856880956], length 137
+05:27:22.424399 ens5  In  IP 52.70.38.106.58350 > 172.31.29.29.9651: Flags [P.], seq 0:137, ack 112, win 2986, options [nop,nop,TS val 3476336555 ecr 844151642], length 137
+05:27:22.424425 ens5  In  IP 34.206.59.82.51184 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 2051424011 ecr 1309041103], length 137
+05:27:22.424425 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [P.], seq 249:360, ack 248, win 443, options [nop,nop,TS val 1968103402 ecr 2511453777], length 111
+05:27:22.424469 ens5  In  IP 34.202.51.225.55254 > 172.31.29.29.9651: Flags [P.], seq 138:275, ack 222, win 443, options [nop,nop,TS val 892857945 ecr 1061132935], length 137
+05:27:22.424486 ens5  Out IP 172.31.29.29.48920 > 3.93.84.116.9651: Flags [.], ack 385, win 443, options [nop,nop,TS val 2584566955 ecr 845189649], length 0
+05:27:22.424542 ens5  In  IP 3.223.220.64.47902 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 3638101002 ecr 3325312287], length 137
+05:27:22.424666 ens5  Out IP 172.31.29.29.9651 > 18.206.17.246.55882: Flags [P.], seq 386:523, ack 470, win 442, options [nop,nop,TS val 2287681193 ecr 2845170276], length 137
+05:27:22.424678 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [P.], seq 248:385, ack 360, win 442, options [nop,nop,TS val 2511453778 ecr 1968103402], length 137
+05:27:22.424818 ens5  In  IP 34.202.198.117.34782 > 172.31.29.29.9651: Flags [P.], seq 248:359, ack 138, win 443, options [nop,nop,TS val 55566503 ecr 3203003758], length 111
+05:27:22.424862 ens5  In  IP 18.206.17.246.55882 > 172.31.29.29.9651: Flags [.], ack 523, win 2816, options [nop,nop,TS val 2845170276 ecr 2287681192], length 0
+05:27:22.424887 ens5  Out IP 172.31.29.29.9651 > 34.202.198.117.34782: Flags [P.], seq 138:275, ack 359, win 442, options [nop,nop,TS val 3203003764 ecr 55566503], length 137
+05:27:22.424952 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [P.], seq 360:471, ack 248, win 443, options [nop,nop,TS val 1968103402 ecr 2511453777], length 111
+05:27:22.425006 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [P.], seq 385:522, ack 471, win 442, options [nop,nop,TS val 2511453778 ecr 1968103402], length 137
+05:27:22.425149 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [P.], seq 367:504, ack 112, win 1632, options [nop,nop,TS val 3877953095 ecr 4270885049], length 137
+05:27:22.425461 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [.], ack 522, win 443, options [nop,nop,TS val 1968103403 ecr 2511453778], length 0
+05:27:22.426518 ens5  In  IP 54.225.236.76.9651 > 172.31.29.29.42418: Flags [P.], seq 1262898565:1262898675, ack 2541704794, win 442, options [nop,nop,TS val 4089821478 ecr 3481394552], length 110
+05:27:22.426526 ens5  Out IP 172.31.29.29.42418 > 54.225.236.76.9651: Flags [.], ack 110, win 443, options [nop,nop,TS val 3481394590 ecr 4089821441], length 0
+05:27:22.426587 ens5  Out IP 172.31.29.29.42418 > 54.225.236.76.9651: Flags [P.], seq 1:137, ack 110, win 443, options [nop,nop,TS val 3481394590 ecr 4089821441], length 136
+05:27:22.426923 ens5  In  IP 35.169.66.196.38146 > 172.31.29.29.9651: Flags [P.], seq 111:222, ack 138, win 4173, options [nop,nop,TS val 2821450723 ecr 3222091339], length 111
+05:27:22.426928 ens5  In  IP 54.197.55.84.60110 > 172.31.29.29.9651: Flags [.], ack 3595530686, win 3276, options [nop,nop,TS val 1395579730 ecr 3959098956], length 0
+05:27:22.426993 ens5  Out IP 172.31.29.29.9651 > 35.169.66.196.38146: Flags [P.], seq 138:275, ack 222, win 442, options [nop,nop,TS val 3222091342 ecr 2821450723], length 137
+05:27:22.427712 ens5  In  IP 3.218.45.144.58526 > 172.31.29.29.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 608749032 ecr 1603267922], length 111
+05:27:22.427733 ens5  Out IP 172.31.29.29.9651 > 3.218.45.144.58526: Flags [.], ack 249, win 442, options [nop,nop,TS val 1603267926 ecr 608749028], length 0
+05:27:22.427790 ens5  Out IP 172.31.29.29.9651 > 3.218.45.144.58526: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 1603267926 ecr 608749028], length 137
+05:27:22.427795 ens5  In  IP 18.233.119.27.53100 > 172.31.29.29.9651: Flags [P.], seq 1643457118:1643457229, ack 3452817345, win 684, options [nop,nop,TS val 2103730517 ecr 3557128760], length 111
+05:27:22.427867 ens5  Out IP 172.31.29.29.9651 > 18.233.119.27.53100: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 3557128784 ecr 2103730517], length 137
+05:27:22.427927 ens5  In  IP 52.70.38.106.58350 > 172.31.29.29.9651: Flags [P.], seq 137:248, ack 112, win 2986, options [nop,nop,TS val 3476336559 ecr 844151642], length 111
+05:27:22.427936 ens5  In  IP 18.215.11.46.9651 > 172.31.29.29.50652: Flags [P.], seq 1667255777:1667255888, ack 671637749, win 442, options [nop,nop,TS val 431838626 ecr 71804650], length 111
+05:27:22.427942 ens5  Out IP 172.31.29.29.9651 > 52.70.38.106.58350: Flags [.], ack 248, win 442, options [nop,nop,TS val 844151646 ecr 3476336555], length 0
+05:27:22.427978 ens5  Out IP 172.31.29.29.50652 > 18.215.11.46.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 71804668 ecr 431838608], length 0
+05:27:22.427992 ens5  Out IP 172.31.29.29.9651 > 52.70.38.106.58350: Flags [P.], seq 112:249, ack 248, win 442, options [nop,nop,TS val 844151646 ecr 3476336555], length 137
+05:27:22.428016 ens5  Out IP 172.31.29.29.50652 > 18.215.11.46.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 71804668 ecr 431838608], length 137
+05:27:22.428137 ens5  In  IP 18.207.74.220.9651 > 172.31.29.29.39358: Flags [P.], seq 3154741009:3154741120, ack 3165140945, win 2672, options [nop,nop,TS val 3798438171 ecr 1603004225], length 111
+05:27:22.428143 ens5  In  IP 18.215.11.46.9651 > 172.31.29.29.50652: Flags [P.], seq 111:222, ack 1, win 442, options [nop,nop,TS val 431838626 ecr 71804650], length 111
+05:27:22.428146 ens5  Out IP 172.31.29.29.39358 > 18.207.74.220.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 1603004295 ecr 3798438132], length 0
+05:27:22.428160 ens5  In  IP 34.197.148.157.39988 > 172.31.29.29.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 2284499970 ecr 1621845449], length 111
+05:27:22.428160 ens5  In  IP 54.85.9.116.50190 > 172.31.29.29.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 894130957 ecr 3446716857], length 111
+05:27:22.428165 ens5  In  IP 52.71.181.255.33636 > 172.31.29.29.9651: Flags [P.], seq 3020333099:3020333210, ack 4197329881, win 2285, options [nop,nop,TS val 507113612 ecr 1262642666], length 111
+05:27:22.428213 ens5  Out IP 172.31.29.29.9651 > 54.85.9.116.50190: Flags [.], ack 249, win 442, options [nop,nop,TS val 3446716898 ecr 894130953], length 0
+05:27:22.428218 ens5  Out IP 172.31.29.29.9651 > 34.197.148.157.39988: Flags [.], ack 249, win 442, options [nop,nop,TS val 1621845453 ecr 2284499966], length 0
+05:27:22.428257 ens5  Out IP 172.31.29.29.39358 > 18.207.74.220.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 1603004295 ecr 3798438132], length 137
+05:27:22.428261 ens5  Out IP 172.31.29.29.50652 > 18.215.11.46.9651: Flags [P.], seq 138:275, ack 222, win 443, options [nop,nop,TS val 71804668 ecr 431838626], length 137
+05:27:22.428304 ens5  Out IP 172.31.29.29.9651 > 34.197.148.157.39988: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 1621845453 ecr 2284499966], length 137
+05:27:22.428307 ens5  Out IP 172.31.29.29.9651 > 52.71.181.255.33636: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 1262642679 ecr 507113612], length 137
+05:27:22.428313 ens5  Out IP 172.31.29.29.9651 > 54.85.9.116.50190: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 3446716898 ecr 894130953], length 137
+05:27:22.428347 ens5  In  IP 18.207.74.220.9651 > 172.31.29.29.39358: Flags [P.], seq 111:222, ack 1, win 2672, options [nop,nop,TS val 3798438171 ecr 1603004225], length 111
+05:27:22.428420 ens5  Out IP 172.31.29.29.39358 > 18.207.74.220.9651: Flags [P.], seq 138:275, ack 222, win 443, options [nop,nop,TS val 1603004296 ecr 3798438171], length 137
+05:27:22.428499 ens5  In  IP 98.82.251.216.9651 > 172.31.29.29.55056: Flags [P.], seq 248:359, ack 249, win 442, options [nop,nop,TS val 1988532680 ecr 164022705], length 111
+05:27:22.428499 ens5  In  IP 98.80.46.175.42342 > 172.31.29.29.9651: Flags [P.], seq 411:522, ack 223, win 443, options [nop,nop,TS val 3131183094 ecr 1578183562], length 111
+05:27:22.428512 ens5  In  IP 18.215.11.46.9651 > 172.31.29.29.50652: Flags [.], ack 275, win 442, options [nop,nop,TS val 431838626 ecr 71804668], length 0
+05:27:22.428528 ens5  Out IP 172.31.29.29.55056 > 98.82.251.216.9651: Flags [.], ack 359, win 443, options [nop,nop,TS val 164022715 ecr 1988532675], length 0
+05:27:22.428571 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [P.], seq 504:641, ack 445, win 2786, options [nop,nop,TS val 2516809411 ecr 1600446573], length 137
+05:27:22.428585 ens5  Out IP 172.31.29.29.55056 > 98.82.251.216.9651: Flags [P.], seq 249:386, ack 359, win 443, options [nop,nop,TS val 164022715 ecr 1988532675], length 137
+05:27:22.428597 ens5  Out IP 172.31.29.29.9651 > 98.80.46.175.42342: Flags [P.], seq 223:360, ack 522, win 442, options [nop,nop,TS val 1578183567 ecr 3131183094], length 137
+05:27:22.428729 ens5  In  IP 18.207.74.220.9651 > 172.31.29.29.39358: Flags [.], ack 275, win 2672, options [nop,nop,TS val 3798438171 ecr 1603004295], length 0
+05:27:22.428729 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [.], ack 3438543977, win 443, options [nop,nop,TS val 2070042594 ecr 623328143], length 0
+05:27:22.428755 ens5  In  IP 98.80.46.175.42342 > 172.31.29.29.9651: Flags [P.], seq 522:633, ack 223, win 443, options [nop,nop,TS val 3131183094 ecr 1578183562], length 111
+05:27:22.428776 ens5  Out IP 172.31.29.29.9651 > 98.82.240.103.51246: Flags [P.], seq 138:249, ack 111, win 442, options [nop,nop,TS val 1326378829 ecr 2776989464], length 111
+05:27:22.428782 ens5  Out IP 172.31.29.29.9651 > 34.196.243.223.34980: Flags [P.], seq 2740731897:2740732008, ack 3204802008, win 442, options [nop,nop,TS val 4286175355 ecr 2735105318], length 111
+05:27:22.428791 ens5  Out IP 172.31.29.29.41714 > 54.146.211.74.9651: Flags [P.], seq 2043985320:2043985431, ack 352635839, win 443, options [nop,nop,TS val 3179460706 ecr 1506796950], length 111
+05:27:22.428800 ens5  In  IP 50.19.116.199.9651 > 172.31.29.29.48890: Flags [P.], seq 248:359, ack 249, win 442, options [nop,nop,TS val 1474778777 ecr 1773884314], length 111
+05:27:22.428805 ens5  Out IP 172.31.29.29.9651 > 34.234.4.103.51360: Flags [P.], seq 222:333, ack 253, win 442, options [nop,nop,TS val 3468170878 ecr 1642875052], length 111
+05:27:22.428811 ens5  Out IP 172.31.29.29.9651 > 3.223.220.64.47902: Flags [P.], seq 111:222, ack 138, win 442, options [nop,nop,TS val 3325312292 ecr 3638101002], length 111
+05:27:22.428816 ens5  Out IP 172.31.29.29.59998 > 107.23.180.98.9651: Flags [P.], seq 15178896:15179007, ack 1222782253, win 443, options [nop,nop,TS val 766583717 ecr 2142080158], length 111
+05:27:22.428817 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 445:556, ack 504, win 443, options [nop,nop,TS val 4270885060 ecr 3877953095], length 111
+05:27:22.428821 ens5  Out IP 172.31.29.29.48890 > 50.19.116.199.9651: Flags [.], ack 359, win 443, options [nop,nop,TS val 1773884325 ecr 1474778772], length 0
+05:27:22.428823 ens5  Out IP 172.31.29.29.9651 > 98.80.46.175.42342: Flags [P.], seq 360:497, ack 633, win 442, options [nop,nop,TS val 1578183567 ecr 3131183094], length 137
+05:27:22.428830 ens5  Out IP 172.31.29.29.9651 > 23.21.204.131.45034: Flags [P.], seq 222:333, ack 275, win 442, options [nop,nop,TS val 2478978585 ecr 615928058], length 111
+05:27:22.428838 ens5  Out IP 172.31.29.29.9651 > 52.70.38.106.58350: Flags [P.], seq 249:360, ack 248, win 442, options [nop,nop,TS val 844151647 ecr 3476336555], length 111
+05:27:22.428843 ens5  Out IP 172.31.29.29.42476 > 54.227.196.194.9651: Flags [P.], seq 2336078347:2336078458, ack 4153958623, win 443, options [nop,nop,TS val 2996064346 ecr 2291616964], length 111
+05:27:22.428845 ens5  Out IP 172.31.29.29.9651 > 18.235.227.173.47648: Flags [P.], seq 1:112, ack 0, win 442, options [nop,nop,TS val 623328184 ecr 2070042594], length 111
+05:27:22.428857 ens5  Out IP 172.31.29.29.9651 > 34.205.163.144.53986: Flags [P.], seq 1969811696:1969811807, ack 1759893063, win 442, options [nop,nop,TS val 2911460968 ecr 301315917], length 111
+05:27:22.428859 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 778:889, ack 641, win 4631, options [nop,nop,TS val 1600446584 ecr 2516809411], length 111
+05:27:22.428862 ens5  Out IP 172.31.29.29.9651 > 54.174.93.130.53264: Flags [P.], seq 138:249, ack 111, win 442, options [nop,nop,TS val 1962823540 ecr 3373775768], length 111
+05:27:22.428878 ens5  Out IP 172.31.29.29.48890 > 50.19.116.199.9651: Flags [P.], seq 249:386, ack 359, win 443, options [nop,nop,TS val 1773884325 ecr 1474778772], length 137
+05:27:22.428903 ens5  In  IP 34.196.243.223.34980 > 172.31.29.29.9651: Flags [.], ack 111, win 3087, options [nop,nop,TS val 2735105337 ecr 4286175341], length 0
+05:27:22.429029 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [P.], seq 0:110, ack 1, win 443, options [nop,nop,TS val 2070042594 ecr 623328143], length 110
+05:27:22.429051 ens5  In  IP 3.223.220.64.47902 > 172.31.29.29.9651: Flags [P.], seq 138:275, ack 222, win 443, options [nop,nop,TS val 3638101006 ecr 3325312292], length 137
+05:27:22.429053 ens5  In  IP 54.236.131.114.9651 > 172.31.29.29.44990: Flags [P.], seq 385:496, ack 360, win 2940, options [nop,nop,TS val 2020063836 ecr 144501860], length 111
+05:27:22.429053 ens5  In  IP 34.196.243.223.34980 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 3087, options [nop,nop,TS val 2735105337 ecr 4286175341], length 137
+05:27:22.429053 ens5  In  IP 98.80.46.175.42342 > 172.31.29.29.9651: Flags [.], ack 497, win 443, options [nop,nop,TS val 3131183095 ecr 1578183567], length 0
+05:27:22.429066 ens5  In  IP 98.82.240.103.51246 > 172.31.29.29.9651: Flags [.], ack 249, win 2429, options [nop,nop,TS val 2776989475 ecr 1326378818], length 0
+05:27:22.429115 ens5  In  IP 34.234.4.103.51360 > 172.31.29.29.9651: Flags [P.], seq 253:390, ack 333, win 443, options [nop,nop,TS val 1642875057 ecr 3468170878], length 137
+05:27:22.429126 ens5  In  IP 98.82.240.103.51246 > 172.31.29.29.9651: Flags [P.], seq 111:222, ack 249, win 2429, options [nop,nop,TS val 2776989475 ecr 1326378818], length 111
+05:27:22.429132 ens5  Out IP 172.31.29.29.9651 > 18.235.227.173.47648: Flags [P.], seq 112:248, ack 110, win 442, options [nop,nop,TS val 623328184 ecr 2070042594], length 136
+05:27:22.429175 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [P.], seq 110:220, ack 1, win 443, options [nop,nop,TS val 2070042594 ecr 623328143], length 110
+05:27:22.429175 ens5  In  IP 54.146.211.74.9651 > 172.31.29.29.41714: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 1506796969 ecr 3179460706], length 137
+05:27:22.429176 ens5  In  IP 54.227.196.194.9651 > 172.31.29.29.42476: Flags [.], ack 111, win 3407, options [nop,nop,TS val 2291616978 ecr 2996064332], length 0
+05:27:22.429176 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [.], ack 112, win 443, options [nop,nop,TS val 2070042594 ecr 623328184], length 0
+05:27:22.429176 ens5  In  IP 52.70.38.106.58350 > 172.31.29.29.9651: Flags [.], ack 360, win 2986, options [nop,nop,TS val 3476336560 ecr 844151646], length 0
+05:27:22.429176 ens5  In  IP 34.205.163.144.53986 > 172.31.29.29.9651: Flags [.], ack 111, win 443, options [nop,nop,TS val 301315937 ecr 2911460968], length 0
+05:27:22.429189 ens5  Out IP 172.31.29.29.44990 > 54.236.131.114.9651: Flags [P.], seq 360:497, ack 496, win 443, options [nop,nop,TS val 144501865 ecr 2020063836], length 137
+05:27:22.429200 ens5  In  IP 107.23.180.98.9651 > 172.31.29.29.59998: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 2142080178 ecr 766583717], length 137
+05:27:22.429240 ens5  Out IP 172.31.29.29.9651 > 98.82.240.103.51246: Flags [P.], seq 249:386, ack 222, win 442, options [nop,nop,TS val 1326378829 ecr 2776989475], length 137
+05:27:22.429282 ens5  Out IP 172.31.29.29.9651 > 18.235.227.173.47648: Flags [P.], seq 248:384, ack 220, win 442, options [nop,nop,TS val 623328184 ecr 2070042594], length 136
+05:27:22.429294 ens5  In  IP 34.205.163.144.53986 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 301315937 ecr 2911460968], length 137
+05:27:22.429294 ens5  In  IP 23.21.204.131.45034 > 172.31.29.29.9651: Flags [P.], seq 275:412, ack 333, win 443, options [nop,nop,TS val 615928063 ecr 2478978585], length 137
+05:27:22.429297 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [P.], seq 274:385, ack 112, win 2560, options [nop,nop,TS val 814949222 ecr 1292739662], length 111
+05:27:22.429317 ens5  Out IP 172.31.29.29.9651 > 3.232.45.182.37336: Flags [.], ack 385, win 3528, options [nop,nop,TS val 1292739667 ecr 814949217], length 0
+05:27:22.429340 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [.], ack 249, win 2940, options [nop,nop,TS val 3373775777 ecr 1962823532], length 0
+05:27:22.429386 ens5  Out IP 172.31.29.29.9651 > 3.232.45.182.37336: Flags [P.], seq 112:249, ack 385, win 3528, options [nop,nop,TS val 1292739667 ecr 814949217], length 137
+05:27:22.429394 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [P.], seq 111:248, ack 249, win 2940, options [nop,nop,TS val 3373775777 ecr 1962823532], length 137
+05:27:22.429414 ens5  Out IP 172.31.29.29.9651 > 3.225.79.249.42118: Flags [.], ack 1711525232, win 442, options [nop,nop,TS val 549994980 ecr 2217112591], length 0
+05:27:22.429528 ens5  In  IP 98.82.240.103.51246 > 172.31.29.29.9651: Flags [P.], seq 222:359, ack 249, win 2429, options [nop,nop,TS val 2776989476 ecr 1326378818], length 137
+05:27:22.429546 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [.], ack 248, win 443, options [nop,nop,TS val 2070042594 ecr 623328184], length 0
+05:27:22.429546 ens5  In  IP 52.70.38.106.58350 > 172.31.29.29.9651: Flags [P.], seq 248:385, ack 360, win 2986, options [nop,nop,TS val 3476336560 ecr 844151646], length 137
+05:27:22.429546 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [P.], seq 220:330, ack 384, win 443, options [nop,nop,TS val 2070042594 ecr 623328184], length 110
+05:27:22.429556 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [P.], seq 385:496, ack 249, win 2560, options [nop,nop,TS val 814949222 ecr 1292739667], length 111
+05:27:22.429557 ens5  In  IP 34.206.59.82.51184 > 172.31.29.29.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 2051424016 ecr 1309041103], length 111
+05:27:22.429584 ens5  Out IP 172.31.29.29.9651 > 34.206.59.82.51184: Flags [.], ack 249, win 442, options [nop,nop,TS val 1309041122 ecr 2051424011], length 0
+05:27:22.429642 ens5  Out IP 172.31.29.29.9651 > 3.232.45.182.37336: Flags [P.], seq 249:386, ack 496, win 3528, options [nop,nop,TS val 1292739668 ecr 814949222], length 137
+05:27:22.429647 ens5  Out IP 172.31.29.29.9651 > 34.206.59.82.51184: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 1309041122 ecr 2051424011], length 137
+05:27:22.429659 ens5  Out IP 172.31.29.29.9651 > 18.235.227.173.47648: Flags [P.], seq 384:520, ack 330, win 442, options [nop,nop,TS val 623328185 ecr 2070042594], length 136
+05:27:22.429786 ens5  In  IP 54.227.196.194.9651 > 172.31.29.29.42476: Flags [P.], seq 1:138, ack 111, win 3407, options [nop,nop,TS val 2291616979 ecr 2996064332], length 137
+05:27:22.430018 ens5  In  IP 52.3.189.202.52346 > 172.31.29.29.9651: Flags [P.], seq 222:333, ack 275, win 2848, options [nop,nop,TS val 2231945059 ecr 368978531], length 111
+05:27:22.430089 ens5  Out IP 172.31.29.29.9651 > 52.3.189.202.52346: Flags [P.], seq 275:412, ack 333, win 442, options [nop,nop,TS val 368978540 ecr 2231945059], length 137
+05:27:22.430150 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [P.], seq 330:467, ack 520, win 443, options [nop,nop,TS val 2070042595 ecr 623328185], length 137
+05:27:22.430415 ens5  Out IP 172.31.29.29.9651 > 54.86.40.233.55666: Flags [.], ack 1852634430, win 442, options [nop,nop,TS val 3891294950 ecr 1532142211], length 0
+05:27:22.430775 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [.], ack 445, win 1632, options [nop,nop,TS val 3877953100 ecr 4270885055], length 0
+05:27:22.430900 ens5  In  IP 23.21.27.140.51594 > 172.31.29.29.9651: Flags [P.], seq 3145823093:3145823204, ack 1429716773, win 4489, options [nop,nop,TS val 4065762424 ecr 808232237], length 111
+05:27:22.430911 ens5  In  IP 54.86.40.233.55666 > 172.31.29.29.9651: Flags [.], ack 0, win 443, options [nop,nop,TS val 1532142253 ecr 3891294909], length 0
+05:27:22.430923 ens5  Out IP 172.31.29.29.9651 > 23.21.27.140.51594: Flags [.], ack 111, win 442, options [nop,nop,TS val 808232268 ecr 4065762403], length 0
+05:27:22.430973 ens5  Out IP 172.31.29.29.9651 > 23.21.27.140.51594: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 808232268 ecr 4065762403], length 137
+05:27:22.431558 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [P.], seq 504:871, ack 445, win 1632, options [nop,nop,TS val 3877953101 ecr 4270885055], length 367
+05:27:22.438390 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [P.], seq 871:1008, ack 556, win 1632, options [nop,nop,TS val 3877953108 ecr 4270885060], length 137
+05:27:22.438434 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [.], ack 1008, win 443, options [nop,nop,TS val 4270885070 ecr 3877953101], length 0
+05:27:22.442876 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [.], ack 889, win 2786, options [nop,nop,TS val 2516809425 ecr 1600446579], length 0
+05:27:22.444419 ens5  Out IP 172.31.29.29.9651 > 35.174.148.147.45356: Flags [.], ack 3438806290, win 442, options [nop,nop,TS val 2382509815 ecr 1875538345], length 0
+05:27:22.444638 ens5  In  IP 54.224.250.2.9651 > 172.31.29.29.53408: Flags [.], ack 440141553, win 442, options [nop,nop,TS val 1073898669 ecr 1400371504], length 0
+05:27:22.447823 ens5  In  IP 35.168.79.8.35030 > 172.31.29.29.9651: Flags [.], ack 59836953, win 443, options [nop,nop,TS val 3468165751 ecr 871299241], length 0
+05:27:22.448272 ens5  In  IP 107.23.226.228.35590 > 172.31.29.29.9651: Flags [.], ack 2167779697, win 2095, options [nop,nop,TS val 396259042 ecr 2016474335], length 0
+05:27:22.450415 ens5  Out IP 172.31.29.29.53086 > 98.83.188.107.9651: Flags [.], ack 1808951967, win 443, options [nop,nop,TS val 3269554831 ecr 1048373087], length 0
+05:27:22.450416 ens5  Out IP 172.31.29.29.9651 > 3.228.129.216.35078: Flags [.], ack 870291897, win 442, options [nop,nop,TS val 1162446887 ecr 1700448366], length 0
+05:27:22.450419 ens5  Out IP 172.31.29.29.46772 > 34.197.125.83.9651: Flags [.], ack 979702491, win 443, options [nop,nop,TS val 1873865654 ecr 3584154661], length 0
+05:27:22.450421 ens5  Out IP 172.31.29.29.51774 > 44.223.151.51.9651: Flags [.], ack 2427618082, win 443, options [nop,nop,TS val 2937563219 ecr 1753482279], length 0
+05:27:22.450422 ens5  Out IP 172.31.29.29.33442 > 3.230.225.34.9651: Flags [.], ack 3056346270, win 443, options [nop,nop,TS val 2710452095 ecr 3989820652], length 0
+05:27:22.450697 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [P.], seq 641:778, ack 889, win 2786, options [nop,nop,TS val 2516809432 ecr 1600446579], length 137
+05:27:22.450766 ens5  In  IP 34.202.51.225.55254 > 172.31.29.29.9651: Flags [P.], seq 275:386, ack 222, win 443, options [nop,nop,TS val 892857971 ecr 1061132935], length 111
+05:27:22.450822 ens5  In  IP 54.197.55.84.60110 > 172.31.29.29.9651: Flags [P.], seq 0:111, ack 1, win 3276, options [nop,nop,TS val 1395579753 ecr 3959098956], length 111
+05:27:22.450822 ens5  In  IP 18.235.252.133.56194 > 172.31.29.29.9651: Flags [P.], seq 138:249, ack 111, win 3402, options [nop,nop,TS val 191028170 ecr 3559413623], length 111
+05:27:22.450854 ens5  Out IP 172.31.29.29.9651 > 18.235.252.133.56194: Flags [.], ack 249, win 442, options [nop,nop,TS val 3559413650 ecr 191028144], length 0
+05:27:22.450864 ens5  Out IP 172.31.29.29.9651 > 34.202.51.225.55254: Flags [.], ack 386, win 442, options [nop,nop,TS val 1061132962 ecr 892857945], length 0
+05:27:22.450892 ens5  In  IP 98.80.46.175.42342 > 172.31.29.29.9651: Flags [P.], seq 633:744, ack 497, win 443, options [nop,nop,TS val 3131183116 ecr 1578183567], length 111
+05:27:22.450965 ens5  In  IP 23.22.40.156.9651 > 172.31.29.29.39538: Flags [P.], seq 138:249, ack 111, win 442, options [nop,nop,TS val 2219909098 ecr 3770987698], length 111
+05:27:22.450984 ens5  Out IP 172.31.29.29.39538 > 23.22.40.156.9651: Flags [.], ack 249, win 443, options [nop,nop,TS val 3770987725 ecr 2219909098], length 0
+05:27:22.451014 ens5  In  IP 98.83.188.107.9651 > 172.31.29.29.53086: Flags [P.], seq 1:112, ack 0, win 442, options [nop,nop,TS val 1048373128 ecr 3269554831], length 111
+05:27:22.451036 ens5  Out IP 172.31.29.29.53086 > 98.83.188.107.9651: Flags [.], ack 112, win 443, options [nop,nop,TS val 3269554831 ecr 1048373128], length 0
+05:27:22.451040 ens5  Out IP 172.31.29.29.9651 > 34.203.168.140.53994: Flags [P.], seq 223:334, ack 411, win 2521, options [nop,nop,TS val 44398143 ecr 1552758859], length 111
+05:27:22.451054 ens5  Out IP 172.31.29.29.9651 > 34.205.163.144.53986: Flags [P.], seq 111:222, ack 138, win 442, options [nop,nop,TS val 2911460990 ecr 301315937], length 111
+05:27:22.451071 ens5  Out IP 172.31.29.29.39358 > 18.207.74.220.9651: Flags [P.], seq 275:386, ack 222, win 443, options [nop,nop,TS val 1603004318 ecr 3798438171], length 111
+05:27:22.451074 ens5  Out IP 172.31.29.29.9651 > 54.158.175.165.47700: Flags [P.], seq 138:249, ack 111, win 442, options [nop,nop,TS val 4069969781 ecr 4228222424], length 111
+05:27:22.451076 ens5  Out IP 172.31.29.29.9651 > 107.20.201.207.58582: Flags [P.], seq 111:222, ack 138, win 442, options [nop,nop,TS val 2463805847 ecr 1480040897], length 111
+05:27:22.451087 ens5  Out IP 172.31.29.29.9651 > 44.210.177.215.60188: Flags [P.], seq 111:222, ack 138, win 442, options [nop,nop,TS val 3115199388 ecr 290274837], length 111
+05:27:22.451087 ens5  In  IP 107.21.238.130.9651 > 172.31.29.29.52988: Flags [P.], seq 222:333, ack 275, win 660, options [nop,nop,TS val 192308172 ecr 707390846], length 111
+05:27:22.451090 ens5  Out IP 172.31.29.29.9651 > 35.168.79.8.35030: Flags [P.], seq 1:112, ack 0, win 442, options [nop,nop,TS val 871299285 ecr 3468165751], length 111
+05:27:22.451102 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 556:667, ack 1008, win 443, options [nop,nop,TS val 4270885082 ecr 3877953101], length 111
+05:27:22.451106 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [P.], seq 522:633, ack 471, win 442, options [nop,nop,TS val 2511453804 ecr 1968103403], length 111
+05:27:22.451108 ens5  Out IP 172.31.29.29.39538 > 23.22.40.156.9651: Flags [P.], seq 111:222, ack 249, win 443, options [nop,nop,TS val 3770987725 ecr 2219909098], length 111
+05:27:22.451118 ens5  Out IP 172.31.29.29.54662 > 23.23.81.139.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 1176657372 ecr 757288073], length 111
+05:27:22.451122 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 889:1000, ack 778, win 4631, options [nop,nop,TS val 1600446606 ecr 2516809432], length 111
+05:27:22.451136 ens5  Out IP 172.31.29.29.39538 > 23.22.40.156.9651: Flags [P.], seq 222:359, ack 249, win 443, options [nop,nop,TS val 3770987725 ecr 2219909098], length 137
+05:27:22.451140 ens5  Out IP 172.31.29.29.45950 > 52.3.14.29.9651: Flags [P.], seq 111:222, ack 138, win 443, options [nop,nop,TS val 856881018 ecr 2257523511], length 111
+05:27:22.451150 ens5  Out IP 172.31.29.29.9651 > 54.197.55.84.60110: Flags [P.], seq 1:138, ack 111, win 3572, options [nop,nop,TS val 3959099021 ecr 1395579753], length 137
+05:27:22.451154 ens5  Out IP 172.31.29.29.9651 > 3.218.45.144.58526: Flags [P.], seq 248:359, ack 249, win 442, options [nop,nop,TS val 1603267949 ecr 608749028], length 111
+05:27:22.451162 ens5  In  IP 34.197.148.157.39988 > 172.31.29.29.9651: Flags [P.], seq 249:360, ack 248, win 443, options [nop,nop,TS val 2284499993 ecr 1621845453], length 111
+05:27:22.451163 ens5  Out IP 172.31.29.29.9651 > 18.235.252.133.56194: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 3559413650 ecr 191028144], length 137
+05:27:22.451173 ens5  In  IP 44.218.214.164.45946 > 172.31.29.29.9651: Flags [P.], seq 2005740194:2005740305, ack 875456360, win 443, options [nop,nop,TS val 2289518548 ecr 86914135], length 111
+05:27:22.451179 ens5  Out IP 172.31.29.29.46772 > 34.197.125.83.9651: Flags [P.], seq 0:111, ack 1, win 443, options [nop,nop,TS val 1873865654 ecr 3584154661], length 111
+05:27:22.451191 ens5  Out IP 172.31.29.29.9651 > 34.202.51.225.55254: Flags [P.], seq 222:359, ack 386, win 442, options [nop,nop,TS val 1061132962 ecr 892857945], length 137
+05:27:22.451205 ens5  Out IP 172.31.29.29.9651 > 98.80.46.175.42342: Flags [P.], seq 497:634, ack 744, win 442, options [nop,nop,TS val 1578183589 ecr 3131183116], length 137
+05:27:22.451213 ens5  Out IP 172.31.29.29.53086 > 98.83.188.107.9651: Flags [P.], seq 0:137, ack 112, win 443, options [nop,nop,TS val 3269554831 ecr 1048373128], length 137
+05:27:22.451218 ens5  In  IP 18.233.119.27.53100 > 172.31.29.29.9651: Flags [P.], seq 111:222, ack 138, win 684, options [nop,nop,TS val 2103730540 ecr 3557128784], length 111
+05:27:22.451263 ens5  In  IP 3.218.45.144.58526 > 172.31.29.29.9651: Flags [P.], seq 249:360, ack 248, win 443, options [nop,nop,TS val 608749056 ecr 1603267926], length 111
+05:27:22.451281 ens5  Out IP 172.31.29.29.52988 > 107.21.238.130.9651: Flags [P.], seq 275:412, ack 333, win 443, options [nop,nop,TS val 707390874 ecr 192308172], length 137
+05:27:22.451296 ens5  Out IP 172.31.29.29.9651 > 34.197.148.157.39988: Flags [P.], seq 248:385, ack 360, win 442, options [nop,nop,TS val 1621845476 ecr 2284499993], length 137
+05:27:22.451304 ens5  Out IP 172.31.29.29.9651 > 18.233.119.27.53100: Flags [P.], seq 138:275, ack 222, win 442, options [nop,nop,TS val 3557128807 ecr 2103730540], length 137
+05:27:22.451306 ens5  Out IP 172.31.29.29.9651 > 44.218.214.164.45946: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 86914176 ecr 2289518548], length 137
+05:27:22.451320 ens5  In  IP 23.23.81.139.9651 > 172.31.29.29.54662: Flags [.], ack 249, win 442, options [nop,nop,TS val 757288114 ecr 1176657338], length 0
+05:27:22.451322 ens5  In  IP 54.158.175.165.47700 > 172.31.29.29.9651: Flags [.], ack 249, win 688, options [nop,nop,TS val 4228222452 ecr 4069969754], length 0
+05:27:22.451352 ens5  Out IP 172.31.29.29.9651 > 3.218.45.144.58526: Flags [P.], seq 359:496, ack 360, win 442, options [nop,nop,TS val 1603267949 ecr 608749056], length 137
+05:27:22.451373 ens5  In  IP 54.85.9.116.50190 > 172.31.29.29.9651: Flags [P.], seq 249:360, ack 248, win 443, options [nop,nop,TS val 894130980 ecr 3446716898], length 111
+05:27:22.451386 ens5  In  IP 54.197.55.84.60110 > 172.31.29.29.9651: Flags [.], ack 138, win 3276, options [nop,nop,TS val 1395579754 ecr 3959099021], length 0
+05:27:22.451414 ens5  In  IP 23.21.204.131.45034 > 172.31.29.29.9651: Flags [P.], seq 412:523, ack 333, win 443, options [nop,nop,TS val 615928085 ecr 2478978585], length 111
+05:27:22.451414 ens5  In  IP 52.54.223.196.9651 > 172.31.29.29.48206: Flags [P.], seq 138:249, ack 111, win 442, options [nop,nop,TS val 2379255078 ecr 2222008183], length 111
+05:27:22.451414 ens5  In  IP 44.223.151.51.9651 > 172.31.29.29.51774: Flags [P.], seq 1:112, ack 0, win 442, options [nop,nop,TS val 1753482321 ecr 2937563219], length 111
+05:27:22.451419 ens5  In  IP 35.168.79.8.35030 > 172.31.29.29.9651: Flags [.], ack 112, win 443, options [nop,nop,TS val 3468165754 ecr 871299285], length 0
+05:27:22.451419 ens5  In  IP 54.158.175.165.47700 > 172.31.29.29.9651: Flags [P.], seq 111:248, ack 249, win 688, options [nop,nop,TS val 4228222452 ecr 4069969754], length 137
+05:27:22.451419 ens5  In  IP 54.226.62.214.55486 > 172.31.29.29.9651: Flags [P.], seq 138:249, ack 111, win 2919, options [nop,nop,TS val 1943625304 ecr 499423301], length 111
+05:27:22.451432 ens5  Out IP 172.31.29.29.9651 > 54.226.62.214.55486: Flags [.], ack 249, win 442, options [nop,nop,TS val 499423335 ecr 1943625271], length 0
+05:27:22.451488 ens5  Out IP 172.31.29.29.51774 > 44.223.151.51.9651: Flags [.], ack 112, win 443, options [nop,nop,TS val 2937563220 ecr 1753482321], length 0
+05:27:22.451490 ens5  Out IP 172.31.29.29.9651 > 54.85.9.116.50190: Flags [P.], seq 248:385, ack 360, win 442, options [nop,nop,TS val 3446716922 ecr 894130980], length 137
+05:27:22.451496 ens5  Out IP 172.31.29.29.48206 > 52.54.223.196.9651: Flags [.], ack 249, win 443, options [nop,nop,TS val 2222008211 ecr 2379255050], length 0
+05:27:22.451501 ens5  In  IP 107.20.201.207.58582 > 172.31.29.29.9651: Flags [P.], seq 138:275, ack 222, win 443, options [nop,nop,TS val 1480040924 ecr 2463805847], length 137
+05:27:22.451512 ens5  In  IP 3.223.220.64.47902 > 172.31.29.29.9651: Flags [P.], seq 275:386, ack 222, win 443, options [nop,nop,TS val 3638101029 ecr 3325312292], length 111
+05:27:22.451525 ens5  Out IP 172.31.29.29.9651 > 3.223.220.64.47902: Flags [.], ack 386, win 442, options [nop,nop,TS val 3325312315 ecr 3638101006], length 0
+05:27:22.451537 ens5  In  IP 34.196.243.223.34980 > 172.31.29.29.9651: Flags [P.], seq 138:249, ack 111, win 3087, options [nop,nop,TS val 2735105360 ecr 4286175341], length 111
+05:27:22.451537 ens5  In  IP 34.197.125.83.9651 > 172.31.29.29.46772: Flags [P.], seq 1:138, ack 111, win 442, options [nop,nop,TS val 3584154703 ecr 1873865654], length 137
+05:27:22.451538 ens5  In  IP 35.168.79.8.35030 > 172.31.29.29.9651: Flags [P.], seq 0:137, ack 112, win 443, options [nop,nop,TS val 3468165754 ecr 871299285], length 137
+05:27:22.451538 ens5  In  IP 44.218.214.164.45946 > 172.31.29.29.9651: Flags [.], ack 138, win 443, options [nop,nop,TS val 2289518549 ecr 86914176], length 0
+05:27:22.451541 ens5  Out IP 172.31.29.29.9651 > 23.21.204.131.45034: Flags [.], ack 523, win 442, options [nop,nop,TS val 2478978608 ecr 615928063], length 0
+05:27:22.451569 ens5  Out IP 172.31.29.29.46772 > 34.197.125.83.9651: Flags [.], ack 138, win 443, options [nop,nop,TS val 1873865655 ecr 3584154703], length 0
+05:27:22.451573 ens5  Out IP 172.31.29.29.9651 > 34.196.243.223.34980: Flags [.], ack 249, win 442, options [nop,nop,TS val 4286175378 ecr 2735105337], length 0
+05:27:22.451584 ens5  Out IP 172.31.29.29.51774 > 44.223.151.51.9651: Flags [P.], seq 0:137, ack 112, win 443, options [nop,nop,TS val 2937563220 ecr 1753482321], length 137
+05:27:22.451588 ens5  In  IP 23.22.40.156.9651 > 172.31.29.29.39538: Flags [.], ack 359, win 442, options [nop,nop,TS val 2219909098 ecr 3770987725], length 0
+05:27:22.451588 ens5  In  IP 18.207.74.220.9651 > 172.31.29.29.39358: Flags [P.], seq 222:359, ack 386, win 2672, options [nop,nop,TS val 3798438194 ecr 1603004318], length 137
+05:27:22.451593 ens5  In  IP 44.210.177.215.60188 > 172.31.29.29.9651: Flags [P.], seq 138:275, ack 222, win 680, options [nop,nop,TS val 290274865 ecr 3115199388], length 137
+05:27:22.451593 ens5  In  IP 54.224.250.2.9651 > 172.31.29.29.53408: Flags [P.], seq 0:111, ack 1, win 442, options [nop,nop,TS val 1073898675 ecr 1400371504], length 111
+05:27:22.451606 ens5  Out IP 172.31.29.29.9651 > 54.226.62.214.55486: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 499423335 ecr 1943625271], length 137
+05:27:22.451617 ens5  Out IP 172.31.29.29.48206 > 52.54.223.196.9651: Flags [P.], seq 111:248, ack 249, win 443, options [nop,nop,TS val 2222008211 ecr 2379255050], length 137
+05:27:22.451624 ens5  In  IP 23.23.81.139.9651 > 172.31.29.29.54662: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 757288114 ecr 1176657338], length 137
+05:27:22.451624 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [P.], seq 248:359, ack 249, win 2940, options [nop,nop,TS val 3373775799 ecr 1962823532], length 111
+05:27:22.451639 ens5  In  IP 23.22.40.156.9651 > 172.31.29.29.39538: Flags [P.], seq 249:386, ack 359, win 442, options [nop,nop,TS val 2219909098 ecr 3770987725], length 137
+05:27:22.451646 ens5  Out IP 172.31.29.29.9651 > 3.223.220.64.47902: Flags [P.], seq 222:359, ack 386, win 442, options [nop,nop,TS val 3325312315 ecr 3638101006], length 137
+05:27:22.451650 ens5  Out IP 172.31.29.29.9651 > 54.174.93.130.53264: Flags [.], ack 359, win 442, options [nop,nop,TS val 1962823563 ecr 3373775777], length 0
+05:27:22.451661 ens5  Out IP 172.31.29.29.9651 > 23.21.204.131.45034: Flags [P.], seq 333:470, ack 523, win 442, options [nop,nop,TS val 2478978608 ecr 615928063], length 137
+05:27:22.451666 ens5  In  IP 98.82.240.103.51246 > 172.31.29.29.9651: Flags [P.], seq 359:470, ack 386, win 2429, options [nop,nop,TS val 2776989498 ecr 1326378829], length 111
+05:27:22.451669 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [P.], seq 471:608, ack 633, win 443, options [nop,nop,TS val 1968103429 ecr 2511453804], length 137
+05:27:22.451690 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [P.], seq 359:470, ack 249, win 2940, options [nop,nop,TS val 3373775799 ecr 1962823532], length 111
+05:27:22.451692 ens5  In  IP 3.218.45.144.58526 > 172.31.29.29.9651: Flags [.], ack 496, win 443, options [nop,nop,TS val 608749056 ecr 1603267949], length 0
+05:27:22.451692 ens5  In  IP 52.3.14.29.9651 > 172.31.29.29.45950: Flags [P.], seq 138:275, ack 222, win 616, options [nop,nop,TS val 2257523539 ecr 856881018], length 137
+05:27:22.451698 ens5  Out IP 172.31.29.29.9651 > 98.82.240.103.51246: Flags [.], ack 470, win 442, options [nop,nop,TS val 1326378852 ecr 2776989476], length 0
+05:27:22.451741 ens5  In  IP 34.203.168.140.53994 > 172.31.29.29.9651: Flags [P.], seq 411:637, ack 334, win 2315, options [nop,nop,TS val 1552758886 ecr 44398143], length 226
+05:27:22.451775 ens5  Out IP 172.31.29.29.9651 > 34.196.243.223.34980: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 4286175378 ecr 2735105337], length 137
+05:27:22.451779 ens5  Out IP 172.31.29.29.9651 > 54.174.93.130.53264: Flags [P.], seq 249:501, ack 470, win 442, options [nop,nop,TS val 1962823563 ecr 3373775799], length 252
+05:27:22.451799 ens5  In  IP 3.230.225.34.9651 > 172.31.29.29.33442: Flags [P.], seq 1:112, ack 0, win 442, options [nop,nop,TS val 3989820694 ecr 2710452095], length 111
+05:27:22.451799 ens5  In  IP 34.205.163.144.53986 > 172.31.29.29.9651: Flags [P.], seq 138:275, ack 222, win 443, options [nop,nop,TS val 301315960 ecr 2911460990], length 137
+05:27:22.451815 ens5  Out IP 172.31.29.29.53408 > 54.224.250.2.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 1400371552 ecr 1073898675], length 137
+05:27:22.451826 ens5  Out IP 172.31.29.29.33442 > 3.230.225.34.9651: Flags [.], ack 112, win 443, options [nop,nop,TS val 2710452096 ecr 3989820694], length 0
+05:27:22.451851 ens5  Out IP 172.31.29.29.9651 > 98.82.240.103.51246: Flags [P.], seq 386:523, ack 470, win 442, options [nop,nop,TS val 1326378852 ecr 2776989476], length 137
+05:27:22.451856 ens5  Out IP 172.31.29.29.9651 > 34.203.168.140.53994: Flags [P.], seq 334:471, ack 637, win 2521, options [nop,nop,TS val 44398144 ecr 1552758886], length 137
+05:27:22.451900 ens5  Out IP 172.31.29.29.33442 > 3.230.225.34.9651: Flags [P.], seq 0:137, ack 112, win 443, options [nop,nop,TS val 2710452096 ecr 3989820694], length 137
+05:27:22.451980 ens5  In  IP 54.236.131.114.9651 > 172.31.29.29.44990: Flags [P.], seq 496:607, ack 497, win 2940, options [nop,nop,TS val 2020063859 ecr 144501865], length 111
+05:27:22.452056 ens5  Out IP 172.31.29.29.44990 > 54.236.131.114.9651: Flags [P.], seq 497:634, ack 607, win 443, options [nop,nop,TS val 144501888 ecr 2020063859], length 137
+05:27:22.452113 ens5  In  IP 52.3.189.202.52346 > 172.31.29.29.9651: Flags [P.], seq 333:444, ack 412, win 2848, options [nop,nop,TS val 2231945081 ecr 368978540], length 111
+05:27:22.452116 ens5  In  IP 3.218.45.144.58526 > 172.31.29.29.9651: Flags [P.], seq 360:497, ack 496, win 443, options [nop,nop,TS val 608749056 ecr 1603267949], length 137
+05:27:22.452203 ens5  Out IP 172.31.29.29.9651 > 52.3.189.202.52346: Flags [P.], seq 412:549, ack 444, win 442, options [nop,nop,TS val 368978562 ecr 2231945081], length 137
+05:27:22.452229 ens5  In  IP 54.224.250.2.9651 > 172.31.29.29.53408: Flags [.], ack 138, win 442, options [nop,nop,TS val 1073898676 ecr 1400371552], length 0
+05:27:22.452349 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [P.], seq 496:607, ack 386, win 2560, options [nop,nop,TS val 814949245 ecr 1292739668], length 111
+05:27:22.452428 ens5  Out IP 172.31.29.29.9651 > 3.232.45.182.37336: Flags [P.], seq 386:523, ack 607, win 3528, options [nop,nop,TS val 1292739691 ecr 814949245], length 137
+05:27:22.452691 ens5  In  IP 54.197.102.41.55330 > 172.31.29.29.9651: Flags [P.], seq 138:248, ack 111, win 443, options [nop,nop,TS val 1425065390 ecr 3078573240], length 110
+05:27:22.452718 ens5  Out IP 172.31.29.29.9651 > 54.197.102.41.55330: Flags [.], ack 248, win 2574, options [nop,nop,TS val 3078573269 ecr 1425065361], length 0
+05:27:22.452774 ens5  Out IP 172.31.29.29.9651 > 54.197.102.41.55330: Flags [P.], seq 111:247, ack 248, win 2574, options [nop,nop,TS val 3078573269 ecr 1425065361], length 136
+05:27:22.452920 ens5  In  IP 54.86.40.233.55666 > 172.31.29.29.9651: Flags [P.], seq 1:112, ack 0, win 443, options [nop,nop,TS val 1532142275 ecr 3891294909], length 111
+05:27:22.452939 ens5  Out IP 172.31.29.29.9651 > 54.86.40.233.55666: Flags [.], ack 112, win 442, options [nop,nop,TS val 3891294972 ecr 1532142275], length 0
+05:27:22.452961 ens5  In  IP 52.200.197.163.39696 > 172.31.29.29.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 3335542350 ecr 436507016], length 111
+05:27:22.452985 ens5  Out IP 172.31.29.29.9651 > 52.200.197.163.39696: Flags [.], ack 249, win 442, options [nop,nop,TS val 436507045 ecr 3335542321], length 0
+05:27:22.452989 ens5  Out IP 172.31.29.29.9651 > 54.86.40.233.55666: Flags [P.], seq 0:137, ack 112, win 442, options [nop,nop,TS val 3891294972 ecr 1532142275], length 137
+05:27:22.453037 ens5  Out IP 172.31.29.29.9651 > 52.200.197.163.39696: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 436507045 ecr 3335542321], length 137
+05:27:22.453080 ens5  In  IP 35.169.66.196.38146 > 172.31.29.29.9651: Flags [P.], seq 222:333, ack 275, win 4173, options [nop,nop,TS val 2821450749 ecr 3222091342], length 111
+05:27:22.453146 ens5  Out IP 172.31.29.29.9651 > 35.169.66.196.38146: Flags [P.], seq 275:412, ack 333, win 442, options [nop,nop,TS val 3222091368 ecr 2821450749], length 137
+05:27:22.453195 ens5  In  IP 52.70.38.106.58350 > 172.31.29.29.9651: Flags [P.], seq 385:496, ack 360, win 2986, options [nop,nop,TS val 3476336584 ecr 844151646], length 111
+05:27:22.453211 ens5  Out IP 172.31.29.29.9651 > 52.70.38.106.58350: Flags [.], ack 496, win 442, options [nop,nop,TS val 844151671 ecr 3476336560], length 0
+05:27:22.453223 ens5  In  IP 54.86.40.233.55666 > 172.31.29.29.9651: Flags [.], ack 137, win 443, options [nop,nop,TS val 1532142275 ecr 3891294972], length 0
+05:27:22.453272 ens5  Out IP 172.31.29.29.9651 > 52.70.38.106.58350: Flags [P.], seq 360:497, ack 496, win 442, options [nop,nop,TS val 844151671 ecr 3476336560], length 137
+05:27:22.453521 ens5  In  IP 3.228.129.216.35078 > 172.31.29.29.9651: Flags [P.], seq 1:112, ack 0, win 443, options [nop,nop,TS val 1700448409 ecr 1162446887], length 111
+05:27:22.453540 ens5  Out IP 172.31.29.29.9651 > 3.228.129.216.35078: Flags [.], ack 112, win 442, options [nop,nop,TS val 1162446890 ecr 1700448409], length 0
+05:27:22.453597 ens5  Out IP 172.31.29.29.9651 > 3.228.129.216.35078: Flags [P.], seq 0:137, ack 112, win 442, options [nop,nop,TS val 1162446890 ecr 1700448409], length 137
+05:27:22.453646 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [P.], seq 778:915, ack 889, win 2786, options [nop,nop,TS val 2516809436 ecr 1600446579], length 137
+05:27:22.453811 ens5  In  IP 18.235.252.133.56194 > 172.31.29.29.9651: Flags [P.], seq 249:360, ack 248, win 3402, options [nop,nop,TS val 191028173 ecr 3559413650], length 111
+05:27:22.453845 ens5  Out IP 172.31.29.29.9651 > 107.23.226.228.35590: Flags [P.], seq 1:112, ack 0, win 442, options [nop,nop,TS val 2016474381 ecr 396259042], length 111
+05:27:22.453857 ens5  Out IP 172.31.29.29.9651 > 54.226.62.214.55486: Flags [P.], seq 248:359, ack 249, win 442, options [nop,nop,TS val 499423337 ecr 1943625271], length 111
+05:27:22.453862 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 1000:1111, ack 915, win 4631, options [nop,nop,TS val 1600446609 ecr 2516809436], length 111
+05:27:22.453863 ens5  Out IP 172.31.29.29.9651 > 34.206.59.82.51184: Flags [P.], seq 248:359, ack 249, win 442, options [nop,nop,TS val 1309041146 ecr 2051424011], length 111
+05:27:22.453870 ens5  Out IP 172.31.29.29.9651 > 54.197.55.84.60110: Flags [P.], seq 138:249, ack 111, win 3572, options [nop,nop,TS val 3959099024 ecr 1395579754], length 111
+05:27:22.453878 ens5  Out IP 172.31.29.29.45950 > 52.3.14.29.9651: Flags [P.], seq 222:333, ack 275, win 443, options [nop,nop,TS val 856881021 ecr 2257523539], length 111
+05:27:22.453881 ens5  Out IP 172.31.29.29.53086 > 98.83.188.107.9651: Flags [P.], seq 137:248, ack 112, win 443, options [nop,nop,TS val 3269554834 ecr 1048373128], length 111
+05:27:22.453889 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 275:386, ack 222, win 442, options [nop,nop,TS val 1373135949 ecr 27789967], length 111
+05:27:22.453889 ens5  Out IP 172.31.29.29.9651 > 44.210.177.215.60188: Flags [P.], seq 222:333, ack 275, win 442, options [nop,nop,TS val 3115199391 ecr 290274865], length 111
+05:27:22.453898 ens5  In  IP 18.215.11.46.9651 > 172.31.29.29.50652: Flags [P.], seq 222:333, ack 275, win 442, options [nop,nop,TS val 431838652 ecr 71804668], length 111
+05:27:22.453901 ens5  Out IP 172.31.29.29.9651 > 98.82.240.103.51246: Flags [P.], seq 523:634, ack 470, win 442, options [nop,nop,TS val 1326378854 ecr 2776989476], length 111
+05:27:22.453904 ens5  Out IP 172.31.29.29.9651 > 35.169.66.196.38146: Flags [P.], seq 412:523, ack 333, win 442, options [nop,nop,TS val 3222091369 ecr 2821450749], length 111
+05:27:22.453906 ens5  Out IP 172.31.29.29.9651 > 52.200.197.163.39696: Flags [P.], seq 248:359, ack 249, win 442, options [nop,nop,TS val 436507046 ecr 3335542321], length 111
+05:27:22.453913 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 667:778, ack 1008, win 443, options [nop,nop,TS val 4270885085 ecr 3877953101], length 111
+05:27:22.453921 ens5  Out IP 172.31.29.29.48206 > 52.54.223.196.9651: Flags [P.], seq 248:359, ack 249, win 443, options [nop,nop,TS val 2222008213 ecr 2379255050], length 111
+05:27:22.453931 ens5  Out IP 172.31.29.29.9651 > 3.218.45.144.58526: Flags [P.], seq 496:607, ack 497, win 442, options [nop,nop,TS val 1603267952 ecr 608749056], length 111
+05:27:22.453933 ens5  Out IP 172.31.29.29.9651 > 18.235.227.173.47648: Flags [P.], seq 520:631, ack 467, win 442, options [nop,nop,TS val 623328209 ecr 2070042595], length 111
+05:27:22.453943 ens5  Out IP 172.31.29.29.39538 > 23.22.40.156.9651: Flags [P.], seq 359:470, ack 386, win 443, options [nop,nop,TS val 3770987728 ecr 2219909098], length 111
+05:27:22.453946 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [P.], seq 633:744, ack 608, win 442, options [nop,nop,TS val 2511453807 ecr 1968103429], length 111
+05:27:22.453949 ens5  Out IP 172.31.29.29.9651 > 107.23.226.228.35590: Flags [P.], seq 112:223, ack 0, win 442, options [nop,nop,TS val 2016474381 ecr 396259042], length 111
+05:27:22.453958 ens5  Out IP 172.31.29.29.60464 > 3.217.115.114.9651: Flags [P.], seq 1520138871:1520138982, ack 2798847977, win 443, options [nop,nop,TS val 2430793478 ecr 2982904696], length 111
+05:27:22.453961 ens5  Out IP 172.31.29.29.48890 > 50.19.116.199.9651: Flags [P.], seq 386:497, ack 359, win 443, options [nop,nop,TS val 1773884350 ecr 1474778772], length 111
+05:27:22.453964 ens5  Out IP 172.31.29.29.50826 > 18.207.171.20.9651: Flags [P.], seq 2906581707:2906581818, ack 1630931281, win 443, options [nop,nop,TS val 711269794 ecr 3306245634], length 111
+05:27:22.453968 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [P.], seq 915:1167, ack 889, win 2786, options [nop,nop,TS val 2516809436 ecr 1600446579], length 252
+05:27:22.453968 ens5  In  IP 107.23.226.228.35590 > 172.31.29.29.9651: Flags [.], ack 112, win 2095, options [nop,nop,TS val 396259047 ecr 2016474381], length 0
+05:27:22.453970 ens5  Out IP 172.31.29.29.52988 > 107.21.238.130.9651: Flags [P.], seq 412:523, ack 333, win 443, options [nop,nop,TS val 707390877 ecr 192308172], length 111
+05:27:22.453971 ens5  Out IP 172.31.29.29.53408 > 54.224.250.2.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 1400371554 ecr 1073898676], length 111
+05:27:22.453981 ens5  Out IP 172.31.29.29.9651 > 44.210.177.215.60188: Flags [P.], seq 333:444, ack 275, win 442, options [nop,nop,TS val 3115199391 ecr 290274865], length 111
+05:27:22.453988 ens5  Out IP 172.31.29.29.53086 > 98.83.188.107.9651: Flags [P.], seq 248:359, ack 112, win 443, options [nop,nop,TS val 3269554834 ecr 1048373128], length 111
+05:27:22.453995 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 778:889, ack 1008, win 443, options [nop,nop,TS val 4270885085 ecr 3877953101], length 111
+05:27:22.453998 ens5  In  IP 54.226.62.214.55486 > 172.31.29.29.9651: Flags [.], ack 359, win 2919, options [nop,nop,TS val 1943625307 ecr 499423335], length 0
+05:27:22.453999 ens5  In  IP 52.200.197.163.39696 > 172.31.29.29.9651: Flags [.], ack 359, win 443, options [nop,nop,TS val 3335542351 ecr 436507045], length 0
+05:27:22.454000 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 386:497, ack 222, win 442, options [nop,nop,TS val 1373135949 ecr 27789967], length 111
+05:27:22.454012 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 1111:1222, ack 1167, win 4631, options [nop,nop,TS val 1600446609 ecr 2516809436], length 111
+05:27:22.454018 ens5  Out IP 172.31.29.29.9651 > 18.235.252.133.56194: Flags [P.], seq 248:385, ack 360, win 442, options [nop,nop,TS val 3559413653 ecr 191028173], length 137
+05:27:22.454031 ens5  Out IP 172.31.29.29.50652 > 18.215.11.46.9651: Flags [P.], seq 275:412, ack 333, win 443, options [nop,nop,TS val 71804694 ecr 431838652], length 137
+05:27:22.454048 ens5  In  IP 107.23.226.228.35590 > 172.31.29.29.9651: Flags [P.], seq 0:137, ack 112, win 2095, options [nop,nop,TS val 396259047 ecr 2016474381], length 137
+05:27:22.454054 ens5  In  IP 52.54.223.196.9651 > 172.31.29.29.48206: Flags [.], ack 359, win 442, options [nop,nop,TS val 2379255080 ecr 2222008211], length 0
+05:27:22.454118 ens5  In  IP 23.23.81.139.9651 > 172.31.29.29.54662: Flags [P.], seq 248:359, ack 249, win 442, options [nop,nop,TS val 757288117 ecr 1176657338], length 111
+05:27:22.454131 ens5  In  IP 54.226.62.214.55486 > 172.31.29.29.9651: Flags [P.], seq 249:386, ack 359, win 2919, options [nop,nop,TS val 1943625307 ecr 499423335], length 137
+05:27:22.454131 ens5  In  IP 98.82.251.216.9651 > 172.31.29.29.55056: Flags [P.], seq 359:470, ack 386, win 442, options [nop,nop,TS val 1988532705 ecr 164022715], length 111
+05:27:22.454131 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [.], ack 386, win 3454, options [nop,nop,TS val 27789997 ecr 1373135919], length 0
+05:27:22.454142 ens5  In  IP 34.206.101.137.9651 > 172.31.29.29.47744: Flags [P.], seq 138:249, ack 111, win 2943, options [nop,nop,TS val 1922448660 ecr 4994534], length 111
+05:27:22.454149 ens5  Out IP 172.31.29.29.47744 > 34.206.101.137.9651: Flags [.], ack 249, win 443, options [nop,nop,TS val 4994570 ecr 1922448624], length 0
+05:27:22.454155 ens5  In  IP 107.23.226.228.35590 > 172.31.29.29.9651: Flags [P.], seq 137:274, ack 223, win 2095, options [nop,nop,TS val 396259047 ecr 2016474381], length 137
+05:27:22.454155 ens5  In  IP 44.210.177.215.60188 > 172.31.29.29.9651: Flags [P.], seq 275:386, ack 222, win 680, options [nop,nop,TS val 290274867 ecr 3115199388], length 111
+05:27:22.454181 ens5  In  IP 98.82.240.103.51246 > 172.31.29.29.9651: Flags [.], ack 634, win 2429, options [nop,nop,TS val 2776989500 ecr 1326378852], length 0
+05:27:22.454181 ens5  In  IP 52.54.223.196.9651 > 172.31.29.29.48206: Flags [P.], seq 249:386, ack 359, win 442, options [nop,nop,TS val 2379255080 ecr 2222008211], length 137
+05:27:22.454181 ens5  In  IP 52.200.197.163.39696 > 172.31.29.29.9651: Flags [P.], seq 249:386, ack 359, win 443, options [nop,nop,TS val 3335542351 ecr 436507045], length 137
+05:27:22.454182 ens5  In  IP 34.206.59.82.51184 > 172.31.29.29.9651: Flags [.], ack 359, win 443, options [nop,nop,TS val 2051424040 ecr 1309041122], length 0
+05:27:22.454181 ens5  In  IP 52.3.14.29.9651 > 172.31.29.29.45950: Flags [P.], seq 275:412, ack 333, win 616, options [nop,nop,TS val 2257523541 ecr 856881021], length 137
+05:27:22.454182 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 222:333, ack 386, win 3454, options [nop,nop,TS val 27789997 ecr 1373135919], length 111
+05:27:22.454187 ens5  Out IP 172.31.29.29.9651 > 35.174.148.147.45356: Flags [P.], seq 0:111, ack 1, win 442, options [nop,nop,TS val 2382509824 ecr 1875538345], length 111
+05:27:22.454196 ens5  Out IP 172.31.29.29.9651 > 23.21.204.131.45034: Flags [P.], seq 470:581, ack 523, win 442, options [nop,nop,TS val 2478978610 ecr 615928063], length 111
+05:27:22.454201 ens5  Out IP 172.31.29.29.54662 > 23.23.81.139.9651: Flags [.], ack 359, win 443, options [nop,nop,TS val 1176657375 ecr 757288114], length 0
+05:27:22.454206 ens5  In  IP 98.83.188.107.9651 > 172.31.29.29.53086: Flags [.], ack 359, win 442, options [nop,nop,TS val 1048373131 ecr 3269554831], length 0
+05:27:22.454206 ens5  In  IP 54.197.55.84.60110 > 172.31.29.29.9651: Flags [.], ack 249, win 3276, options [nop,nop,TS val 1395579757 ecr 3959099024], length 0
+05:27:22.454208 ens5  Out IP 172.31.29.29.9651 > 52.70.38.106.58350: Flags [P.], seq 497:608, ack 496, win 442, options [nop,nop,TS val 844151672 ecr 3476336560], length 111
+05:27:22.454221 ens5  Out IP 172.31.29.29.9651 > 3.225.79.249.42118: Flags [P.], seq 0:111, ack 1, win 442, options [nop,nop,TS val 549995004 ecr 2217112591], length 111
+05:27:22.454228 ens5  In  IP 98.82.240.103.51246 > 172.31.29.29.9651: Flags [P.], seq 470:607, ack 634, win 2429, options [nop,nop,TS val 2776989500 ecr 1326378852], length 137
+05:27:22.454242 ens5  Out IP 172.31.29.29.9651 > 34.202.51.225.55254: Flags [P.], seq 359:470, ack 386, win 442, options [nop,nop,TS val 1061132965 ecr 892857945], length 111
+05:27:22.454245 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [P.], seq 608:719, ack 744, win 443, options [nop,nop,TS val 1968103431 ecr 2511453807], length 111
+05:27:22.454245 ens5  In  IP 34.206.59.82.51184 > 172.31.29.29.9651: Flags [P.], seq 249:386, ack 359, win 443, options [nop,nop,TS val 2051424040 ecr 1309041122], length 137
+05:27:22.454249 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [P.], seq 467:604, ack 631, win 443, options [nop,nop,TS val 2070042619 ecr 623328209], length 137
+05:27:22.454249 ens5  In  IP 50.19.116.199.9651 > 172.31.29.29.48890: Flags [.], ack 497, win 442, options [nop,nop,TS val 1474778802 ecr 1773884325], length 0
+05:27:22.454253 ens5  Out IP 172.31.29.29.9651 > 3.228.129.216.35078: Flags [P.], seq 137:248, ack 112, win 442, options [nop,nop,TS val 1162446890 ecr 1700448409], length 111
+05:27:22.454266 ens5  In  IP 107.21.238.130.9651 > 172.31.29.29.52988: Flags [.], ack 523, win 660, options [nop,nop,TS val 192308175 ecr 707390874], length 0
+05:27:22.454266 ens5  In  IP 18.207.171.20.9651 > 172.31.29.29.50826: Flags [.], ack 111, win 3924, options [nop,nop,TS val 3306245679 ecr 711269794], length 0
+05:27:22.454266 ens5  In  IP 3.228.129.216.35078 > 172.31.29.29.9651: Flags [P.], seq 112:223, ack 137, win 443, options [nop,nop,TS val 1700448410 ecr 1162446890], length 111
+05:27:22.454266 ens5  In  IP 54.224.250.2.9651 > 172.31.29.29.53408: Flags [.], ack 249, win 442, options [nop,nop,TS val 1073898678 ecr 1400371554], length 0
+05:27:22.454266 ens5  In  IP 107.21.238.130.9651 > 172.31.29.29.52988: Flags [P.], seq 333:470, ack 523, win 660, options [nop,nop,TS val 192308175 ecr 707390874], length 137
+05:27:22.454290 ens5  In  IP 107.20.201.207.58582 > 172.31.29.29.9651: Flags [P.], seq 275:386, ack 222, win 443, options [nop,nop,TS val 1480040927 ecr 2463805847], length 111
+05:27:22.454295 ens5  Out IP 172.31.29.29.9651 > 35.168.79.8.35030: Flags [P.], seq 112:223, ack 137, win 442, options [nop,nop,TS val 871299288 ecr 3468165754], length 111
+05:27:22.454303 ens5  In  IP 34.206.101.137.9651 > 172.31.29.29.47744: Flags [P.], seq 249:360, ack 111, win 2943, options [nop,nop,TS val 1922448660 ecr 4994534], length 111
+05:27:22.454307 ens5  Out IP 172.31.29.29.50652 > 18.215.11.46.9651: Flags [P.], seq 412:523, ack 333, win 443, options [nop,nop,TS val 71804694 ecr 431838652], length 111
+05:27:22.454319 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 889:1000, ack 1008, win 443, options [nop,nop,TS val 4270885085 ecr 3877953101], length 111
+05:27:22.454321 ens5  In  IP 3.217.115.114.9651 > 172.31.29.29.60464: Flags [.], ack 111, win 4004, options [nop,nop,TS val 2982904736 ecr 2430793439], length 0
+05:27:22.454321 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [P.], seq 719:856, ack 744, win 443, options [nop,nop,TS val 1968103432 ecr 2511453807], length 137
+05:27:22.454324 ens5  In  IP 3.218.45.144.58526 > 172.31.29.29.9651: Flags [P.], seq 497:634, ack 607, win 443, options [nop,nop,TS val 608749059 ecr 1603267952], length 137
+05:27:22.454324 ens5  In  IP 50.19.116.199.9651 > 172.31.29.29.48890: Flags [P.], seq 359:470, ack 497, win 442, options [nop,nop,TS val 1474778802 ecr 1773884325], length 111
+05:27:22.454324 ens5  In  IP 35.169.66.196.38146 > 172.31.29.29.9651: Flags [.], ack 523, win 4173, options [nop,nop,TS val 2821450750 ecr 3222091368], length 0
+05:27:22.454330 ens5  Out IP 172.31.29.29.9651 > 34.203.168.140.53994: Flags [P.], seq 471:582, ack 637, win 2521, options [nop,nop,TS val 44398146 ecr 1552758886], length 111
+05:27:22.454340 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 1222:1333, ack 1167, win 4631, options [nop,nop,TS val 1600446609 ecr 2516809436], length 111
+05:27:22.454343 ens5  Out IP 172.31.29.29.54662 > 23.23.81.139.9651: Flags [P.], seq 249:386, ack 359, win 443, options [nop,nop,TS val 1176657375 ecr 757288114], length 137
+05:27:22.454351 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [P.], seq 744:855, ack 856, win 442, options [nop,nop,TS val 2511453807 ecr 1968103431], length 111
+05:27:22.454361 ens5  In  IP 44.210.177.215.60188 > 172.31.29.29.9651: Flags [.], ack 444, win 680, options [nop,nop,TS val 290274867 ecr 3115199391], length 0
+05:27:22.454361 ens5  In  IP 52.45.71.227.9651 > 172.31.29.29.56906: Flags [P.], seq 137:248, ack 1, win 4410, options [nop,nop,TS val 3085030935 ecr 676040741], length 111
+05:27:22.454361 ens5  In  IP 44.210.177.215.60188 > 172.31.29.29.9651: Flags [P.], seq 386:523, ack 444, win 680, options [nop,nop,TS val 290274867 ecr 3115199391], length 137
+05:27:22.454361 ens5  In  IP 98.83.188.107.9651 > 172.31.29.29.53086: Flags [P.], seq 112:364, ack 359, win 442, options [nop,nop,TS val 1048373131 ecr 3269554831], length 252
+05:27:22.454361 ens5  In  IP 54.224.250.2.9651 > 172.31.29.29.53408: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 1073898678 ecr 1400371554], length 137
+05:27:22.454370 ens5  Out IP 172.31.29.29.9651 > 107.23.226.228.35590: Flags [.], ack 274, win 442, options [nop,nop,TS val 2016474381 ecr 396259047], length 0
+05:27:22.454374 ens5  Out IP 172.31.29.29.56906 > 52.45.71.227.9651: Flags [.], ack 248, win 443, options [nop,nop,TS val 676040778 ecr 3085030898], length 0
+05:27:22.454378 ens5  In  IP 3.217.115.114.9651 > 172.31.29.29.60464: Flags [P.], seq 1:138, ack 111, win 4005, options [nop,nop,TS val 2982904736 ecr 2430793439], length 137
+05:27:22.454392 ens5  In  IP 34.202.51.225.55254 > 172.31.29.29.9651: Flags [.], ack 470, win 443, options [nop,nop,TS val 892857975 ecr 1061132962], length 0
+05:27:22.454392 ens5  In  IP 35.169.66.196.38146 > 172.31.29.29.9651: Flags [P.], seq 333:470, ack 523, win 4173, options [nop,nop,TS val 2821450750 ecr 3222091368], length 137
+05:27:22.454392 ens5  In  IP 50.19.116.199.9651 > 172.31.29.29.48890: Flags [P.], seq 470:607, ack 497, win 442, options [nop,nop,TS val 1474778802 ecr 1773884325], length 137
+05:27:22.454427 ens5  Out IP 172.31.29.29.9651 > 44.210.177.215.60188: Flags [.], ack 523, win 442, options [nop,nop,TS val 3115199392 ecr 290274867], length 0
+05:27:22.454436 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 333:559, ack 497, win 3454, options [nop,nop,TS val 27789997 ecr 1373135949], length 226
+05:27:22.454449 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 497:634, ack 559, win 442, options [nop,nop,TS val 1373135950 ecr 27789997], length 137
+05:27:22.454453 ens5  Out IP 172.31.29.29.55056 > 98.82.251.216.9651: Flags [P.], seq 386:523, ack 470, win 443, options [nop,nop,TS val 164022741 ecr 1988532705], length 137
+05:27:22.454494 ens5  In  IP 35.174.148.147.45356 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 1875538395 ecr 2382509824], length 137
+05:27:22.454494 ens5  In  IP 54.197.55.84.60110 > 172.31.29.29.9651: Flags [P.], seq 111:248, ack 249, win 3276, options [nop,nop,TS val 1395579757 ecr 3959099024], length 137
+05:27:22.454494 ens5  In  IP 34.203.168.140.53994 > 172.31.29.29.9651: Flags [.], ack 582, win 2315, options [nop,nop,TS val 1552758889 ecr 44398144], length 0
+05:27:22.454494 ens5  In  IP 44.210.177.215.60188 > 172.31.29.29.9651: Flags [P.], seq 523:660, ack 444, win 680, options [nop,nop,TS val 290274867 ecr 3115199391], length 137
+05:27:22.454494 ens5  In  IP 34.203.168.140.53994 > 172.31.29.29.9651: Flags [P.], seq 637:774, ack 582, win 2315, options [nop,nop,TS val 1552758889 ecr 44398144], length 137
+05:27:22.454499 ens5  Out IP 172.31.29.29.48890 > 50.19.116.199.9651: Flags [.], ack 607, win 443, options [nop,nop,TS val 1773884351 ecr 1474778802], length 0
+05:27:22.454521 ens5  Out IP 172.31.29.29.9651 > 107.20.201.207.58582: Flags [.], ack 386, win 442, options [nop,nop,TS val 2463805851 ecr 1480040924], length 0
+05:27:22.454525 ens5  In  IP 23.21.204.131.45034 > 172.31.29.29.9651: Flags [.], ack 581, win 443, options [nop,nop,TS val 615928088 ecr 2478978608], length 0
+05:27:22.454525 ens5  In  IP 34.202.51.225.55254 > 172.31.29.29.9651: Flags [P.], seq 386:523, ack 470, win 443, options [nop,nop,TS val 892857975 ecr 1061132962], length 137
+05:27:22.454525 ens5  In  IP 23.21.204.131.45034 > 172.31.29.29.9651: Flags [P.], seq 523:660, ack 581, win 443, options [nop,nop,TS val 615928088 ecr 2478978608], length 137
+05:27:22.454557 ens5  Out IP 172.31.29.29.9651 > 3.228.129.216.35078: Flags [P.], seq 248:385, ack 223, win 442, options [nop,nop,TS val 1162446891 ecr 1700448410], length 137
+05:27:22.454563 ens5  In  IP 18.215.11.46.9651 > 172.31.29.29.50652: Flags [.], ack 523, win 442, options [nop,nop,TS val 431838652 ecr 71804694], length 0
+05:27:22.454565 ens5  Out IP 172.31.29.29.9651 > 35.174.148.147.45356: Flags [.], ack 138, win 442, options [nop,nop,TS val 2382509825 ecr 1875538395], length 0
+05:27:22.454587 ens5  Out IP 172.31.29.29.9651 > 44.210.177.215.60188: Flags [P.], seq 444:581, ack 660, win 442, options [nop,nop,TS val 3115199392 ecr 290274867], length 137
+05:27:22.454593 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [P.], seq 855:992, ack 856, win 442, options [nop,nop,TS val 2511453808 ecr 1968103431], length 137
+05:27:22.454645 ens5  In  IP 52.70.38.106.58350 > 172.31.29.29.9651: Flags [.], ack 608, win 2986, options [nop,nop,TS val 3476336585 ecr 844151671], length 0
+05:27:22.454645 ens5  In  IP 23.22.40.156.9651 > 172.31.29.29.39538: Flags [P.], seq 386:523, ack 470, win 442, options [nop,nop,TS val 2219909101 ecr 3770987728], length 137
+05:27:22.454645 ens5  In  IP 52.70.38.106.58350 > 172.31.29.29.9651: Flags [P.], seq 496:633, ack 608, win 2986, options [nop,nop,TS val 3476336585 ecr 844151671], length 137
+05:27:22.454665 ens5  In  IP 18.215.11.46.9651 > 172.31.29.29.50652: Flags [P.], seq 333:470, ack 523, win 442, options [nop,nop,TS val 431838653 ecr 71804694], length 137
+05:27:22.454709 ens5  In  IP 35.168.79.8.35030 > 172.31.29.29.9651: Flags [P.], seq 137:274, ack 223, win 443, options [nop,nop,TS val 3468165757 ecr 871299288], length 137
+05:27:22.454709 ens5  In  IP 3.225.79.249.42118 > 172.31.29.29.9651: Flags [P.], seq 1:138, ack 111, win 443, options [nop,nop,TS val 2217112657 ecr 549995004], length 137
+05:27:22.454723 ens5  In  IP 18.207.171.20.9651 > 172.31.29.29.50826: Flags [P.], seq 1:138, ack 111, win 3924, options [nop,nop,TS val 3306245679 ecr 711269794], length 137
+05:27:22.454750 ens5  Out IP 172.31.29.29.9651 > 3.225.79.249.42118: Flags [.], ack 138, win 442, options [nop,nop,TS val 549995005 ecr 2217112657], length 0
+05:27:22.454777 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [P.], seq 856:993, ack 855, win 443, options [nop,nop,TS val 1968103432 ecr 2511453807], length 137
+05:27:22.454777 ens5  In  IP 34.197.125.83.9651 > 172.31.29.29.46772: Flags [P.], seq 138:249, ack 111, win 442, options [nop,nop,TS val 3584154706 ecr 1873865655], length 111
+05:27:22.454785 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 634:803, ack 559, win 442, options [nop,nop,TS val 1373135950 ecr 27789997], length 169
+05:27:22.454792 ens5  Out IP 172.31.29.29.46772 > 34.197.125.83.9651: Flags [.], ack 249, win 443, options [nop,nop,TS val 1873865658 ecr 3584154706], length 0
+05:27:22.454805 ens5  Out IP 172.31.29.29.56906 > 52.45.71.227.9651: Flags [P.], seq 1:138, ack 248, win 443, options [nop,nop,TS val 676040779 ecr 3085030898], length 137
+05:27:22.454813 ens5  Out IP 172.31.29.29.9651 > 107.20.201.207.58582: Flags [P.], seq 222:359, ack 386, win 442, options [nop,nop,TS val 2463805851 ecr 1480040924], length 137
+05:27:22.454820 ens5  Out IP 172.31.29.29.48890 > 50.19.116.199.9651: Flags [P.], seq 497:634, ack 607, win 443, options [nop,nop,TS val 1773884351 ecr 1474778802], length 137
+05:27:22.454828 ens5  Out IP 172.31.29.29.47744 > 34.206.101.137.9651: Flags [P.], seq 111:248, ack 360, win 443, options [nop,nop,TS val 4994571 ecr 1922448660], length 137
+05:27:22.454860 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 559:696, ack 634, win 3455, options [nop,nop,TS val 27789998 ecr 1373135950], length 137
+05:27:22.454898 ens5  In  IP 3.228.129.216.35078 > 172.31.29.29.9651: Flags [P.], seq 223:360, ack 385, win 443, options [nop,nop,TS val 1700448411 ecr 1162446890], length 137
+05:27:22.454944 ens5  Out IP 172.31.29.29.47744 > 34.206.101.137.9651: Flags [P.], seq 248:385, ack 360, win 443, options [nop,nop,TS val 4994571 ecr 1922448660], length 137
+05:27:22.454959 ens5  Out IP 172.31.29.29.46772 > 34.197.125.83.9651: Flags [P.], seq 111:248, ack 249, win 443, options [nop,nop,TS val 1873865658 ecr 3584154706], length 137
+05:27:22.455034 ens5  In  IP 3.225.79.249.42118 > 172.31.29.29.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 2217112657 ecr 549995004], length 111
+05:27:22.455034 ens5  In  IP 54.236.131.114.9651 > 172.31.29.29.44990: Flags [P.], seq 607:718, ack 634, win 2940, options [nop,nop,TS val 2020063862 ecr 144501888], length 111
+05:27:22.455060 ens5  Out IP 172.31.29.29.9651 > 3.225.79.249.42118: Flags [.], ack 249, win 442, options [nop,nop,TS val 549995005 ecr 2217112657], length 0
+05:27:22.455111 ens5  Out IP 172.31.29.29.9651 > 3.225.79.249.42118: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 549995005 ecr 2217112657], length 137
+05:27:22.455119 ens5  Out IP 172.31.29.29.44990 > 54.236.131.114.9651: Flags [P.], seq 634:771, ack 718, win 443, options [nop,nop,TS val 144501891 ecr 2020063862], length 137
+05:27:22.455161 ens5  In  IP 3.225.79.249.42118 > 172.31.29.29.9651: Flags [P.], seq 249:360, ack 111, win 443, options [nop,nop,TS val 2217112657 ecr 549995005], length 111
+05:27:22.455217 ens5  Out IP 172.31.29.29.9651 > 3.225.79.249.42118: Flags [P.], seq 248:385, ack 360, win 442, options [nop,nop,TS val 549995005 ecr 2217112657], length 137
+05:27:22.455231 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 696:807, ack 803, win 3455, options [nop,nop,TS val 27789998 ecr 1373135950], length 111
+05:27:22.455247 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [.], ack 807, win 442, options [nop,nop,TS val 1373135950 ecr 27789998], length 0
+05:27:22.455271 ens5  In  IP 34.206.101.137.9651 > 172.31.29.29.47744: Flags [.], ack 385, win 2943, options [nop,nop,TS val 1922448661 ecr 4994571], length 0
+05:27:22.455356 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 803:1270, ack 807, win 442, options [nop,nop,TS val 1373135950 ecr 27789998], length 467
+05:27:22.455579 ens5  In  IP 23.22.40.156.9651 > 172.31.29.29.39538: Flags [P.], seq 523:634, ack 470, win 442, options [nop,nop,TS val 2219909102 ecr 3770987728], length 111
+05:27:22.455596 ens5  Out IP 172.31.29.29.39538 > 23.22.40.156.9651: Flags [.], ack 634, win 443, options [nop,nop,TS val 3770987730 ecr 2219909101], length 0
+05:27:22.455647 ens5  Out IP 172.31.29.29.39538 > 23.22.40.156.9651: Flags [P.], seq 470:607, ack 634, win 443, options [nop,nop,TS val 3770987730 ecr 2219909101], length 137
+05:27:22.455675 ens5  In  IP 54.158.175.165.47700 > 172.31.29.29.9651: Flags [P.], seq 248:359, ack 249, win 688, options [nop,nop,TS val 4228222456 ecr 4069969754], length 111
+05:27:22.455694 ens5  Out IP 172.31.29.29.9651 > 54.158.175.165.47700: Flags [.], ack 359, win 442, options [nop,nop,TS val 4069969786 ecr 4228222452], length 0
+05:27:22.455737 ens5  In  IP 3.225.79.249.42118 > 172.31.29.29.9651: Flags [.], ack 385, win 443, options [nop,nop,TS val 2217112658 ecr 549995005], length 0
+05:27:22.455737 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 807:918, ack 1270, win 3455, options [nop,nop,TS val 27789999 ecr 1373135950], length 111
+05:27:22.455753 ens5  Out IP 172.31.29.29.9651 > 54.158.175.165.47700: Flags [P.], seq 249:386, ack 359, win 442, options [nop,nop,TS val 4069969786 ecr 4228222452], length 137
+05:27:22.455846 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 1270:1918, ack 918, win 442, options [nop,nop,TS val 1373135951 ecr 27789999], length 648
+05:27:22.455855 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [P.], seq 604:714, ack 631, win 443, options [nop,nop,TS val 2070042621 ecr 623328209], length 110
+05:27:22.455863 ens5  In  IP 44.218.214.164.45946 > 172.31.29.29.9651: Flags [P.], seq 111:222, ack 138, win 443, options [nop,nop,TS val 2289518553 ecr 86914176], length 111
+05:27:22.455872 ens5  Out IP 172.31.29.29.9651 > 18.235.227.173.47648: Flags [.], ack 714, win 442, options [nop,nop,TS val 623328211 ecr 2070042619], length 0
+05:27:22.455916 ens5  Out IP 172.31.29.29.9651 > 18.235.227.173.47648: Flags [P.], seq 631:767, ack 714, win 442, options [nop,nop,TS val 623328211 ecr 2070042619], length 136
+05:27:22.455946 ens5  Out IP 172.31.29.29.9651 > 44.218.214.164.45946: Flags [P.], seq 138:275, ack 222, win 442, options [nop,nop,TS val 86914181 ecr 2289518553], length 137
+05:27:22.455976 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [P.], seq 714:824, ack 631, win 443, options [nop,nop,TS val 2070042621 ecr 623328209], length 110
+05:27:22.456027 ens5  Out IP 172.31.29.29.9651 > 18.235.227.173.47648: Flags [P.], seq 767:903, ack 824, win 442, options [nop,nop,TS val 623328211 ecr 2070042621], length 136
+05:27:22.456196 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 918:1029, ack 1918, win 3455, options [nop,nop,TS val 27789999 ecr 1373135951], length 111
+05:27:22.456288 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [.], ack 903, win 443, options [nop,nop,TS val 2070042621 ecr 623328211], length 0
+05:27:22.456293 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 1918:2385, ack 1029, win 442, options [nop,nop,TS val 1373135951 ecr 27789999], length 467
+05:27:22.456641 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 1029:1140, ack 2385, win 3455, options [nop,nop,TS val 27790000 ecr 1373135951], length 111
+05:27:22.456745 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 2385:2921, ack 1140, win 442, options [nop,nop,TS val 1373135952 ecr 27790000], length 536
+05:27:22.458411 ens5  Out IP 172.31.29.29.9651 > 18.233.204.144.40796: Flags [.], ack 138, win 442, options [nop,nop,TS val 1391673808 ecr 3045677865], length 0
+05:27:22.459412 ens5  Out IP 172.31.29.29.9651 > 34.197.104.250.42168: Flags [.], ack 138, win 442, options [nop,nop,TS val 3294444355 ecr 41224543], length 0
+05:27:22.459882 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 1140:1251, ack 2921, win 3455, options [nop,nop,TS val 27790003 ecr 1373135952], length 111
+05:27:22.459964 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 2921:3058, ack 1251, win 442, options [nop,nop,TS val 1373135955 ecr 27790003], length 137
+05:27:22.460159 ens5  In  IP 34.206.248.174.9651 > 172.31.29.29.36052: Flags [.], ack 138, win 3694, options [nop,nop,TS val 3513449120 ecr 3441861690], length 0
+05:27:22.460907 ens5  In  IP 18.233.119.27.53100 > 172.31.29.29.9651: Flags [P.], seq 222:333, ack 275, win 684, options [nop,nop,TS val 2103730550 ecr 3557128807], length 111
+05:27:22.460985 ens5  Out IP 172.31.29.29.9651 > 18.233.119.27.53100: Flags [P.], seq 275:412, ack 333, win 442, options [nop,nop,TS val 3557128817 ecr 2103730550], length 137
+05:27:22.461132 ens5  In  IP 3.227.69.165.53606 > 172.31.29.29.9651: Flags [.], ack 138, win 3520, options [nop,nop,TS val 649561080 ecr 635146394], length 0
+05:27:22.461943 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [.], ack 1000, win 1632, options [nop,nop,TS val 3877953131 ecr 4270885082], length 0
+05:27:22.462115 ens5  In  IP 18.207.74.220.9651 > 172.31.29.29.39358: Flags [P.], seq 359:470, ack 386, win 2672, options [nop,nop,TS val 3798438205 ecr 1603004318], length 111
+05:27:22.462139 ens5  Out IP 172.31.29.29.39358 > 18.207.74.220.9651: Flags [.], ack 470, win 443, options [nop,nop,TS val 1603004329 ecr 3798438194], length 0
+05:27:22.462200 ens5  Out IP 172.31.29.29.39358 > 18.207.74.220.9651: Flags [P.], seq 386:523, ack 470, win 443, options [nop,nop,TS val 1603004329 ecr 3798438194], length 137
+05:27:22.462515 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [.], ack 1222, win 2786, options [nop,nop,TS val 2516809444 ecr 1600446606], length 0
+05:27:22.462587 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [P.], seq 1008:1145, ack 1000, win 1632, options [nop,nop,TS val 3877953132 ecr 4270885082], length 137
+05:27:22.462972 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [P.], seq 1167:1304, ack 1333, win 2786, options [nop,nop,TS val 2516809445 ecr 1600446609], length 137
+05:27:22.463097 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [P.], seq 1304:1556, ack 1333, win 2786, options [nop,nop,TS val 2516809445 ecr 1600446609], length 252
+05:27:22.463114 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [.], ack 1556, win 4631, options [nop,nop,TS val 1600446618 ecr 2516809445], length 0
+05:27:22.463165 ens5  Out IP 172.31.29.29.48206 > 52.54.223.196.9651: Flags [P.], seq 359:470, ack 386, win 443, options [nop,nop,TS val 2222008222 ecr 2379255080], length 111
+05:27:22.463171 ens5  Out IP 172.31.29.29.9651 > 34.197.148.157.39988: Flags [P.], seq 385:496, ack 360, win 442, options [nop,nop,TS val 1621845488 ecr 2284499993], length 111
+05:27:22.463180 ens5  Out IP 172.31.29.29.46772 > 34.197.125.83.9651: Flags [P.], seq 248:359, ack 249, win 443, options [nop,nop,TS val 1873865666 ecr 3584154706], length 111
+05:27:22.463184 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 3058:3169, ack 1251, win 442, options [nop,nop,TS val 1373135958 ecr 27790003], length 111
+05:27:22.463190 ens5  Out IP 172.31.29.29.47744 > 34.206.101.137.9651: Flags [P.], seq 385:496, ack 360, win 443, options [nop,nop,TS val 4994579 ecr 1922448661], length 111
+05:27:22.463190 ens5  Out IP 172.31.29.29.9651 > 44.211.0.202.41076: Flags [P.], seq 111:222, ack 138, win 442, options [nop,nop,TS val 90204266 ecr 655955348], length 111
+05:27:22.463199 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 1000:1111, ack 1145, win 443, options [nop,nop,TS val 4270885094 ecr 3877953132], length 111
+05:27:22.463202 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 1333:1444, ack 1556, win 4631, options [nop,nop,TS val 1600446618 ecr 2516809445], length 111
+05:27:22.463206 ens5  Out IP 172.31.29.29.9651 > 3.232.45.182.37336: Flags [P.], seq 523:634, ack 607, win 3528, options [nop,nop,TS val 1292739701 ecr 814949245], length 111
+05:27:22.463211 ens5  Out IP 172.31.29.29.51774 > 44.223.151.51.9651: Flags [P.], seq 137:248, ack 112, win 443, options [nop,nop,TS val 2937563231 ecr 1753482321], length 111
+05:27:22.463211 ens5  Out IP 172.31.29.29.9651 > 3.227.69.165.53606: Flags [P.], seq 138:249, ack 111, win 4631, options [nop,nop,TS val 635146436 ecr 649561080], length 111
+05:27:22.463336 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [.], ack 634, win 2560, options [nop,nop,TS val 814949256 ecr 1292739691], length 0
+05:27:22.463379 ens5  In  IP 34.197.148.157.39988 > 172.31.29.29.9651: Flags [.], ack 496, win 443, options [nop,nop,TS val 2284500005 ecr 1621845476], length 0
+05:27:22.463388 ens5  In  IP 52.54.223.196.9651 > 172.31.29.29.48206: Flags [P.], seq 386:523, ack 470, win 442, options [nop,nop,TS val 2379255090 ecr 2222008222], length 137
+05:27:22.463388 ens5  In  IP 3.227.69.165.53606 > 172.31.29.29.9651: Flags [.], ack 249, win 3520, options [nop,nop,TS val 649561082 ecr 635146436], length 0
+05:27:22.463388 ens5  In  IP 44.223.151.51.9651 > 172.31.29.29.51774: Flags [.], ack 248, win 442, options [nop,nop,TS val 1753482333 ecr 2937563220], length 0
+05:27:22.463388 ens5  In  IP 44.223.151.51.9651 > 172.31.29.29.51774: Flags [P.], seq 112:249, ack 248, win 442, options [nop,nop,TS val 1753482333 ecr 2937563220], length 137
+05:27:22.463388 ens5  In  IP 3.227.69.165.53606 > 172.31.29.29.9651: Flags [P.], seq 111:248, ack 249, win 3520, options [nop,nop,TS val 649561082 ecr 635146436], length 137
+05:27:22.463417 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [P.], seq 607:833, ack 634, win 2560, options [nop,nop,TS val 814949256 ecr 1292739691], length 226
+05:27:22.463417 ens5  In  IP 34.197.125.83.9651 > 172.31.29.29.46772: Flags [.], ack 359, win 442, options [nop,nop,TS val 3584154714 ecr 1873865658], length 0
+05:27:22.463443 ens5  In  IP 34.197.148.157.39988 > 172.31.29.29.9651: Flags [P.], seq 360:497, ack 496, win 443, options [nop,nop,TS val 2284500006 ecr 1621845476], length 137
+05:27:22.463474 ens5  In  IP 34.206.101.137.9651 > 172.31.29.29.47744: Flags [P.], seq 360:497, ack 496, win 2943, options [nop,nop,TS val 1922448669 ecr 4994579], length 137
+05:27:22.463479 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [.], ack 3169, win 3455, options [nop,nop,TS val 27790006 ecr 1373135955], length 0
+05:27:22.463479 ens5  In  IP 34.197.125.83.9651 > 172.31.29.29.46772: Flags [P.], seq 249:386, ack 359, win 442, options [nop,nop,TS val 3584154715 ecr 1873865658], length 137
+05:27:22.463517 ens5  In  IP 44.211.0.202.41076 > 172.31.29.29.9651: Flags [P.], seq 138:275, ack 222, win 2565, options [nop,nop,TS val 655955387 ecr 90204266], length 137
+05:27:22.463543 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 1251:1388, ack 3169, win 3455, options [nop,nop,TS val 27790007 ecr 1373135955], length 137
+05:27:22.463617 ens5  Out IP 172.31.29.29.9651 > 3.232.45.182.37336: Flags [P.], seq 634:803, ack 833, win 3528, options [nop,nop,TS val 1292739702 ecr 814949256], length 169
+05:27:22.463640 ens5  In  IP 34.203.168.140.53994 > 172.31.29.29.9651: Flags [P.], seq 774:885, ack 582, win 2315, options [nop,nop,TS val 1552758898 ecr 44398144], length 111
+05:27:22.463660 ens5  Out IP 172.31.29.29.9651 > 34.203.168.140.53994: Flags [.], ack 885, win 2521, options [nop,nop,TS val 44398156 ecr 1552758889], length 0
+05:27:22.463706 ens5  In  IP 23.23.81.139.9651 > 172.31.29.29.54662: Flags [P.], seq 359:470, ack 386, win 442, options [nop,nop,TS val 757288126 ecr 1176657375], length 111
+05:27:22.463710 ens5  Out IP 172.31.29.29.9651 > 34.203.168.140.53994: Flags [P.], seq 582:719, ack 885, win 2521, options [nop,nop,TS val 44398156 ecr 1552758889], length 137
+05:27:22.463772 ens5  Out IP 172.31.29.29.54662 > 23.23.81.139.9651: Flags [P.], seq 386:523, ack 470, win 443, options [nop,nop,TS val 1176657385 ecr 757288126], length 137
+05:27:22.463840 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [P.], seq 833:944, ack 803, win 2560, options [nop,nop,TS val 814949257 ecr 1292739702], length 111
+05:27:22.463898 ens5  In  IP 34.196.243.223.34980 > 172.31.29.29.9651: Flags [P.], seq 249:360, ack 248, win 3087, options [nop,nop,TS val 2735105372 ecr 4286175378], length 111
+05:27:22.463940 ens5  Out IP 172.31.29.29.9651 > 3.232.45.182.37336: Flags [P.], seq 803:1270, ack 944, win 3528, options [nop,nop,TS val 1292739702 ecr 814949257], length 467
+05:27:22.463970 ens5  Out IP 172.31.29.29.9651 > 34.196.243.223.34980: Flags [P.], seq 248:385, ack 360, win 442, options [nop,nop,TS val 4286175390 ecr 2735105372], length 137
+05:27:22.464023 ens5  In  IP 44.223.151.51.9651 > 172.31.29.29.51774: Flags [P.], seq 249:360, ack 248, win 442, options [nop,nop,TS val 1753482333 ecr 2937563220], length 111
+05:27:22.464041 ens5  Out IP 172.31.29.29.51774 > 44.223.151.51.9651: Flags [.], ack 360, win 443, options [nop,nop,TS val 2937563232 ecr 1753482333], length 0
+05:27:22.464087 ens5  Out IP 172.31.29.29.51774 > 44.223.151.51.9651: Flags [P.], seq 248:385, ack 360, win 443, options [nop,nop,TS val 2937563232 ecr 1753482333], length 137
+05:27:22.464153 ens5  In  IP 44.223.151.51.9651 > 172.31.29.29.51774: Flags [P.], seq 360:471, ack 248, win 442, options [nop,nop,TS val 1753482333 ecr 2937563232], length 111
+05:27:22.464183 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [P.], seq 944:1055, ack 1270, win 2560, options [nop,nop,TS val 814949257 ecr 1292739702], length 111
+05:27:22.464219 ens5  Out IP 172.31.29.29.51774 > 44.223.151.51.9651: Flags [P.], seq 385:522, ack 471, win 443, options [nop,nop,TS val 2937563232 ecr 1753482333], length 137
+05:27:22.464289 ens5  Out IP 172.31.29.29.9651 > 3.232.45.182.37336: Flags [P.], seq 1270:1918, ack 1055, win 3528, options [nop,nop,TS val 1292739702 ecr 814949257], length 648
+05:27:22.464308 ens5  In  IP 52.71.181.255.33636 > 172.31.29.29.9651: Flags [P.], seq 111:222, ack 138, win 2285, options [nop,nop,TS val 507113649 ecr 1262642679], length 111
+05:27:22.464372 ens5  Out IP 172.31.29.29.9651 > 52.71.181.255.33636: Flags [P.], seq 138:275, ack 222, win 442, options [nop,nop,TS val 1262642715 ecr 507113649], length 137
+05:27:22.464414 ens5  Out IP 172.31.29.29.9651 > 23.22.195.89.35376: Flags [.], ack 248, win 442, options [nop,nop,TS val 3561901414 ecr 1464506687], length 0
+05:27:22.464419 ens5  Out IP 172.31.29.29.48338 > 44.214.160.107.9651: Flags [.], ack 248, win 443, options [nop,nop,TS val 2168956386 ecr 4179017123], length 0
+05:27:22.464481 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [P.], seq 1055:1166, ack 1918, win 2560, options [nop,nop,TS val 814949257 ecr 1292739702], length 111
+05:27:22.464487 ens5  In  IP 44.223.151.51.9651 > 172.31.29.29.51774: Flags [.], ack 522, win 442, options [nop,nop,TS val 1753482334 ecr 2937563232], length 0
+05:27:22.464517 ens5  In  IP 35.174.148.147.45356 > 172.31.29.29.9651: Flags [P.], seq 138:249, ack 111, win 443, options [nop,nop,TS val 1875538405 ecr 2382509825], length 111
+05:27:22.464517 ens5  In  IP 54.86.40.233.55666 > 172.31.29.29.9651: Flags [P.], seq 112:223, ack 137, win 443, options [nop,nop,TS val 1532142286 ecr 3891294972], length 111
+05:27:22.464555 ens5  Out IP 172.31.29.29.9651 > 35.174.148.147.45356: Flags [.], ack 249, win 442, options [nop,nop,TS val 2382509835 ecr 1875538405], length 0
+05:27:22.464617 ens5  In  IP 52.70.38.106.58350 > 172.31.29.29.9651: Flags [P.], seq 633:744, ack 608, win 2986, options [nop,nop,TS val 3476336595 ecr 844151671], length 111
+05:27:22.464617 ens5  In  IP 3.230.225.34.9651 > 172.31.29.29.33442: Flags [P.], seq 112:223, ack 137, win 442, options [nop,nop,TS val 3989820707 ecr 2710452096], length 111
+05:27:22.464625 ens5  Out IP 172.31.29.29.9651 > 35.174.148.147.45356: Flags [P.], seq 111:248, ack 249, win 442, options [nop,nop,TS val 2382509835 ecr 1875538405], length 137
+05:27:22.464628 ens5  In  IP 35.168.79.8.35030 > 172.31.29.29.9651: Flags [P.], seq 274:385, ack 223, win 443, options [nop,nop,TS val 3468165767 ecr 871299288], length 111
+05:27:22.464638 ens5  Out IP 172.31.29.29.9651 > 3.232.45.182.37336: Flags [P.], seq 1918:2385, ack 1166, win 3528, options [nop,nop,TS val 1292739703 ecr 814949257], length 467
+05:27:22.464662 ens5  Out IP 172.31.29.29.9651 > 54.86.40.233.55666: Flags [P.], seq 137:274, ack 223, win 442, options [nop,nop,TS val 3891294984 ecr 1532142286], length 137
+05:27:22.464663 ens5  Out IP 172.31.29.29.9651 > 52.70.38.106.58350: Flags [.], ack 744, win 442, options [nop,nop,TS val 844151683 ecr 3476336585], length 0
+05:27:22.464665 ens5  Out IP 172.31.29.29.9651 > 35.168.79.8.35030: Flags [.], ack 385, win 442, options [nop,nop,TS val 871299299 ecr 3468165757], length 0
+05:27:22.464735 ens5  Out IP 172.31.29.29.9651 > 52.70.38.106.58350: Flags [P.], seq 608:745, ack 744, win 442, options [nop,nop,TS val 844151683 ecr 3476336585], length 137
+05:27:22.464739 ens5  In  IP 34.205.163.144.53986 > 172.31.29.29.9651: Flags [P.], seq 275:386, ack 222, win 443, options [nop,nop,TS val 301315973 ecr 2911460990], length 111
+05:27:22.464744 ens5  Out IP 172.31.29.29.33442 > 3.230.225.34.9651: Flags [P.], seq 137:274, ack 223, win 443, options [nop,nop,TS val 2710452109 ecr 3989820707], length 137
+05:27:22.464755 ens5  Out IP 172.31.29.29.9651 > 35.168.79.8.35030: Flags [P.], seq 223:360, ack 385, win 442, options [nop,nop,TS val 871299299 ecr 3468165757], length 137
+05:27:22.464762 ens5  In  IP 98.82.251.216.9651 > 172.31.29.29.55056: Flags [P.], seq 470:581, ack 523, win 442, options [nop,nop,TS val 1988532716 ecr 164022741], length 111
+05:27:22.464767 ens5  Out IP 172.31.29.29.9651 > 34.205.163.144.53986: Flags [.], ack 386, win 442, options [nop,nop,TS val 2911461004 ecr 301315960], length 0
+05:27:22.464801 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [P.], seq 1556:1693, ack 1333, win 2786, options [nop,nop,TS val 2516809447 ecr 1600446609], length 137
+05:27:22.464829 ens5  Out IP 172.31.29.29.55056 > 98.82.251.216.9651: Flags [P.], seq 523:660, ack 581, win 443, options [nop,nop,TS val 164022751 ecr 1988532716], length 137
+05:27:22.464850 ens5  In  IP 3.232.45.182.37336 > 172.31.29.29.9651: Flags [P.], seq 1166:1277, ack 2385, win 2560, options [nop,nop,TS val 814949258 ecr 1292739703], length 111
+05:27:22.464863 ens5  Out IP 172.31.29.29.9651 > 34.205.163.144.53986: Flags [P.], seq 222:359, ack 386, win 442, options [nop,nop,TS val 2911461004 ecr 301315960], length 137
+05:27:22.464954 ens5  Out IP 172.31.29.29.9651 > 3.232.45.182.37336: Flags [P.], seq 2385:2921, ack 1277, win 3528, options [nop,nop,TS val 1292739703 ecr 814949258], length 536
+05:27:22.465092 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [P.], seq 1145:1282, ack 1000, win 1632, options [nop,nop,TS val 3877953134 ecr 4270885082], length 137
+05:27:22.465218 ens5  In  IP 34.205.163.144.53986 > 172.31.29.29.9651: Flags [P.], seq 386:497, ack 359, win 443, options [nop,nop,TS val 301315973 ecr 2911461004], length 111
+05:27:22.465255 ens5  In  IP 34.197.148.157.39988 > 172.31.29.29.9651: Flags [P.], seq 497:608, ack 496, win 443, options [nop,nop,TS val 2284500007 ecr 1621845476], length 111
+05:27:22.465272 ens5  Out IP 172.31.29.29.48920 > 3.93.84.116.9651: Flags [P.], seq 360:471, ack 385, win 443, options [nop,nop,TS val 2584566995 ecr 845189649], length 111
+05:27:22.465279 ens5  Out IP 172.31.29.29.9651 > 34.197.148.157.39988: Flags [.], ack 608, win 442, options [nop,nop,TS val 1621845490 ecr 2284500006], length 0
+05:27:22.465291 ens5  Out IP 172.31.29.29.9651 > 23.21.204.131.45034: Flags [P.], seq 581:692, ack 660, win 442, options [nop,nop,TS val 2478978621 ecr 615928088], length 111
+05:27:22.465298 ens5  Out IP 172.31.29.29.9651 > 54.197.102.41.55330: Flags [P.], seq 247:358, ack 248, win 2574, options [nop,nop,TS val 3078573281 ecr 1425065361], length 111
+05:27:22.465307 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 1111:1222, ack 1282, win 443, options [nop,nop,TS val 4270885096 ecr 3877953134], length 111
+05:27:22.465310 ens5  Out IP 172.31.29.29.9651 > 34.205.163.144.53986: Flags [P.], seq 359:496, ack 497, win 442, options [nop,nop,TS val 2911461004 ecr 301315973], length 137
+05:27:22.465317 ens5  Out IP 172.31.29.29.9651 > 35.174.148.147.45356: Flags [P.], seq 248:359, ack 249, win 442, options [nop,nop,TS val 2382509835 ecr 1875538405], length 111
+05:27:22.465319 ens5  Out IP 172.31.29.29.9651 > 18.235.227.173.47648: Flags [P.], seq 903:1014, ack 824, win 442, options [nop,nop,TS val 623328220 ecr 2070042621], length 111
+05:27:22.465327 ens5  Out IP 172.31.29.29.9651 > 34.195.184.106.56492: Flags [P.], seq 657329394:657329505, ack 4074244679, win 442, options [nop,nop,TS val 3048958959 ecr 1933689482], length 111
+05:27:22.465331 ens5  Out IP 172.31.29.29.9651 > 35.169.66.196.38146: Flags [P.], seq 523:634, ack 470, win 442, options [nop,nop,TS val 3222091380 ecr 2821450750], length 111
+05:27:22.465333 ens5  Out IP 172.31.29.29.46772 > 34.197.125.83.9651: Flags [P.], seq 359:470, ack 386, win 443, options [nop,nop,TS val 1873865668 ecr 3584154715], length 111
+05:27:22.465340 ens5  Out IP 172.31.29.29.9651 > 3.218.45.144.58526: Flags [P.], seq 607:718, ack 634, win 442, options [nop,nop,TS val 1603267963 ecr 608749059], length 111
+05:27:22.465349 ens5  Out IP 172.31.29.29.9651 > 54.197.55.84.60110: Flags [P.], seq 249:360, ack 248, win 3572, options [nop,nop,TS val 3959099035 ecr 1395579757], length 111
+05:27:22.465355 ens5  Out IP 172.31.29.29.53408 > 54.224.250.2.9651: Flags [P.], seq 249:360, ack 248, win 443, options [nop,nop,TS val 1400371565 ecr 1073898678], length 111
+05:27:22.465357 ens5  Out IP 172.31.29.29.9651 > 34.197.148.157.39988: Flags [P.], seq 496:633, ack 608, win 442, options [nop,nop,TS val 1621845490 ecr 2284500006], length 137
+05:27:22.465359 ens5  Out IP 172.31.29.29.9651 > 52.200.197.163.39696: Flags [P.], seq 359:470, ack 386, win 442, options [nop,nop,TS val 436507057 ecr 3335542351], length 111
+05:27:22.465363 ens5  Out IP 172.31.29.29.33442 > 3.230.225.34.9651: Flags [P.], seq 274:385, ack 223, win 443, options [nop,nop,TS val 2710452109 ecr 3989820707], length 111
+05:27:22.465502 ens5  In  IP 54.197.102.41.55330 > 172.31.29.29.9651: Flags [.], ack 358, win 443, options [nop,nop,TS val 1425065402 ecr 3078573269], length 0
+05:27:22.465514 ens5  In  IP 34.202.198.117.34782 > 172.31.29.29.9651: Flags [.], ack 275, win 443, options [nop,nop,TS val 55566544 ecr 3203003764], length 0
+05:27:22.465540 ens5  In  IP 35.174.148.147.45356 > 172.31.29.29.9651: Flags [.], ack 359, win 443, options [nop,nop,TS val 1875538406 ecr 2382509835], length 0
+05:27:22.465557 ens5  In  IP 23.21.204.131.45034 > 172.31.29.29.9651: Flags [P.], seq 660:797, ack 692, win 443, options [nop,nop,TS val 615928099 ecr 2478978621], length 137
+05:27:22.465566 ens5  In  IP 54.197.102.41.55330 > 172.31.29.29.9651: Flags [P.], seq 248:385, ack 358, win 443, options [nop,nop,TS val 1425065402 ecr 3078573269], length 137
+05:27:22.465676 ens5  In  IP 35.174.148.147.45356 > 172.31.29.29.9651: Flags [P.], seq 249:386, ack 359, win 443, options [nop,nop,TS val 1875538406 ecr 2382509835], length 137
+05:27:22.465676 ens5  In  IP 54.197.55.84.60110 > 172.31.29.29.9651: Flags [P.], seq 248:385, ack 360, win 3276, options [nop,nop,TS val 1395579768 ecr 3959099035], length 137
+05:27:22.465676 ens5  In  IP 98.83.188.107.9651 > 172.31.29.29.53086: Flags [P.], seq 364:475, ack 359, win 442, options [nop,nop,TS val 1048373143 ecr 3269554831], length 111
+05:27:22.465676 ens5  In  IP 3.93.84.116.9651 > 172.31.29.29.48920: Flags [P.], seq 385:522, ack 471, win 442, options [nop,nop,TS val 845189690 ecr 2584566995], length 137
+05:27:22.465691 ens5  In  IP 52.200.197.163.39696 > 172.31.29.29.9651: Flags [P.], seq 386:523, ack 470, win 443, options [nop,nop,TS val 3335542362 ecr 436507057], length 137
+05:27:22.465691 ens5  In  IP 3.230.225.34.9651 > 172.31.29.29.33442: Flags [.], ack 385, win 442, options [nop,nop,TS val 3989820708 ecr 2710452109], length 0
+05:27:22.465691 ens5  In  IP 34.195.184.106.56492 > 172.31.29.29.9651: Flags [P.], seq 1:112, ack 111, win 3219, options [nop,nop,TS val 1933689537 ecr 3048958959], length 111
+05:27:22.465691 ens5  In  IP 3.230.225.34.9651 > 172.31.29.29.33442: Flags [P.], seq 223:360, ack 385, win 442, options [nop,nop,TS val 3989820708 ecr 2710452109], length 137
+05:27:22.465691 ens5  In  IP 18.235.227.173.47648 > 172.31.29.29.9651: Flags [P.], seq 824:961, ack 1014, win 443, options [nop,nop,TS val 2070042630 ecr 623328220], length 137
+05:27:22.465692 ens5  In  IP 3.218.45.144.58526 > 172.31.29.29.9651: Flags [P.], seq 634:771, ack 718, win 443, options [nop,nop,TS val 608749070 ecr 1603267963], length 137
+05:27:22.465712 ens5  In  IP 44.218.214.164.45946 > 172.31.29.29.9651: Flags [P.], seq 222:333, ack 275, win 443, options [nop,nop,TS val 2289518563 ecr 86914181], length 111
+05:27:22.465771 ens5  Out IP 172.31.29.29.53086 > 98.83.188.107.9651: Flags [.], ack 475, win 443, options [nop,nop,TS val 3269554846 ecr 1048373131], length 0
+05:27:22.465773 ens5  In  IP 34.197.125.83.9651 > 172.31.29.29.46772: Flags [P.], seq 386:523, ack 470, win 442, options [nop,nop,TS val 3584154717 ecr 1873865668], length 137
+05:27:22.465830 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [P.], seq 1282:1534, ack 1000, win 1632, options [nop,nop,TS val 3877953135 ecr 4270885082], length 252
+05:27:22.465830 ens5  In  IP 35.169.66.196.38146 > 172.31.29.29.9651: Flags [P.], seq 470:696, ack 634, win 4173, options [nop,nop,TS val 2821450762 ecr 3222091380], length 226
+05:27:22.465887 ens5  Out IP 172.31.29.29.9651 > 44.218.214.164.45946: Flags [P.], seq 275:412, ack 333, win 442, options [nop,nop,TS val 86914191 ecr 2289518563], length 137
+05:27:22.465896 ens5  Out IP 172.31.29.29.9651 > 34.195.184.106.56492: Flags [P.], seq 111:248, ack 112, win 442, options [nop,nop,TS val 3048958960 ecr 1933689537], length 137
+05:27:22.465903 ens5  Out IP 172.31.29.29.53086 > 98.83.188.107.9651: Flags [P.], seq 359:496, ack 475, win 443, options [nop,nop,TS val 3269554846 ecr 1048373131], length 137
+05:27:22.465903 ens5  In  IP 34.234.4.103.51360 > 172.31.29.29.9651: Flags [P.], seq 390:501, ack 333, win 443, options [nop,nop,TS val 1642875093 ecr 3468170878], length 111
+05:27:22.465913 ens5  Out IP 172.31.29.29.9651 > 34.234.4.103.51360: Flags [.], ack 501, win 442, options [nop,nop,TS val 3468170915 ecr 1642875057], length 0
+05:27:22.466002 ens5  Out IP 172.31.29.29.9651 > 35.169.66.196.38146: Flags [P.], seq 634:803, ack 696, win 442, options [nop,nop,TS val 3222091381 ecr 2821450762], length 169
+05:27:22.466078 ens5  Out IP 172.31.29.29.42418 > 54.225.236.76.9651: Flags [P.], seq 137:248, ack 110, win 443, options [nop,nop,TS val 3481394629 ecr 4089821441], length 111
+05:27:22.466080 ens5  Out IP 172.31.29.29.9651 > 54.197.102.41.55330: Flags [P.], seq 358:469, ack 385, win 2574, options [nop,nop,TS val 3078573282 ecr 1425065402], length 111
+05:27:22.466089 ens5  Out IP 172.31.29.29.59998 > 107.23.180.98.9651: Flags [P.], seq 111:222, ack 138, win 443, options [nop,nop,TS val 766583754 ecr 2142080178], length 111
+05:27:22.466097 ens5  In  IP 54.224.250.2.9651 > 172.31.29.29.53408: Flags [P.], seq 248:385, ack 360, win 442, options [nop,nop,TS val 1073898690 ecr 1400371565], length 137
+05:27:22.466098 ens5  In  IP 54.86.40.233.55666 > 172.31.29.29.9651: Flags [P.], seq 223:334, ack 274, win 443, options [nop,nop,TS val 1532142288 ecr 3891294984], length 111
+05:27:22.466099 ens5  Out IP 172.31.29.29.47744 > 34.206.101.137.9651: Flags [P.], seq 496:607, ack 497, win 443, options [nop,nop,TS val 4994582 ecr 1922448669], length 111
+05:27:22.466104 ens5  Out IP 172.31.29.29.9651 > 3.228.129.216.35078: Flags [P.], seq 385:496, ack 360, win 442, options [nop,nop,TS val 1162446902 ecr 1700448411], length 111
+05:27:22.466113 ens5  Out IP 172.31.29.29.41714 > 54.146.211.74.9651: Flags [P.], seq 111:222, ack 138, win 443, options [nop,nop,TS val 3179460743 ecr 1506796969], length 111
+05:27:22.466114 ens5  Out IP 172.31.29.29.9651 > 18.215.213.100.53208: Flags [P.], seq 222:333, ack 275, win 442, options [nop,nop,TS val 403912782 ecr 2697682826], length 111
+05:27:22.466126 ens5  Out IP 172.31.29.29.9651 > 44.218.214.164.45946: Flags [P.], seq 412:523, ack 333, win 442, options [nop,nop,TS val 86914191 ecr 2289518563], length 111
+05:27:22.466129 ens5  Out IP 172.31.29.29.9651 > 52.3.189.202.52346: Flags [P.], seq 549:660, ack 444, win 442, options [nop,nop,TS val 368978576 ecr 2231945081], length 111
+05:27:22.466131 ens5  Out IP 172.31.29.29.9651 > 52.200.197.163.39696: Flags [P.], seq 470:581, ack 523, win 442, options [nop,nop,TS val 436507058 ecr 3335542362], length 111
+05:27:22.466137 ens5  Out IP 172.31.29.29.9651 > 34.196.243.223.34980: Flags [P.], seq 385:496, ack 360, win 442, options [nop,nop,TS val 4286175392 ecr 2735105372], length 111
+05:27:22.466140 ens5  Out IP 172.31.29.29.9651 > 23.21.204.131.45034: Flags [P.], seq 692:803, ack 797, win 442, options [nop,nop,TS val 2478978622 ecr 615928099], length 111
+05:27:22.466143 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 1444:1555, ack 1693, win 4631, options [nop,nop,TS val 1600446621 ecr 2516809447], length 111
+05:27:22.466154 ens5  Out IP 172.31.29.29.9651 > 23.22.195.89.35376: Flags [P.], seq 249:360, ack 248, win 442, options [nop,nop,TS val 3561901415 ecr 1464506687], length 111
+05:27:22.466160 ens5  In  IP 107.23.226.228.35590 > 172.31.29.29.9651: Flags [P.], seq 274:385, ack 223, win 2095, options [nop,nop,TS val 396259059 ecr 2016474381], length 111
+05:27:22.466161 ens5  In  IP 54.225.236.76.9651 > 172.31.29.29.42418: Flags [.], ack 248, win 442, options [nop,nop,TS val 4089821517 ecr 3481394590], length 0
+05:27:22.466168 ens5  Out IP 172.31.29.29.42476 > 54.227.196.194.9651: Flags [P.], seq 111:222, ack 138, win 443, options [nop,nop,TS val 2996064383 ecr 2291616979], length 111
+05:27:22.466175 ens5  Out IP 172.31.29.29.9651 > 34.195.184.106.56492: Flags [P.], seq 248:359, ack 112, win 442, options [nop,nop,TS val 3048958960 ecr 1933689537], length 111
+05:27:22.466184 ens5  Out IP 172.31.29.29.9651 > 44.218.214.164.45946: Flags [P.], seq 523:634, ack 333, win 442, options [nop,nop,TS val 86914191 ecr 2289518563], length 111
+05:27:22.466220 ens5  In  IP 18.207.171.20.9651 > 172.31.29.29.50826: Flags [P.], seq 138:249, ack 111, win 3924, options [nop,nop,TS val 3306245691 ecr 711269794], length 111
+05:27:22.466227 ens5  Out IP 172.31.29.29.51774 > 44.223.151.51.9651: Flags [P.], seq 522:633, ack 471, win 443, options [nop,nop,TS val 2937563234 ecr 1753482334], length 111
+05:27:22.466235 ens5  Out IP 172.31.29.29.9651 > 34.197.104.250.42168: Flags [P.], seq 111:222, ack 138, win 442, options [nop,nop,TS val 3294444361 ecr 41224543], length 111
+05:27:22.466235 ens5  Out IP 172.31.29.29.48206 > 52.54.223.196.9651: Flags [P.], seq 470:581, ack 523, win 443, options [nop,nop,TS val 2222008225 ecr 2379255090], length 111
+05:27:22.466238 ens5  Out IP 172.31.29.29.9651 > 18.215.213.100.53208: Flags [P.], seq 333:444, ack 275, win 442, options [nop,nop,TS val 403912782 ecr 2697682826], length 111
+05:27:22.466247 ens5  Out IP 172.31.29.29.39358 > 18.207.74.220.9651: Flags [P.], seq 523:634, ack 470, win 443, options [nop,nop,TS val 1603004333 ecr 3798438194], length 111
+05:27:22.466249 ens5  Out IP 172.31.29.29.48890 > 50.19.116.199.9651: Flags [P.], seq 634:745, ack 607, win 443, options [nop,nop,TS val 1773884362 ecr 1474778802], length 111
+05:27:22.466252 ens5  Out IP 172.31.29.29.9651 > 54.86.40.233.55666: Flags [P.], seq 274:411, ack 334, win 442, options [nop,nop,TS val 3891294985 ecr 1532142288], length 137
+05:27:22.466255 ens5  In  IP 54.225.236.76.9651 > 172.31.29.29.42418: Flags [P.], seq 110:247, ack 248, win 442, options [nop,nop,TS val 4089821517 ecr 3481394590], length 137
+05:27:22.466255 ens5  In  IP 34.195.184.106.56492 > 172.31.29.29.9651: Flags [P.], seq 112:249, ack 248, win 3219, options [nop,nop,TS val 1933689538 ecr 3048958960], length 137
+05:27:22.466256 ens5  Out IP 172.31.29.29.50826 > 18.207.171.20.9651: Flags [.], ack 249, win 443, options [nop,nop,TS val 711269806 ecr 3306245679], length 0
+05:27:22.466266 ens5  Out IP 172.31.29.29.42418 > 54.225.236.76.9651: Flags [P.], seq 248:359, ack 247, win 443, options [nop,nop,TS val 3481394629 ecr 4089821517], length 111
+05:27:22.466269 ens5  Out IP 172.31.29.29.9651 > 34.202.198.117.34782: Flags [P.], seq 275:386, ack 359, win 442, options [nop,nop,TS val 3203003805 ecr 55566544], length 111
+05:27:22.466270 ens5  Out IP 172.31.29.29.50652 > 18.215.11.46.9651: Flags [P.], seq 523:634, ack 470, win 443, options [nop,nop,TS val 71804706 ecr 431838653], length 111
+05:27:22.466279 ens5  Out IP 172.31.29.29.33442 > 3.230.225.34.9651: Flags [P.], seq 385:496, ack 360, win 443, options [nop,nop,TS val 2710452110 ecr 3989820708], length 111
+05:27:22.466283 ens5  Out IP 172.31.29.29.44990 > 54.236.131.114.9651: Flags [P.], seq 771:882, ack 718, win 443, options [nop,nop,TS val 144501902 ecr 2020063862], length 111
+05:27:22.466294 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 1222:1333, ack 1534, win 443, options [nop,nop,TS val 4270885097 ecr 3877953135], length 111
+05:27:22.466298 ens5  In  IP 34.196.243.223.34980 > 172.31.29.29.9651: Flags [.], ack 496, win 3087, options [nop,nop,TS val 2735105375 ecr 4286175390], length 0
+05:27:22.466298 ens5  In  IP 34.196.243.223.34980 > 172.31.29.29.9651: Flags [P.], seq 360:497, ack 496, win 3087, options [nop,nop,TS val 2735105375 ecr 4286175390], length 137
+05:27:22.466312 ens5  Out IP 172.31.29.29.9651 > 107.23.226.228.35590: Flags [P.], seq 223:449, ack 385, win 442, options [nop,nop,TS val 2016474393 ecr 396259059], length 226
+05:27:22.466314 ens5  Out IP 172.31.29.29.50826 > 18.207.171.20.9651: Flags [P.], seq 111:248, ack 249, win 443, options [nop,nop,TS val 711269806 ecr 3306245679], length 137
+05:27:22.466330 ens5  Out IP 172.31.29.29.9651 > 34.234.4.103.51360: Flags [P.], seq 333:470, ack 501, win 442, options [nop,nop,TS val 3468170915 ecr 1642875057], length 137
+05:27:22.466350 ens5  In  IP 54.197.102.41.55330 > 172.31.29.29.9651: Flags [P.], seq 385:522, ack 469, win 443, options [nop,nop,TS val 1425065403 ecr 3078573282], length 137
+05:27:22.466362 ens5  In  IP 44.218.214.164.45946 > 172.31.29.29.9651: Flags [.], ack 523, win 443, options [nop,nop,TS val 2289518563 ecr 86914191], length 0
+05:27:22.466374 ens5  In  IP 107.23.180.98.9651 > 172.31.29.29.59998: Flags [P.], seq 138:275, ack 222, win 442, options [nop,nop,TS val 2142080215 ecr 766583754], length 137
+05:27:22.466417 ens5  In  IP 3.228.129.216.35078 > 172.31.29.29.9651: Flags [P.], seq 360:497, ack 496, win 443, options [nop,nop,TS val 1700448422 ecr 1162446902], length 137
+05:27:22.466417 ens5  In  IP 107.21.238.130.9651 > 172.31.29.29.52988: Flags [P.], seq 470:581, ack 523, win 660, options [nop,nop,TS val 192308188 ecr 707390874], length 111
+05:27:22.466432 ens5  In  IP 44.218.214.164.45946 > 172.31.29.29.9651: Flags [P.], seq 333:470, ack 634, win 443, options [nop,nop,TS val 2289518563 ecr 86914191], length 137
+05:27:22.466432 ens5  In  IP 23.22.195.89.35376 > 172.31.29.29.9651: Flags [P.], seq 248:385, ack 360, win 443, options [nop,nop,TS val 1464506729 ecr 3561901415], length 137
+05:27:22.466437 ens5  In  IP 18.215.213.100.53208 > 172.31.29.29.9651: Flags [P.], seq 275:412, ack 333, win 443, options [nop,nop,TS val 2697682868 ecr 403912782], length 137
+05:27:22.466454 ens5  In  IP 54.146.211.74.9651 > 172.31.29.29.41714: Flags [P.], seq 138:275, ack 222, win 442, options [nop,nop,TS val 1506797007 ecr 3179460743], length 137
+05:27:22.466454 ens5  In  IP 44.223.151.51.9651 > 172.31.29.29.51774: Flags [P.], seq 471:608, ack 633, win 442, options [nop,nop,TS val 1753482336 ecr 2937563234], length 137
+05:27:22.466454 ens5  In  IP 52.200.197.163.39696 > 172.31.29.29.9651: Flags [P.], seq 523:660, ack 581, win 443, options [nop,nop,TS val 3335542363 ecr 436507058], length 137
+05:27:22.466454 ens5  In  IP 52.54.223.196.9651 > 172.31.29.29.48206: Flags [P.], seq 523:660, ack 581, win 442, options [nop,nop,TS val 2379255093 ecr 2222008225], length 137
+05:27:22.466454 ens5  In  IP 54.225.236.76.9651 > 172.31.29.29.42418: Flags [P.], seq 247:384, ack 359, win 442, options [nop,nop,TS val 4089821518 ecr 3481394629], length 137
+05:27:22.466454 ens5  In  IP 23.21.204.131.45034 > 172.31.29.29.9651: Flags [P.], seq 797:934, ack 803, win 443, options [nop,nop,TS val 615928100 ecr 2478978622], length 137
+05:27:22.466454 ens5  In  IP 18.207.74.220.9651 > 172.31.29.29.39358: Flags [.], ack 634, win 2672, options [nop,nop,TS val 3798438209 ecr 1603004329], length 0
+05:27:22.466461 ens5  Out IP 172.31.29.29.52988 > 107.21.238.130.9651: Flags [.], ack 581, win 443, options [nop,nop,TS val 707390890 ecr 192308175], length 0
+05:27:22.466484 ens5  In  IP 44.218.214.164.45946 > 172.31.29.29.9651: Flags [P.], seq 470:607, ack 634, win 443, options [nop,nop,TS val 2289518564 ecr 86914191], length 137
+05:27:22.466507 ens5  Out IP 172.31.29.29.9651 > 23.22.195.89.35376: Flags [.], ack 385, win 442, options [nop,nop,TS val 3561901416 ecr 1464506729], length 0
+05:27:22.466511 ens5  Out IP 172.31.29.29.9651 > 44.218.214.164.45946: Flags [.], ack 607, win 442, options [nop,nop,TS val 86914192 ecr 2289518563], length 0
+05:27:22.466514 ens5  In  IP 18.206.17.246.55882 > 172.31.29.29.9651: Flags [P.], seq 470:581, ack 523, win 2816, options [nop,nop,TS val 2845170318 ecr 2287681192], length 111
+05:27:22.466529 ens5  In  IP 34.206.101.137.9651 > 172.31.29.29.47744: Flags [P.], seq 497:634, ack 607, win 2943, options [nop,nop,TS val 1922448672 ecr 4994582], length 137
+05:27:22.466548 ens5  In  IP 18.215.213.100.53208 > 172.31.29.29.9651: Flags [P.], seq 412:549, ack 444, win 443, options [nop,nop,TS val 2697682868 ecr 403912782], length 137
+05:27:22.466551 ens5  In  IP 54.236.131.114.9651 > 172.31.29.29.44990: Flags [.], ack 882, win 2940, options [nop,nop,TS val 2020063874 ecr 144501891], length 0
+05:27:22.466579 ens5  Out IP 172.31.29.29.52988 > 107.21.238.130.9651: Flags [P.], seq 523:660, ack 581, win 443, options [nop,nop,TS val 707390890 ecr 192308175], length 137
+05:27:22.466586 ens5  In  IP 23.22.40.156.9651 > 172.31.29.29.39538: Flags [P.], seq 634:745, ack 607, win 442, options [nop,nop,TS val 2219909113 ecr 3770987730], length 111
+05:27:22.466586 ens5  In  IP 34.197.104.250.42168 > 172.31.29.29.9651: Flags [P.], seq 138:275, ack 222, win 443, options [nop,nop,TS val 41224591 ecr 3294444361], length 137
+05:27:22.466586 ens5  In  IP 35.169.66.196.38146 > 172.31.29.29.9651: Flags [P.], seq 696:807, ack 803, win 4173, options [nop,nop,TS val 2821450763 ecr 3222091381], length 111
+05:27:22.466586 ens5  In  IP 50.19.116.199.9651 > 172.31.29.29.48890: Flags [.], ack 745, win 442, options [nop,nop,TS val 1474778814 ecr 1773884351], length 0
+05:27:22.466586 ens5  In  IP 18.207.74.220.9651 > 172.31.29.29.39358: Flags [P.], seq 470:607, ack 634, win 2672, options [nop,nop,TS val 3798438209 ecr 1603004329], length 137
+05:27:22.466587 ens5  In  IP 3.230.225.34.9651 > 172.31.29.29.33442: Flags [P.], seq 360:497, ack 496, win 442, options [nop,nop,TS val 3989820709 ecr 2710452110], length 137
+05:27:22.466596 ens5  In  IP 18.215.11.46.9651 > 172.31.29.29.50652: Flags [P.], seq 470:607, ack 634, win 442, options [nop,nop,TS val 431838664 ecr 71804706], length 137
+05:27:22.466610 ens5  In  IP 34.202.198.117.34782 > 172.31.29.29.9651: Flags [.], ack 386, win 443, options [nop,nop,TS val 55566545 ecr 3203003805], length 0
+05:27:22.466620 ens5  Out IP 172.31.29.29.9651 > 34.197.104.250.42168: Flags [.], ack 275, win 442, options [nop,nop,TS val 3294444362 ecr 41224591], length 0
+05:27:22.466636 ens5  In  IP 52.3.189.202.52346 > 172.31.29.29.9651: Flags [.], ack 660, win 2848, options [nop,nop,TS val 2231945096 ecr 368978562], length 0
+05:27:22.466636 ens5  In  IP 52.3.189.202.52346 > 172.31.29.29.9651: Flags [P.], seq 444:581, ack 660, win 2848, options [nop,nop,TS val 2231945096 ecr 368978562], length 137
+05:27:22.466655 ens5  Out IP 172.31.29.29.9651 > 18.215.213.100.53208: Flags [.], ack 549, win 442, options [nop,nop,TS val 403912783 ecr 2697682868], length 0
+05:27:22.466662 ens5  In  IP 54.236.131.114.9651 > 172.31.29.29.44990: Flags [P.], seq 718:855, ack 882, win 2940, options [nop,nop,TS val 2020063874 ecr 144501891], length 137
+05:27:22.466712 ens5  Out IP 172.31.29.29.39538 > 23.22.40.156.9651: Flags [P.], seq 607:744, ack 745, win 443, options [nop,nop,TS val 3770987741 ecr 2219909113], length 137
+05:27:22.466722 ens5  In  IP 34.202.198.117.34782 > 172.31.29.29.9651: Flags [P.], seq 359:496, ack 386, win 443, options [nop,nop,TS val 55566545 ecr 3203003805], length 137
+05:27:22.466727 ens5  Out IP 172.31.29.29.9651 > 18.206.17.246.55882: Flags [P.], seq 523:660, ack 581, win 442, options [nop,nop,TS val 2287681235 ecr 2845170318], length 137
+05:27:22.466742 ens5  In  IP 107.23.226.228.35590 > 172.31.29.29.9651: Flags [P.], seq 385:522, ack 449, win 2095, options [nop,nop,TS val 396259060 ecr 2016474393], length 137
+05:27:22.466793 ens5  In  IP 50.19.116.199.9651 > 172.31.29.29.48890: Flags [P.], seq 607:744, ack 745, win 442, options [nop,nop,TS val 1474778815 ecr 1773884351], length 137
+05:27:22.466793 ens5  In  IP 54.227.196.194.9651 > 172.31.29.29.42476: Flags [P.], seq 138:275, ack 222, win 3407, options [nop,nop,TS val 2291617016 ecr 2996064383], length 137
+05:27:22.466918 ens5  Out IP 172.31.29.29.9651 > 35.169.66.196.38146: Flags [P.], seq 803:1270, ack 807, win 442, options [nop,nop,TS val 3222091382 ecr 2821450763], length 467
+05:27:22.466929 ens5  In  IP 3.225.79.249.42118 > 172.31.29.29.9651: Flags [P.], seq 360:471, ack 385, win 443, options [nop,nop,TS val 2217112669 ecr 549995005], length 111
+05:27:22.466994 ens5  Out IP 172.31.29.29.9651 > 3.225.79.249.42118: Flags [P.], seq 385:522, ack 471, win 442, options [nop,nop,TS val 549995017 ecr 2217112669], length 137
+05:27:22.467017 ens5  In  IP 34.195.184.106.56492 > 172.31.29.29.9651: Flags [P.], seq 249:386, ack 359, win 3219, options [nop,nop,TS val 1933689539 ecr 3048958960], length 137
+05:27:22.467030 ens5  Out IP 172.31.29.29.9651 > 34.195.184.106.56492: Flags [.], ack 386, win 442, options [nop,nop,TS val 3048958961 ecr 1933689538], length 0
+05:27:22.467043 ens5  In  IP 34.206.248.174.9651 > 172.31.29.29.36052: Flags [P.], seq 111:222, ack 138, win 3694, options [nop,nop,TS val 3513449126 ecr 3441861690], length 111
+05:27:22.467110 ens5  Out IP 172.31.29.29.36052 > 34.206.248.174.9651: Flags [P.], seq 138:275, ack 222, win 443, options [nop,nop,TS val 3441861738 ecr 3513449126], length 137
+05:27:22.467239 ens5  In  IP 54.236.131.114.9651 > 172.31.29.29.44990: Flags [P.], seq 855:966, ack 882, win 2940, options [nop,nop,TS val 2020063874 ecr 144501891], length 111
+05:27:22.467259 ens5  Out IP 172.31.29.29.44990 > 54.236.131.114.9651: Flags [.], ack 966, win 443, options [nop,nop,TS val 144501903 ecr 2020063874], length 0
+05:27:22.467274 ens5  In  IP 54.146.211.74.9651 > 172.31.29.29.41714: Flags [P.], seq 275:386, ack 222, win 442, options [nop,nop,TS val 1506797007 ecr 3179460743], length 111
+05:27:22.467306 ens5  Out IP 172.31.29.29.41714 > 54.146.211.74.9651: Flags [.], ack 386, win 443, options [nop,nop,TS val 3179460744 ecr 1506797007], length 0
+05:27:22.467322 ens5  Out IP 172.31.29.29.44990 > 54.236.131.114.9651: Flags [P.], seq 882:1019, ack 966, win 443, options [nop,nop,TS val 144501903 ecr 2020063874], length 137
+05:27:22.467362 ens5  Out IP 172.31.29.29.41714 > 54.146.211.74.9651: Flags [P.], seq 222:359, ack 386, win 443, options [nop,nop,TS val 3179460744 ecr 1506797007], length 137
+05:27:22.467439 ens5  In  IP 35.169.66.196.38146 > 172.31.29.29.9651: Flags [P.], seq 807:918, ack 1270, win 4173, options [nop,nop,TS val 2821450764 ecr 3222091382], length 111
+05:27:22.467516 ens5  In  IP 34.206.248.174.9651 > 172.31.29.29.36052: Flags [.], ack 275, win 3694, options [nop,nop,TS val 3513449127 ecr 3441861738], length 0
+05:27:22.467546 ens5  Out IP 172.31.29.29.9651 > 35.169.66.196.38146: Flags [P.], seq 1270:1918, ack 918, win 442, options [nop,nop,TS val 3222091383 ecr 2821450764], length 648
+05:27:22.467634 ens5  In  IP 23.23.81.139.9651 > 172.31.29.29.54662: Flags [P.], seq 470:581, ack 523, win 442, options [nop,nop,TS val 757288130 ecr 1176657385], length 111
+05:27:22.467693 ens5  In  IP 54.225.236.76.9651 > 172.31.29.29.42418: Flags [P.], seq 384:494, ack 359, win 442, options [nop,nop,TS val 4089821519 ecr 3481394629], length 110
+05:27:22.467711 ens5  Out IP 172.31.29.29.42418 > 54.225.236.76.9651: Flags [.], ack 494, win 443, options [nop,nop,TS val 3481394631 ecr 4089821518], length 0
+05:27:22.467715 ens5  Out IP 172.31.29.29.54662 > 23.23.81.139.9651: Flags [P.], seq 523:660, ack 581, win 443, options [nop,nop,TS val 1176657389 ecr 757288130], length 137
+05:27:22.467760 ens5  Out IP 172.31.29.29.42418 > 54.225.236.76.9651: Flags [P.], seq 359:495, ack 494, win 443, options [nop,nop,TS val 3481394631 ecr 4089821518], length 136
+05:27:22.467902 ens5  In  IP 18.215.11.46.9651 > 172.31.29.29.50652: Flags [P.], seq 607:718, ack 634, win 442, options [nop,nop,TS val 431838666 ecr 71804706], length 111
+05:27:22.467920 ens5  Out IP 172.31.29.29.50652 > 18.215.11.46.9651: Flags [.], ack 718, win 443, options [nop,nop,TS val 71804708 ecr 431838664], length 0
+05:27:22.467970 ens5  Out IP 172.31.29.29.50652 > 18.215.11.46.9651: Flags [P.], seq 634:771, ack 718, win 443, options [nop,nop,TS val 71804708 ecr 431838664], length 137
+05:27:22.467990 ens5  In  IP 3.93.84.116.9651 > 172.31.29.29.48920: Flags [P.], seq 522:633, ack 471, win 442, options [nop,nop,TS val 845189692 ecr 2584566995], length 111
+05:27:22.468010 ens5  Out IP 172.31.29.29.48920 > 3.93.84.116.9651: Flags [.], ack 633, win 443, options [nop,nop,TS val 2584566998 ecr 845189690], length 0
+05:27:22.468055 ens5  Out IP 172.31.29.29.48920 > 3.93.84.116.9651: Flags [P.], seq 471:608, ack 633, win 443, options [nop,nop,TS val 2584566998 ecr 845189690], length 137
+05:27:22.468083 ens5  In  IP 44.214.160.107.9651 > 172.31.29.29.48338: Flags [P.], seq 248:359, ack 249, win 442, options [nop,nop,TS val 4179017167 ecr 2168956386], length 111
+05:27:22.468103 ens5  Out IP 172.31.29.29.48338 > 44.214.160.107.9651: Flags [.], ack 359, win 443, options [nop,nop,TS val 2168956389 ecr 4179017167], length 0
+05:27:22.468122 ens5  In  IP 35.169.66.196.38146 > 172.31.29.29.9651: Flags [P.], seq 918:1029, ack 1918, win 4173, options [nop,nop,TS val 2821450764 ecr 3222091383], length 111
+05:27:22.468161 ens5  Out IP 172.31.29.29.48338 > 44.214.160.107.9651: Flags [P.], seq 249:386, ack 359, win 443, options [nop,nop,TS val 2168956389 ecr 4179017167], length 137
+05:27:22.468201 ens5  In  IP 54.158.175.165.47700 > 172.31.29.29.9651: Flags [P.], seq 359:470, ack 386, win 688, options [nop,nop,TS val 4228222469 ecr 4069969786], length 111
+05:27:22.468223 ens5  Out IP 172.31.29.29.9651 > 35.169.66.196.38146: Flags [P.], seq 1918:2385, ack 1029, win 442, options [nop,nop,TS val 3222091383 ecr 2821450764], length 467
+05:27:22.468253 ens5  In  IP 98.83.188.107.9651 > 172.31.29.29.53086: Flags [P.], seq 475:586, ack 496, win 442, options [nop,nop,TS val 1048373145 ecr 3269554846], length 111
+05:27:22.468253 ens5  In  IP 3.228.129.216.35078 > 172.31.29.29.9651: Flags [P.], seq 497:608, ack 496, win 443, options [nop,nop,TS val 1700448424 ecr 1162446902], length 111
+05:27:22.468266 ens5  Out IP 172.31.29.29.9651 > 54.158.175.165.47700: Flags [P.], seq 386:523, ack 470, win 442, options [nop,nop,TS val 4069969798 ecr 4228222469], length 137
+05:27:22.468282 ens5  Out IP 172.31.29.29.9651 > 3.228.129.216.35078: Flags [.], ack 608, win 442, options [nop,nop,TS val 1162446904 ecr 1700448422], length 0
+05:27:22.468357 ens5  Out IP 172.31.29.29.9651 > 3.228.129.216.35078: Flags [P.], seq 496:633, ack 608, win 442, options [nop,nop,TS val 1162446904 ecr 1700448422], length 137
+05:27:22.468366 ens5  Out IP 172.31.29.29.53086 > 98.83.188.107.9651: Flags [P.], seq 496:633, ack 586, win 443, options [nop,nop,TS val 3269554848 ecr 1048373145], length 137
+05:27:22.468530 ens5  In  IP 23.23.81.139.9651 > 172.31.29.29.54662: Flags [P.], seq 581:692, ack 660, win 442, options [nop,nop,TS val 757288131 ecr 1176657389], length 111
+05:27:22.468598 ens5  Out IP 172.31.29.29.54662 > 23.23.81.139.9651: Flags [P.], seq 660:797, ack 692, win 443, options [nop,nop,TS val 1176657390 ecr 757288131], length 137
+05:27:22.468676 ens5  In  IP 18.215.213.100.53208 > 172.31.29.29.9651: Flags [P.], seq 549:660, ack 444, win 443, options [nop,nop,TS val 2697682871 ecr 403912783], length 111
+05:27:22.468679 ens5  In  IP 35.169.66.196.38146 > 172.31.29.29.9651: Flags [P.], seq 1029:1140, ack 2385, win 4173, options [nop,nop,TS val 2821450765 ecr 3222091383], length 111
+05:27:22.468737 ens5  Out IP 172.31.29.29.9651 > 18.215.213.100.53208: Flags [P.], seq 444:581, ack 660, win 442, options [nop,nop,TS val 403912785 ecr 2697682871], length 137
+05:27:22.468753 ens5  In  IP 52.3.14.29.9651 > 172.31.29.29.45950: Flags [P.], seq 412:521, ack 333, win 616, options [nop,nop,TS val 2257523556 ecr 856881021], length 109
+05:27:22.468769 ens5  Out IP 172.31.29.29.45950 > 52.3.14.29.9651: Flags [.], ack 521, win 443, options [nop,nop,TS val 856881036 ecr 2257523541], length 0
+05:27:22.468793 ens5  In  IP 23.22.195.89.35376 > 172.31.29.29.9651: Flags [P.], seq 385:496, ack 360, win 443, options [nop,nop,TS val 1464506731 ecr 3561901416], length 111
+05:27:22.468807 ens5  Out IP 172.31.29.29.9651 > 23.22.195.89.35376: Flags [.], ack 496, win 442, options [nop,nop,TS val 3561901418 ecr 1464506731], length 0
+05:27:22.468850 ens5  Out IP 172.31.29.29.9651 > 23.22.195.89.35376: Flags [P.], seq 360:497, ack 496, win 442, options [nop,nop,TS val 3561901418 ecr 1464506731], length 137
+05:27:22.468868 ens5  Out IP 172.31.29.29.9651 > 35.169.66.196.38146: Flags [P.], seq 2385:2921, ack 1140, win 442, options [nop,nop,TS val 3222091384 ecr 2821450765], length 536
+05:27:22.468881 ens5  Out IP 172.31.29.29.45950 > 52.3.14.29.9651: Flags [P.], seq 333:468, ack 521, win 443, options [nop,nop,TS val 856881036 ecr 2257523541], length 135
+05:27:22.469226 ens5  In  IP 34.202.51.225.55254 > 172.31.29.29.9651: Flags [P.], seq 523:634, ack 470, win 443, options [nop,nop,TS val 892857990 ecr 1061132962], length 111
+05:27:22.469253 ens5  Out IP 172.31.29.29.9651 > 34.202.51.225.55254: Flags [.], ack 634, win 442, options [nop,nop,TS val 1061132980 ecr 892857975], length 0
+05:27:22.469305 ens5  Out IP 172.31.29.29.9651 > 34.202.51.225.55254: Flags [P.], seq 470:607, ack 634, win 442, options [nop,nop,TS val 1061132980 ecr 892857975], length 137
+05:27:22.469703 ens5  In  IP 50.19.116.199.9651 > 172.31.29.29.48890: Flags [P.], seq 744:855, ack 745, win 442, options [nop,nop,TS val 1474778818 ecr 1773884351], length 111
+05:27:22.469723 ens5  Out IP 172.31.29.29.48890 > 50.19.116.199.9651: Flags [.], ack 855, win 443, options [nop,nop,TS val 1773884366 ecr 1474778815], length 0
+05:27:22.469771 ens5  Out IP 172.31.29.29.48890 > 50.19.116.199.9651: Flags [P.], seq 745:882, ack 855, win 443, options [nop,nop,TS val 1773884366 ecr 1474778815], length 137
+05:27:22.469833 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [P.], seq 1534:1671, ack 1111, win 1632, options [nop,nop,TS val 3877953139 ecr 4270885094], length 137
+05:27:22.470084 ens5  In  IP 34.205.163.144.53986 > 172.31.29.29.9651: Flags [P.], seq 497:608, ack 496, win 443, options [nop,nop,TS val 301315978 ecr 2911461004], length 111
+05:27:22.470141 ens5  Out IP 172.31.29.29.9651 > 34.205.163.144.53986: Flags [P.], seq 496:633, ack 608, win 442, options [nop,nop,TS val 2911461009 ecr 301315978], length 137
+05:27:22.470156 ens5  In  IP 18.233.119.27.53100 > 172.31.29.29.9651: Flags [P.], seq 333:444, ack 412, win 684, options [nop,nop,TS val 2103730559 ecr 3557128817], length 111
+05:27:22.470222 ens5  Out IP 172.31.29.29.9651 > 18.233.119.27.53100: Flags [P.], seq 412:549, ack 444, win 442, options [nop,nop,TS val 3557128826 ecr 2103730559], length 137
+05:27:22.470350 ens5  In  IP 165.227.179.96.35002 > 172.31.29.29.9651: Flags [P.], seq 1693:1830, ack 1444, win 2786, options [nop,nop,TS val 2516809453 ecr 1600446618], length 137
+05:27:22.470546 ens5  Out IP 172.31.29.29.9651 > 98.80.46.175.42342: Flags [P.], seq 634:745, ack 744, win 442, options [nop,nop,TS val 1578183609 ecr 3131183116], length 111
+05:27:22.470561 ens5  Out IP 172.31.29.29.46772 > 34.197.125.83.9651: Flags [P.], seq 470:581, ack 523, win 443, options [nop,nop,TS val 1873865674 ecr 3584154717], length 111
+05:27:22.470562 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 1555:1666, ack 1830, win 4631, options [nop,nop,TS val 1600446626 ecr 2516809453], length 111
+05:27:22.470569 ens5  Out IP 172.31.29.29.50826 > 18.207.171.20.9651: Flags [P.], seq 248:359, ack 249, win 443, options [nop,nop,TS val 711269811 ecr 3306245679], length 111
+05:27:22.470571 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [P.], seq 992:1103, ack 993, win 442, options [nop,nop,TS val 2511453824 ecr 1968103432], length 111
+05:27:22.470572 ens5  Out IP 172.31.29.29.60222 > 104.236.110.97.9651: Flags [P.], seq 1333:1444, ack 1671, win 443, options [nop,nop,TS val 4270885102 ecr 3877953139], length 111
+05:27:22.470584 ens5  Out IP 172.31.29.29.52988 > 107.21.238.130.9651: Flags [P.], seq 660:771, ack 581, win 443, options [nop,nop,TS val 707390894 ecr 192308175], length 111
+05:27:22.470589 ens5  Out IP 172.31.29.29.9651 > 54.197.55.84.60110: Flags [P.], seq 360:471, ack 385, win 3572, options [nop,nop,TS val 3959099041 ecr 1395579768], length 111
+05:27:22.470591 ens5  Out IP 172.31.29.29.9651 > 34.203.168.140.53994: Flags [P.], seq 719:830, ack 885, win 2521, options [nop,nop,TS val 44398163 ecr 1552758889], length 111
+05:27:22.470592 ens5  Out IP 172.31.29.29.9651 > 54.174.93.130.53264: Flags [P.], seq 501:612, ack 470, win 442, options [nop,nop,TS val 1962823582 ecr 3373775799], length 111
+05:27:22.470597 ens5  Out IP 172.31.29.29.9651 > 44.210.177.215.60188: Flags [P.], seq 581:692, ack 660, win 442, options [nop,nop,TS val 3115199408 ecr 290274867], length 111
+05:27:22.470603 ens5  Out IP 172.31.29.29.9651 > 18.235.252.133.56194: Flags [P.], seq 385:496, ack 360, win 442, options [nop,nop,TS val 3559413670 ecr 191028173], length 111
+05:27:22.470605 ens5  Out IP 172.31.29.29.9651 > 35.174.148.147.45356: Flags [P.], seq 359:470, ack 386, win 442, options [nop,nop,TS val 2382509841 ecr 1875538406], length 111
+05:27:22.470743 ens5  In  IP 98.80.46.175.42342 > 172.31.29.29.9651: Flags [.], ack 745, win 443, options [nop,nop,TS val 3131183136 ecr 1578183589], length 0
+05:27:22.470815 ens5  In  IP 98.80.46.175.42342 > 172.31.29.29.9651: Flags [P.], seq 744:881, ack 745, win 443, options [nop,nop,TS val 3131183136 ecr 1578183589], length 137
+05:27:22.470815 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [.], ack 612, win 2940, options [nop,nop,TS val 3373775818 ecr 1962823563], length 0
+05:27:22.470884 ens5  In  IP 34.197.125.83.9651 > 172.31.29.29.46772: Flags [P.], seq 523:660, ack 581, win 442, options [nop,nop,TS val 3584154722 ecr 1873865674], length 137
+05:27:22.470884 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [.], ack 1103, win 443, options [nop,nop,TS val 1968103448 ecr 2511453808], length 0
+05:27:22.470913 ens5  In  IP 34.203.168.140.53994 > 172.31.29.29.9651: Flags [.], ack 830, win 2315, options [nop,nop,TS val 1552758905 ecr 44398156], length 0
+05:27:22.470913 ens5  In  IP 34.203.168.140.53994 > 172.31.29.29.9651: Flags [P.], seq 885:1022, ack 830, win 2315, options [nop,nop,TS val 1552758906 ecr 44398156], length 137
+05:27:22.470913 ens5  In  IP 54.197.55.84.60110 > 172.31.29.29.9651: Flags [P.], seq 385:522, ack 471, win 3276, options [nop,nop,TS val 1395579773 ecr 3959099041], length 137
+05:27:22.470913 ens5  In  IP 18.235.252.133.56194 > 172.31.29.29.9651: Flags [.], ack 496, win 3402, options [nop,nop,TS val 191028190 ecr 3559413653], length 0
+05:27:22.470913 ens5  In  IP 35.174.148.147.45356 > 172.31.29.29.9651: Flags [P.], seq 386:523, ack 470, win 443, options [nop,nop,TS val 1875538412 ecr 2382509841], length 137
+05:27:22.470913 ens5  In  IP 18.207.171.20.9651 > 172.31.29.29.50826: Flags [.], ack 359, win 3924, options [nop,nop,TS val 3306245695 ecr 711269806], length 0
+05:27:22.470913 ens5  In  IP 18.235.252.133.56194 > 172.31.29.29.9651: Flags [P.], seq 360:497, ack 496, win 3402, options [nop,nop,TS val 191028190 ecr 3559413653], length 137
+05:27:22.470913 ens5  In  IP 107.21.238.130.9651 > 172.31.29.29.52988: Flags [.], ack 771, win 660, options [nop,nop,TS val 192308192 ecr 707390890], length 0
+05:27:22.470942 ens5  In  IP 44.210.177.215.60188 > 172.31.29.29.9651: Flags [.], ack 692, win 680, options [nop,nop,TS val 290274884 ecr 3115199392], length 0
+05:27:22.470942 ens5  In  IP 18.207.171.20.9651 > 172.31.29.29.50826: Flags [P.], seq 249:386, ack 359, win 3924, options [nop,nop,TS val 3306245695 ecr 711269806], length 137
+05:27:22.470952 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [P.], seq 993:1130, ack 1103, win 443, options [nop,nop,TS val 1968103448 ecr 2511453808], length 137
+05:27:22.471006 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [P.], seq 470:581, ack 612, win 2940, options [nop,nop,TS val 3373775818 ecr 1962823563], length 111
+05:27:22.471064 ens5  In  IP 3.230.225.34.9651 > 172.31.29.29.33442: Flags [P.], seq 497:608, ack 496, win 442, options [nop,nop,TS val 3989820713 ecr 2710452110], length 111
+05:27:22.471081 ens5  Out IP 172.31.29.29.9651 > 54.174.93.130.53264: Flags [P.], seq 612:749, ack 581, win 442, options [nop,nop,TS val 1962823582 ecr 3373775818], length 137
+05:27:22.471085 ens5  Out IP 172.31.29.29.33442 > 3.230.225.34.9651: Flags [.], ack 608, win 443, options [nop,nop,TS val 2710452115 ecr 3989820709], length 0
+05:27:22.471105 ens5  In  IP 107.21.238.130.9651 > 172.31.29.29.52988: Flags [P.], seq 581:718, ack 771, win 660, options [nop,nop,TS val 192308192 ecr 707390890], length 137
+05:27:22.471105 ens5  In  IP 44.210.177.215.60188 > 172.31.29.29.9651: Flags [P.], seq 660:797, ack 692, win 680, options [nop,nop,TS val 290274884 ecr 3115199392], length 137
+05:27:22.471105 ens5  In  IP 54.197.55.84.60110 > 172.31.29.29.9651: Flags [P.], seq 522:633, ack 471, win 3276, options [nop,nop,TS val 1395579774 ecr 3959099041], length 111
+05:27:22.471131 ens5  Out IP 172.31.29.29.9651 > 54.197.55.84.60110: Flags [.], ack 633, win 3572, options [nop,nop,TS val 3959099041 ecr 1395579773], length 0
+05:27:22.471142 ens5  Out IP 172.31.29.29.33442 > 3.230.225.34.9651: Flags [P.], seq 496:633, ack 608, win 443, options [nop,nop,TS val 2710452115 ecr 3989820709], length 137
+05:27:22.471198 ens5  Out IP 172.31.29.29.9651 > 54.197.55.84.60110: Flags [P.], seq 471:608, ack 633, win 3572, options [nop,nop,TS val 3959099041 ecr 1395579773], length 137
+05:27:22.471551 ens5  In  IP 50.19.151.55.57148 > 172.31.29.29.9651: Flags [P.], seq 1130:1241, ack 1103, win 443, options [nop,nop,TS val 1968103449 ecr 2511453808], length 111
+05:27:22.471571 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [P.], seq 581:807, ack 749, win 2940, options [nop,nop,TS val 3373775819 ecr 1962823582], length 226
+05:27:22.471585 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [.], ack 1241, win 442, options [nop,nop,TS val 2511453825 ecr 1968103448], length 0
+05:27:22.471631 ens5  Out IP 172.31.29.29.9651 > 50.19.151.55.57148: Flags [P.], seq 1103:1240, ack 1241, win 442, options [nop,nop,TS val 2511453825 ecr 1968103448], length 137
+05:27:22.471648 ens5  In  IP 23.21.27.140.51594 > 172.31.29.29.9651: Flags [.], ack 138, win 4489, options [nop,nop,TS val 4065762465 ecr 808232268], length 0
+05:27:22.471718 ens5  Out IP 172.31.29.29.9651 > 54.174.93.130.53264: Flags [P.], seq 749:918, ack 807, win 442, options [nop,nop,TS val 1962823583 ecr 3373775819], length 169
+05:27:22.471838 ens5  In  IP 35.169.184.86.37708 > 172.31.29.29.9651: Flags [P.], seq 1388:1499, ack 3169, win 3455, options [nop,nop,TS val 27790015 ecr 1373135955], length 111
+05:27:22.471862 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [.], ack 1499, win 442, options [nop,nop,TS val 1373135967 ecr 27790007], length 0
+05:27:22.471915 ens5  Out IP 172.31.29.29.9651 > 35.169.184.86.37708: Flags [P.], seq 3169:3306, ack 1499, win 442, options [nop,nop,TS val 1373135967 ecr 27790007], length 137
+05:27:22.471986 ens5  In  IP 18.207.171.20.9651 > 172.31.29.29.50826: Flags [P.], seq 386:497, ack 359, win 3924, options [nop,nop,TS val 3306245696 ecr 711269806], length 111
+05:27:22.472006 ens5  Out IP 172.31.29.29.50826 > 18.207.171.20.9651: Flags [.], ack 497, win 443, options [nop,nop,TS val 711269812 ecr 3306245695], length 0
+05:27:22.472056 ens5  Out IP 172.31.29.29.50826 > 18.207.171.20.9651: Flags [P.], seq 359:496, ack 497, win 443, options [nop,nop,TS val 711269812 ecr 3306245695], length 137
+05:27:22.472087 ens5  In  IP 3.225.79.249.42118 > 172.31.29.29.9651: Flags [P.], seq 471:582, ack 522, win 443, options [nop,nop,TS val 2217112674 ecr 549995017], length 111
+05:27:22.472150 ens5  Out IP 172.31.29.29.9651 > 3.225.79.249.42118: Flags [P.], seq 522:659, ack 582, win 442, options [nop,nop,TS val 549995022 ecr 2217112674], length 137
+05:27:22.472362 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [P.], seq 807:918, ack 918, win 2940, options [nop,nop,TS val 3373775820 ecr 1962823583], length 111
+05:27:22.472476 ens5  Out IP 172.31.29.29.9651 > 54.174.93.130.53264: Flags [P.], seq 918:1385, ack 918, win 442, options [nop,nop,TS val 1962823584 ecr 3373775820], length 467
+05:27:22.472519 ens5  In  IP 34.206.59.82.51184 > 172.31.29.29.9651: Flags [P.], seq 386:497, ack 359, win 443, options [nop,nop,TS val 2051424059 ecr 1309041122], length 111
+05:27:22.472519 ens5  In  IP 35.168.79.8.35030 > 172.31.29.29.9651: Flags [P.], seq 385:496, ack 360, win 443, options [nop,nop,TS val 3468165775 ecr 871299299], length 111
+05:27:22.472552 ens5  Out IP 172.31.29.29.9651 > 34.206.59.82.51184: Flags [.], ack 497, win 442, options [nop,nop,TS val 1309041165 ecr 2051424040], length 0
+05:27:22.472612 ens5  Out IP 172.31.29.29.9651 > 34.206.59.82.51184: Flags [P.], seq 359:496, ack 497, win 442, options [nop,nop,TS val 1309041165 ecr 2051424040], length 137
+05:27:22.472621 ens5  Out IP 172.31.29.29.9651 > 35.168.79.8.35030: Flags [P.], seq 360:497, ack 496, win 442, options [nop,nop,TS val 871299307 ecr 3468165775], length 137
+05:27:22.472797 ens5  In  IP 35.168.79.8.35030 > 172.31.29.29.9651: Flags [P.], seq 496:607, ack 360, win 443, options [nop,nop,TS val 3468165775 ecr 871299299], length 111
+05:27:22.472844 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [P.], seq 918:1029, ack 1385, win 2940, options [nop,nop,TS val 3373775820 ecr 1962823584], length 111
+05:27:22.472858 ens5  Out IP 172.31.29.29.9651 > 35.168.79.8.35030: Flags [P.], seq 497:634, ack 607, win 442, options [nop,nop,TS val 871299307 ecr 3468165775], length 137
+05:27:22.472944 ens5  Out IP 172.31.29.29.9651 > 54.174.93.130.53264: Flags [P.], seq 1385:2033, ack 1029, win 442, options [nop,nop,TS val 1962823584 ecr 3373775820], length 648
+05:27:22.473050 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [.], ack 1333, win 1632, options [nop,nop,TS val 3877953142 ecr 4270885096], length 0
+05:27:22.473134 ens5  In  IP 18.233.119.27.53100 > 172.31.29.29.9651: Flags [P.], seq 444:555, ack 549, win 684, options [nop,nop,TS val 2103730562 ecr 3557128826], length 111
+05:27:22.473143 ens5  In  IP 35.168.79.8.35030 > 172.31.29.29.9651: Flags [.], ack 634, win 443, options [nop,nop,TS val 3468165776 ecr 871299307], length 0
+05:27:22.473208 ens5  In  IP 34.197.125.83.9651 > 172.31.29.29.46772: Flags [P.], seq 660:771, ack 581, win 442, options [nop,nop,TS val 3584154724 ecr 1873865674], length 111
+05:27:22.473218 ens5  Out IP 172.31.29.29.9651 > 18.233.119.27.53100: Flags [P.], seq 549:686, ack 555, win 442, options [nop,nop,TS val 3557128829 ecr 2103730562], length 137
+05:27:22.473222 ens5  Out IP 172.31.29.29.46772 > 34.197.125.83.9651: Flags [.], ack 771, win 443, options [nop,nop,TS val 1873865676 ecr 3584154722], length 0
+05:27:22.473266 ens5  Out IP 172.31.29.29.46772 > 34.197.125.83.9651: Flags [P.], seq 581:718, ack 771, win 443, options [nop,nop,TS val 1873865676 ecr 3584154722], length 137
+05:27:22.473342 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [P.], seq 1029:1140, ack 2033, win 2940, options [nop,nop,TS val 3373775821 ecr 1962823584], length 111
+05:27:22.473450 ens5  Out IP 172.31.29.29.9651 > 54.174.93.130.53264: Flags [P.], seq 2033:2500, ack 1140, win 442, options [nop,nop,TS val 1962823585 ecr 3373775821], length 467
+05:27:22.473753 ens5  In  IP 54.85.9.116.50190 > 172.31.29.29.9651: Flags [P.], seq 360:471, ack 385, win 443, options [nop,nop,TS val 894131003 ecr 3446716922], length 111
+05:27:22.473793 ens5  In  IP 54.174.93.130.53264 > 172.31.29.29.9651: Flags [P.], seq 1140:1251, ack 2500, win 2940, options [nop,nop,TS val 3373775821 ecr 1962823585], length 111
+05:27:22.473823 ens5  Out IP 172.31.29.29.9651 > 54.85.9.116.50190: Flags [P.], seq 385:522, ack 471, win 442, options [nop,nop,TS val 3446716944 ecr 894131003], length 137
+05:27:22.473873 ens5  In  IP 104.236.110.97.9651 > 172.31.29.29.60222: Flags [P.], seq 1671:1923, ack 1333, win 1632, options [nop,nop,TS val 3877953143 ecr 4270885096], length 252
+05:27:22.473887 ens5  Out IP 172.31.29.29.9651 > 54.174.93.130.53264: Flags [P.], seq 2500:3036, ack 1251, win 442, options [nop,nop,TS val 1962823585 ecr 3373775821], length 536
+05:27:22.474064 ens5  Out IP 172.31.29.29.33442 > 3.230.225.34.9651: Flags [P.], seq 633:744, ack 608, win 443, options [nop,nop,TS val 2710452118 ecr 3989820709], length 111
+05:27:22.474074 ens5  Out IP 172.31.29.29.46772 > 34.197.125.83.9651: Flags [P.], seq 718:829, ack 771, win 443, options [nop,nop,TS val 1873865677 ecr 3584154722], length 111
+05:27:22.474085 ens5  Out IP 172.31.29.29.9651 > 3.223.220.64.47902: Flags [P.], seq 359:470, ack 386, win 442, options [nop,nop,TS val 3325312337 ecr 3638101006], length 111
+05:27:22.474088 ens5  Out IP 172.31.29.29.9651 > 34.234.4.103.51360: Flags [P.], seq 470:581, ack 501, win 442, options [nop,nop,TS val 3468170923 ecr 1642875057], length 111
+05:27:22.474092 ens5  Out IP 172.31.29.29.39538 > 23.22.40.156.9651: Flags [P.], seq 744:855, ack 745, win 443, options [nop,nop,TS val 3770987748 ecr 2219909113], length 111
+05:27:22.474095 ens5  Out IP 172.31.29.29.9651 > 107.23.226.228.35590: Flags [P.], seq 449:560, ack 522, win 442, options [nop,nop,TS val 2016474401 ecr 396259060], length 111
+05:27:22.474102 ens5  Out IP 172.31.29.29.56906 > 52.45.71.227.9651: Flags [P.], seq 138:249, ack 248, win 443, options [nop,nop,TS val 676040798 ecr 3085030898], length 111
+05:27:22.474106 ens5  Out IP 172.31.29.29.9651 > 54.158.175.165.47700: Flags [P.], seq 523:634, ack 470, win 442, options [nop,nop,TS val 4069969804 ecr 4228222469], length 111
+05:27:22.474107 ens5  Out IP 172.31.29.29.48206 > 52.54.223.196.9651: Flags [P.], seq 581:692, ack 660, win 443, options [nop,nop,TS val 2222008233 ecr 2379255093], length 111
+05:27:22.474124 ens5  Out IP 172.31.29.29.60464 > 3.217.115.114.9651: Flags [P.], seq 111:222, ack 138, win 443, options [nop,nop,TS val 2430793498 ecr 2982904736], length 111
+05:27:22.474135 ens5  Out IP 172.31.29.29.9651 > 35.168.79.8.35030: Flags [P.], seq 634:745, ack 607, win 442, options [nop,nop,TS val 871299308 ecr 3468165776], length 111
+05:27:22.474143 ens5  Out IP 172.31.29.29.9651 > 3.218.45.144.58526: Flags [P.], seq 718:829, ack 771, win 442, options [nop,nop,TS val 1603267972 ecr 608749070], length 111
+05:27:22.474150 ens5  Out IP 172.31.29.29.9651 > 165.227.179.96.35002: Flags [P.], seq 1666:1777, ack 1830, win 4631, options [nop,nop,TS val 1600446629 ecr 2516809453], length 111
+05:27:22.474160 ens5  Out IP 172.31.29.29.9651 > 23.21.27.140.51594: Flags [P.], seq 138:249, ack 111, win 442, options [nop,nop,TS val 808232311 ecr 4065762465], length 111
+05:27:22.474290 ens5  In  IP 34.234.4.103.51360 > 172.31.29.29.9651: Flags [.], ack 581, win 443, options [nop,nop,TS val 1642875102 ecr 3468170915], length 0
+05:27:22.474306 ens5  In  IP 34.197.125.83.9651 > 172.31.29.29.46772: Flags [.], ack 829, win 442, options [nop,nop,TS val 3584154725 ecr 1873865676], length 0
+05:27:22.474306 ens5  In  IP 54.158.175.165.47700 > 172.31.29.29.9651: Flags [.], ack 634, win 688, options [nop,nop,TS val 4228222475 ecr 4069969798], length 0
+05:27:22.474350 ens5  In  IP 34.234.4.103.51360 > 172.31.29.29.9651: Flags [P.], seq 501:638, ack 581, win 443, options [nop,nop,TS val 1642875102 ecr 3468170915], length 137
+05:27:22.474372 ens5  In  IP 34.197.125.83.9651 > 172.31.29.29.46772: Flags [P.], seq 771:908, ack 829, win 442, options [nop,nop,TS val 3584154725 ecr 1873865676], length 137
+05:27:22.474372 ens5  In  IP 54.158.175.165.47700 > 172.31.29.29.9651: Flags [P.], seq 470:607, ack 634, win 688, options [nop,nop,TS val 4228222475 ecr 4069969798], length 137
+05:27:22.474420 ens5  In  IP 35.168.79.8.35030 > 172.31.29.29.9651: Flags [P.], seq 607:744, ack 745, win 443, options [nop,nop,TS val 3468165777 ecr 871299308], length 137
+05:27:22.474423 ens5  In  IP 3.223.220.64.47902 > 172.31.29.29.9651: Flags [.], ack 470, win 443, options [nop,nop,TS val 3638101051 ecr 3325312315], length 0
+05:27:22.474423 ens5  In  IP 3.223.220.64.47902 > 172.31.29.29.9651: Flags [P.], seq 386:523, ack 470, win 443, options [nop,nop,TS val 3638101051 ecr 3325312315], length 137
+05:27:22.474423 ens5  In  IP 107.23.226.228.35590 > 172.31.29.29.9651: Flags [P.], seq 522:659, ack 560, win 2095, options [nop,nop,TS val 396259067 ecr 2016474401], length 137
+05:27:22.474423 ens5  In  IP 52.45.71.227.9651 > 172.31.29.29.56906: Flags [.], ack 249, win 4410, options [nop,nop,TS val 3085030955 ecr 676040779], length 0
+05:27:22.474423 ens5  In  IP 52.45.71.227.9651 > 172.31.29.29.56906: Flags [P.], seq 248:474, ack 249, win 4410, options [nop,nop,TS val 3085030955 ecr 676040779], length 226
+05:27:22.474448 ens5  In  IP 52.54.223.196.9651 > 172.31.29.29.48206: Flags [P.], seq 660:797, ack 692, win 442, options [nop,nop,TS val 2379255101 ecr 2222008233], length 137
+05:27:22.474448 ens5  In  IP 3.230.225.34.9651 > 172.31.29.29.33442: Flags [.], ack 744, win 442, options [nop,nop,TS val 3989820717 ecr 2710452115], length 0
+05:27:22.474448 ens5  In  IP 3.230.225.34.9651 > 172.31.29.29.33442: Flags [P.], seq 608:745, ack 744, win 442, options [nop,nop,TS val 3989820717 ecr 2710452115], length 137
+05:27:22.474448 ens5  In  IP 23.21.27.140.51594 > 172.31.29.29.9651: Flags [.], ack 249, win 4489, options [nop,nop,TS val 4065762467 ecr 808232311], length 0
+05:27:22.474448 ens5  In  IP 23.22.40.156.9651 > 172.31.29.29.39538: Flags [.], ack 855, win 442, options [nop,nop,TS val 2219909121 ecr 3770987741], length 0
+05:27:22.474448 ens5  In  IP 23.21.27.140.51594 > 172.31.29.29.9651: Flags [P.], seq 111:248, ack 249, win 4489, options [nop,nop,TS val 4065762467 ecr 808232311], length 137
+05:27:22.474448 ens5  In  IP 23.22.40.156.9651 > 172.31.29.29.39538: Flags [P.], seq 745:882, ack 855, win 442, options [nop,nop,TS val 2219909121 ecr 3770987741], length 137
+05:27:22.474527 ens5  In  IP 3.217.115.114.9651 > 172.31.29.29.60464: Flags [P.], seq 138:275, ack 222, win 4005, options [nop,nop,TS val 2982904756 ecr 2430793498], length 137
+05:27:22.474637 ens5  Out IP 172.31.29.29.56906 > 52.45.71.227.9651: Flags [P.], seq 249:418, ack 474, win 443, options [nop,nop,TS val 676040799 ecr 3085030955], length 169
+05:27:22.474700 ens5  In  IP 3.218.45.144.58526 > 172.31.29.29.9651: Flags [P.], seq 771:908, ack 829, win 443, options [nop,nop,TS val 608749079 ecr 1603267972], length 137
+05:27:22.474700 ens5  In  IP 52.200.197.163.39696 > 172.31.29.29.9651: Flags [P.], seq 660:771, ack 581, win 443, options [nop,nop,TS val 3335542371 ecr 436507058], length 111
+05:27:22.474722 ens5  Out IP 172.31.29.29.9651 > 52.200.197.163.39696: Flags [.], ack 771, win 442, options [nop,nop,TS val 436507067 ecr 3335542363], length 0
+1000 packets captured
+1128 packets received by filter
+0 packets dropped by kernel
